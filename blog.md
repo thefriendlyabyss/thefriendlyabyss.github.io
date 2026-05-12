@@ -8,7 +8,7 @@ updates on production progress, funding milestones, research, and
 life on the Isla de la Juventud.
 
 You can also follow our full journal on 
-[Ko-fi](https://ko-fi.com/yourusername), where longer updates 
+[Ko-fi](https://ko-fi.com/elpinero), where longer updates 
 are posted first.
 
 ---
