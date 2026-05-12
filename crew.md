@@ -5,7 +5,7 @@ title: The Crew
 
 ## Robert Potter — Writer / Producer / Lead Actor
 
-Robert Potter is an American writer and producer. *El Piñero* is his second 
+Robert Potter is an American writer and producer. *El Pinero* is his second 
 film produced on Cuba's Isla de la Juventud. In addition to writing the 
 script and producing, Robert will appear in the film in the lead role 
 of Cole Smith.
@@ -15,7 +15,7 @@ of Cole Smith.
 ## Meilín Quilez Durañona — Director / Producer
 
 Meilín Quilez Durañona is a Cuban filmmaker born and raised on the Isla de 
-la Juventud. *El Piñero* is her second collaboration with Robert Potter on 
+la Juventud. *El Pinero* is her second collaboration with Robert Potter on 
 the island. Her roots and relationships there are central to the film's 
 ability to tell this story authentically and with the trust of the community.
 
@@ -26,7 +26,7 @@ ability to tell this story authentically and with the trust of the community.
 Gabriel Karrera is a Havana-based cinematographer with over 13 years of 
 experience working across film and media. A recipient of the Premio 
 Cubadisco 2023, Gabriel brings deep experience with Cuban landscapes, 
-light, and production conditions to *El Piñero*.
+light, and production conditions to *El Pinero*.
 
 ---
 
