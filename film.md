@@ -3,9 +3,9 @@ layout: page
 title: The Film
 ---
 
-## El Piñero
+## El Pinero
 
-*El Piñero* is a narrative short film — approximately 20 minutes — set on 
+*El Pinero* is a narrative short film — approximately 20 minutes — set on 
 Cuba's Isla de la Juventud (Isle of Youth), formerly known as the Isle of Pines.
 
 ---
@@ -20,7 +20,7 @@ wasn't prepared for, rooted in a largely forgotten era when American
 settlers built communities, farms, and lives there in the early twentieth 
 century — before revolution, before the embargo, before everything changed.
 
-*El Piñero* is a bilingual film, spoken in English and Spanish.
+*El Pinero* is a bilingual film, spoken in English and Spanish.
 
 ---
 
@@ -45,10 +45,10 @@ Meilín Quilez Durañona. To be shot on location on the Isla de la Juventud.
 
 ### Support the Film
 
-*El Piñero* is an independently funded production. If you'd like to help 
+*El Pinero* is an independently funded production. If you'd like to help 
 us bring this story to life, you can support us directly through Ko-fi.
 
 <a href='https://ko-fi.com/yourusername' target='_blank'>
   <img height='36' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' 
-  alt='Support El Piñero on Ko-fi' />
+  alt='Support El Pinero on Ko-fi' />
 </a>
