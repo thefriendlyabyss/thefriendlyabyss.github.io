@@ -61,3 +61,13 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+
+.navbar-brand {
+  background-image: url('/assets/img/isla-de-pinos.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-indent: -9999px;
+}
