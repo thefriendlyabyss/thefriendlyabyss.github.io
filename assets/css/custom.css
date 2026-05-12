@@ -1,0 +1,27 @@
+/* Navbar */
+.navbar {
+  background-color: #0a2828 !important;
+}
+
+.navbar .nav-link, .navbar-brand {
+  color: #e0f0d0 !important;
+}
+
+.navbar .nav-link:hover {
+  color: #1a7070 !important;
+}
+
+/* Footer */
+footer {
+  background-color: #0a2828 !important;
+  color: #e0f0d0 !important;
+}
+
+/* Links */
+a {
+  color: #0d4a52;
+}
+
+a:hover {
+  color: #1a7070;
+}
