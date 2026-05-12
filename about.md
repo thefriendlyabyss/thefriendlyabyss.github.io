@@ -9,10 +9,10 @@ history, place, and the stories that get left out of the official record.
 
 Over the past year I've made multiple trips to Cuba's Isla de la Juventud, 
 developing a deep connection to the island and its largely forgotten history. 
-*El Piñero* is my second film made there, produced in collaboration with 
+*El Pinero* is my second film made there, produced in collaboration with 
 Cuban filmmaker Meilín Quilez Durañona, who was born and raised on the island.
 
-I wrote the script for *El Piñero* and will be producing the film, as well 
+I wrote the script for *El Pinero* and will be producing the film, as well 
 as appearing in the lead role of Cole Smith.
 
 ---
