@@ -134,7 +134,7 @@ keywords: "el pinero, cuba, film, short film, isla de la juventud"
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#0a2828"
+page-col: "#f7f5f0"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
