@@ -65,4 +65,55 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand {
   display: none;
 }
+
+/* Split navbar layout */
+.navbar-split-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex: 1;
+}
+
+.nav-left {
+  justify-content: flex-end;
+  padding-right: 80px;
+}
+
+.nav-right {
+  justify-content: flex-start;
+  padding-left: 80px;
+}
+
+/* Space in center for the avatar */
+.avatar-spacer {
+  width: 80px;
+  flex-shrink: 0;
+}
+
+/* Mobile */
+@media (max-width: 1200px) {
+  .navbar-split-layout {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-left, .nav-right {
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .avatar-spacer {
+    display: none;
+  }
 }
