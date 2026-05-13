@@ -164,3 +164,20 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
   }
 }
+
+@media (max-width: 1200px) {
+  .nav-left, .nav-right {
+    gap: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-left {
+    margin-bottom: 0 !important;
+  }
+
+  .navbar-split-layout {
+    gap: 0;
+  }
+}
+
