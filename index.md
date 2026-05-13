@@ -31,6 +31,8 @@ as appearing in the lead role of Cole Smith.
 
 *Have a question about the project or want to get in touch?*
 
+[Send me an email](elpinerofilm@proton.me)
+
 <div style="text-align: center; margin-top: 30px;">
   <a href="film" style="display: inline-block; margin: 8px; padding: 10px 24px; 
   background-color: #0d4a52; color: #e0f0d0; text-decoration: none; 
