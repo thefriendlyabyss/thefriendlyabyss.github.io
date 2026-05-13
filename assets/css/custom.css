@@ -10,6 +10,26 @@ body {
   background-color: #f7f5f0;
 }
 
+/* Remove padding/margin around page content */
+.page-content {
+  padding: 0 !important;
+}
+
+.container-fluid, .container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Remove the gap between navbar and content */
+body {
+  padding-top: 0 !important;
+}
+
+/* Pull content up to navbar */
+.intro-header {
+  margin-top: 0 !important;
+}
+
 /* Navbar */
 .navbar {
   background-color: #0a2828 !important;
