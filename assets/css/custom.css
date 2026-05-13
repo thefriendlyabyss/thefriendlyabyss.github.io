@@ -1,64 +1,27 @@
-body, .page-content, .container, .row {
-  background-color: #f7f5f0 !important;
-}
+/* ============================================
+   FONTS
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Raleway:wght@300;400;500&display=swap');
 
 body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.01em;
   background-color: #f7f5f0;
-}
-
-.page-content {
-  background-color: #f7f5f0;
-}
-
-/* Remove padding/margin around page content */
-.page-content {
-  padding: 0 !important;
-}
-
-.page-content {
-  margin-top: 0 !important;
   padding-top: 0 !important;
 }
 
-.container-fluid, .container {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
 }
 
-/* Remove the gap between navbar and content */
-body {
-  padding-top: 0 !important;
-}
+/* ============================================
+   COLOURS & LINKS
+   ============================================ */
 
-/* Pull content up to navbar */
-.intro-header {
-  margin-top: 0 !important;
-}
-
-/* Navbar */
-.navbar {
-  background-color: #0a2828 !important;
-}
-
-.navbar .nav-link, .navbar-brand {
-  color: #e0f0d0 !important;
-}
-
-.navbar .nav-link:hover {
-  color: #1a7070 !important;
-}
-
-.post-content div {
-  text-align: center;
-}
-
-/* Footer */
-footer {
-  background-color: #0a2828 !important;
-  color: #e0f0d0 !important;
-}
-
-/* Links */
 a {
   color: #0d4a52;
 }
@@ -67,44 +30,28 @@ a:hover {
   color: #1a7070;
 }
 
-/* Body text */
-body {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.01em;
-}
+/* ============================================
+   NAVBAR
+   ============================================ */
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-}
-
-/* Site title in navbar */
-.navbar-brand {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-}
-
-/* Blog post titles */
-.post-title {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 600;
-}
-
-/* Navigation links */
-.nav-link {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+.navbar {
+  background-color: #0a2828 !important;
 }
 
 .navbar-brand {
   display: none;
+}
+
+.navbar .nav-link {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #e0f0d0 !important;
+}
+
+.navbar .nav-link:hover {
+  color: #1a7070 !important;
 }
 
 /* Split navbar layout */
@@ -135,10 +82,42 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 80px;
 }
 
-/* Space in center for the avatar */
 .avatar-spacer {
   width: 80px;
   flex-shrink: 0;
+}
+
+/* ============================================
+   PAGE CONTENT
+   ============================================ */
+
+.page-content, div[role="main"] {
+  padding: 0 !important;
+  margin: 0 !important;
+  min-height: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.container-fluid, .container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.intro-header {
+  margin-top: 0 !important;
+}
+
+.post-content div {
+  text-align: center;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+footer {
+  background-color: #0a2828 !important;
+  color: #e0f0d0 !important;
 }
 
 .beautiful-jekyll-footer .container-md,
@@ -147,37 +126,29 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent !important;
 }
 
-/* Mobile */
+/* ============================================
+   MOBILE
+   ============================================ */
+
 @media (max-width: 1200px) {
   .navbar-split-layout {
     flex-direction: column;
-    gap: 10px;
+    gap: 0;
   }
 
   .nav-left, .nav-right {
     flex-direction: column;
     padding: 0;
-    justify-content: center;
-  }
-
-  .avatar-spacer {
-    display: none;
-  }
-}
-
-@media (max-width: 1200px) {
-  .nav-left, .nav-right {
-    gap: 0;
     margin: 0;
-    padding: 0;
+    gap: 0;
+    justify-content: center;
   }
 
   .nav-left {
     margin-bottom: 0 !important;
   }
 
-  .navbar-split-layout {
-    gap: 0;
+  .avatar-spacer {
+    display: none;
   }
 }
-
