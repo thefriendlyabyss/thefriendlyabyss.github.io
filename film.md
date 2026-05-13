@@ -48,7 +48,7 @@ Meilín Quilez Durañona. To be shot on location on the Isla de la Juventud.
 *El Pinero* is an independently funded production. If you'd like to help 
 us bring this story to life, you can support us directly through Ko-fi.
 
-<a href='https://ko-fi.com/yourusername' target='_blank'>
+<a href='https://ko-fi.com/elpinero' target='_blank'>
   <img height='36' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' 
   alt='Support El Pinero on Ko-fi' />
 </a>
