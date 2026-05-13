@@ -120,6 +120,21 @@ html {
   background-color: #0a2828;
 }
 
+main {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+main > .row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+main > .row > div {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 /* ============================================
    FOOTER
    ============================================ */
