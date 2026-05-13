@@ -150,6 +150,18 @@ footer {
   background-color: transparent !important;
 }
 
+.footer-links .fa-circle {
+  color: #1a7070 !important;
+}
+
+.footer-links a {
+  color: #e0f0d0 !important;
+}
+
+.footer-links a:hover .fa-circle {
+  color: #e0f0d0 !important;
+}
+
 /* ============================================
    MOBILE
    ============================================ */
