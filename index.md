@@ -2,18 +2,26 @@
 layout: page
 ---
 
-<div style="margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); margin-bottom: 30px;">
+<div style="position: relative; margin-left: calc(-50vw + 50%); 
+  margin-right: calc(-50vw + 50%); margin-bottom: 30px;">
   <img src="/assets/img/isla-de-pinos.jpg" alt="El Pinero" 
-  style="width: 100%; height: auto; display: block;">
+  style="width: 100%; height: 500px; object-fit: cover; display: block;">
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; 
+    background: rgba(0,0,0,0.4);">
+  </div>
+  <div style="position: absolute; top: 50%; left: 50%; 
+    transform: translate(-50%, -50%); text-align: center; padding: 20px;">
+    <p style="color: #ffffff; font-size: 1.4em; font-style: italic; 
+      margin-bottom: 15px;">
+      An American man travels to Cuba's Isla de la Juventud to find his 
+      grandfather's grave and discovers a family history rooted in an 
+      era he never knew existed.
+    </p>
+    <p style="color: #e0f0d0; font-size: 0.95em;">
+      <em>El Pinero</em> — a short film by Robert Potter and Meilín Quilez Durañona
+    </p>
+  </div>
 </div>
-
-*An American man travels to Cuba's Isla de la Juventud to find his 
-grandfather's grave and discovers a family history rooted in an 
-era he never knew existed.*
-
-*El Pinero* is a narrative short film written and produced by Robert Potter and 
-directed by Meilín Quilez Durañona. Shot on location on Cuba's 
-Isla de la Juventud. Currently in development.
 
 <div style="text-align: center; margin-top: 30px;">
   <a href="film" style="display: inline-block; margin: 8px; padding: 10px 24px; 
