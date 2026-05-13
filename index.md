@@ -17,7 +17,7 @@ Isla de la Juventud. Currently in development.
 
 ---
 
-###Origin of this Story
+### Origin of this Story
 My name is Robert Potter. I'm a writer, producer, and filmmaker 
 based in the United States. Over the past year I've made multiple trips to Cuba's Isla de la Juventud, 
 developing a deep connection to the island and its largely forgotten history. 
