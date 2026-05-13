@@ -1,3 +1,7 @@
+body, .page-content, .container, .row {
+  background-color: #f7f5f0 !important;
+}
+
 body {
   background-color: #f7f5f0;
 }
