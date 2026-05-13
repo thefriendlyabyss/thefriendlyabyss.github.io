@@ -28,9 +28,7 @@ century — before revolution, before the embargo, before everything changed.
 
 Between the 1890s and the 1930s, thousands of Americans emigrated to the 
 Isle of Pines, drawn by land speculation, agricultural opportunity, and 
-proximity to the United States. For decades the island's sovereignty was 
-disputed, with the United States declining to ratify Cuban ownership until 
-1925. This chapter of Cuban-American history has been almost entirely 
+proximity to the United States. This chapter of Cuban-American history has been almost entirely 
 forgotten — *El Piñero* brings it back to the surface through the eyes of 
 a young man who discovers he is part of it.
 
