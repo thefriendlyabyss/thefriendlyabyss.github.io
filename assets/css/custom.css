@@ -9,7 +9,6 @@ body {
   font-weight: 400;
   letter-spacing: 0.01em;
   background-color: #f7f5f0;
-  padding-top: 0 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -85,54 +84,6 @@ a:hover {
 .avatar-spacer {
   width: 80px;
   flex-shrink: 0;
-}
-
-/* ============================================
-   PAGE CONTENT
-   ============================================ */
-
-.page-content, div[role="main"] {
-  padding: 0 !important;
-  margin: 0 !important;
-  min-height: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-.container-fluid, .container {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-.intro-header {
-  margin-top: 0 !important;
-}
-
-.post-content div {
-  text-align: center;
-}
-
-.wrapper, main, [role="main"], .page-content-wrapper {
-  padding-bottom: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-html {
-  background-color: #0a2828;
-}
-
-main {
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-main > .row {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-main > .row > div {
-  padding: 0 !important;
-  margin: 0 !important;
 }
 
 /* ============================================
