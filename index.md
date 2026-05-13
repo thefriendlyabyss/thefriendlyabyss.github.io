@@ -1,5 +1,6 @@
 ---
 layout: page
+full-width: true
 ---
 
 <div style="position: relative; margin-left: calc(-50vw + 50%); 
