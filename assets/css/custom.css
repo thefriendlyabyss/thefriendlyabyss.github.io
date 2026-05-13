@@ -23,6 +23,10 @@ body {
   color: #1a7070 !important;
 }
 
+.post-content div {
+  text-align: center;
+}
+
 /* Footer */
 footer {
   background-color: #0a2828 !important;
