@@ -13,7 +13,7 @@
 title: El Pinero
 
 # Your name to show in the footer
-author: Cuba X Film
+author: El Pinero
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -125,8 +125,8 @@ edit_page_button: false
 # See https://github.com/daattali/beautiful-jekyll/issues/765 to understand the issue this setting can solve
 navbar-var-length: true
 
-# The keywords to associate with your website, for SEO purposes
-#keywords: "el pinero, cuba, film, short film, isla de la juventud"
+The keywords to associate with your website, for SEO purposes
+keywords: "el pinero, cuba, film, short film, isla de la juventud"
 
 ######################################
 # --- Colours / background image --- #
@@ -139,10 +139,10 @@ text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 navbar-col: "#114853"
-navbar-text-col: "#114853"
+navbar-text-col: "#e0f0d0"
 navbar-border-col: "#114853"
 footer-col: "#114853"
-footer-text-col: "#114853"
+footer-text-col: "#e0f0d0"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
 
