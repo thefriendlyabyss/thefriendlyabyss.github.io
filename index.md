@@ -2,9 +2,9 @@
 layout: page
 ---
 
-<div style="text-align: center; margin-bottom: 30px;">
+<div style="margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); margin-bottom: 30px;">
   <img src="/assets/img/isla-de-pinos.jpg" alt="El Pinero" 
-  style="width: 100%; max-width: 800px; height: auto; border-radius: 4px;">
+  style="width: 100%; height: auto; display: block;">
 </div>
 
 *An American man travels to Cuba's Isla de la Juventud to find his 
