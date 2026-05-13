@@ -5,8 +5,9 @@ layout: page
 <div style="text-align: center; margin-bottom: 30px;">
   <img src="/assets/img/isla-de-pinos.jpg" alt="El Pinero" 
   style="width: 100%; max-width: 800px; height: auto; border-radius: 4px;">
-</div>
+</div> 
 
+### The Film In A Nutshell
 *An American man travels to Cuba's Isla de la Juventud to find his 
 grandfather's grave and discovers a family history rooted in an 
 era he never knew existed.*
@@ -17,7 +18,7 @@ Isla de la Juventud. Currently in development.
 
 ---
 
-### Origin of this Story
+### The Origin Story
 My name is Robert Potter. I'm a writer, producer, and filmmaker 
 based in the United States. Over the past year I've made multiple trips to Cuba's Isla de la Juventud, 
 developing a deep connection to the island and its largely forgotten history. 
