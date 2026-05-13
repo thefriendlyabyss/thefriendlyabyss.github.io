@@ -3,7 +3,7 @@ layout: page
 ---
 
 <div style="position: relative; margin-left: calc(-50vw + 50%); 
-  margin-right: calc(-50vw + 50%); margin-bottom: 30px;">
+  margin-right: calc(-50vw + 50%); margin-bottom: 0;">
   <img src="/assets/img/isla-de-pinos.jpg" alt="El Pinero" 
   style="width: 100%; height: calc(100vh - 56px); object-fit: cover; display: block;">
   <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; 
