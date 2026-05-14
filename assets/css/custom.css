@@ -30,43 +30,24 @@ a:hover {
 }
 
 /* ============================================
-   HOMEPAGE HERO
+   HEADER
    ============================================ */
 
-body.homepage {
-  padding-top: 0 !important;
-}
-
-body.homepage main {
-  padding: 0 !important;
-  margin: 0 !important;
-  min-height: 0 !important;
-}
-
-body.homepage .page-content {
-  padding: 0 !important;
-  margin: 0 !important;
+/* Hide header when empty (homepage only) */
+.header-section:not(:has(h1)):not(:has(h2)) {
+  display: none !important;
 }
 
 /* ============================================
    NAVBAR
    ============================================ */
 
-/* Hide header when it has no content (homepage only) */
-.header-section:not(:has(h1)):not(:has(h2)) {
-  display: none !important;
-}
-
-/* Remove top padding from footer */
-footer {
-  background-color: #0a2828 !important;
-  color: #e0f0d0 !important;
-  padding-top: 40px !important;
-  margin-top: 0 !important;
-}
-
 .navbar {
   background-color: #0a2828 !important;
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  z-index: 9999 !important;
 }
 
 .navbar-brand {
@@ -113,35 +94,7 @@ footer {
   padding-left: 80px;
 }
 
-.avatar-spacer {
-  width: 80px;
-  flex-shrink: 0;
-}
-
-/* Small navbar avatar - hidden by default */
-.navbar-scroll-avatar {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  border: 1px solid #e0f0d0;
-  display: none;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  object-fit: cover;
-}
-
-/* Show when scrolled */
-nav.top-nav-short .navbar-scroll-avatar {
-  display: block;
-  opacity: 1;
-}
-
-/* Hide large avatar when scrolled */
-nav.top-nav-short .avatar-container {
-  display: none;
-}
-
-/* Avatar spacer - centered */
+/* Avatar spacer */
 .avatar-spacer {
   width: 80px;
   flex-shrink: 0;
@@ -150,6 +103,7 @@ nav.top-nav-short .avatar-container {
   justify-content: center;
 }
 
+/* Small scroll avatar */
 .navbar-scroll-avatar-link {
   background: transparent !important;
   background-color: transparent !important;
@@ -165,18 +119,15 @@ nav.top-nav-short .avatar-container {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  border: 1px solid #e0f0d0 !important;
+  border: none !important;
   object-fit: cover;
-  display: block;
   background: transparent !important;
-  background-color: transparent !important;
   box-shadow: none !important;
   outline: none !important;
   padding: 0 !important;
-   border: none !important;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.8s ease, visibility 0.8s ease;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
 }
 
 nav.top-nav-short .navbar-scroll-avatar {
@@ -184,6 +135,7 @@ nav.top-nav-short .navbar-scroll-avatar {
   visibility: visible;
 }
 
+/* Large avatar fade */
 .avatar-container {
   opacity: 1;
   visibility: visible;
@@ -202,6 +154,8 @@ nav.top-nav-short .avatar-container {
 footer {
   background-color: #0a2828 !important;
   color: #e0f0d0 !important;
+  padding-top: 40px !important;
+  margin-top: 0 !important;
 }
 
 .beautiful-jekyll-footer .container-md,
@@ -223,7 +177,7 @@ footer {
 }
 
 /* ============================================
-   MOBILE
+   DESKTOP - SPLIT NAV BREAKPOINT
    ============================================ */
 
 @media (max-width: 1200px) {
@@ -247,24 +201,38 @@ footer {
   .avatar-spacer {
     display: none;
   }
-   @media (max-width: 768px) {
-  /* Hide both avatars on mobile - hamburger is enough */
+}
+
+/* ============================================
+   MOBILE
+   ============================================ */
+
+@media (max-width: 768px) {
+  /* Restore large avatar on mobile */
   .avatar-container {
-    display: none !important;
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
   }
 
+  /* Hide small scroll avatar on mobile */
   .navbar-scroll-avatar {
     display: none !important;
   }
 
-  /* Shrink hero text on mobile */
-  .homepage-hero p:first-child {
-    font-size: 1em !important;
+  /* Keep scrolled avatar container hidden on mobile too */
+  nav.top-nav-short .avatar-container {
+    opacity: 1 !important;
+    visibility: visible !important;
   }
 
-  /* Push text content down so it clears the hamburger */
-  .homepage-hero div[style] {
-    top: 60% !important;
+  /* Move hero text higher */
+  .hero-content {
+    top: 45% !important;
   }
-}
+
+  /* Shrink hero text */
+  .hero-content p:first-child {
+    font-size: 1.1em !important;
+  }
 }
