@@ -51,45 +51,50 @@
       </div>
     </div>
   {% endif %}
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const toggler = document.querySelector('.navbar-toggler');
-        const avatar = document.querySelector('.avatar-container');
-    
-        if (!toggler || !avatar) return;
-    
-        function isMobile() {
-          return window.innerWidth <= 768;
-        }
-    
-        // Show avatar on mobile initially
-        if (isMobile()) {
-          avatar.style.opacity = '1';
-          avatar.style.visibility = 'visible';
-        }
-    
-        // Keep avatar visible on mobile when scrolling
-        window.addEventListener('scroll', function() {
-          if (isMobile()) {
-            avatar.style.opacity = '1';
-            avatar.style.visibility = 'visible';
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggler = document.querySelector('.navbar-toggler');
+      const avatar = document.querySelector('.avatar-container');
+  
+      if (!toggler || !avatar) return;
+  
+      function isMobile() {
+        return window.innerWidth <= 768;
+      }
+  
+      function showAvatar() {
+        avatar.style.setProperty('opacity', '1', 'important');
+        avatar.style.setProperty('visibility', 'visible', 'important');
+        avatar.style.setProperty('display', 'block', 'important');
+      }
+  
+      function hideAvatar() {
+        avatar.style.setProperty('opacity', '0', 'important');
+        avatar.style.setProperty('visibility', 'hidden', 'important');
+      }
+  
+      if (isMobile()) {
+        // Show immediately
+        showAvatar();
+        // Keep checking every 200ms in case Beautiful Jekyll overrides it
+        setInterval(function() {
+          if (isMobile() && toggler.getAttribute('aria-expanded') !== 'true') {
+            showAvatar();
           }
-        });
-    
-        // Handle hamburger toggle
-        toggler.addEventListener('click', function() {
-          if (!isMobile()) return;
-          const isCurrentlyOpen = toggler.getAttribute('aria-expanded') === 'true';
-          avatar.style.transition = 'opacity 0.3s ease, visibility 0.3s ease';
-          if (!isCurrentlyOpen) {
-            avatar.style.opacity = '0';
-            avatar.style.visibility = 'hidden';
-          } else {
-            avatar.style.opacity = '1';
-            avatar.style.visibility = 'visible';
-          }
-        });
+        }, 200);
+      }
+  
+      toggler.addEventListener('click', function() {
+        if (!isMobile()) return;
+        const isCurrentlyOpen = toggler.getAttribute('aria-expanded') === 'true';
+        avatar.style.transition = 'opacity 0.3s ease, visibility 0.3s ease';
+        if (!isCurrentlyOpen) {
+          hideAvatar();
+        } else {
+          showAvatar();
+        }
       });
+    });
   </script>
 </nav>
 {% include search.html %}
