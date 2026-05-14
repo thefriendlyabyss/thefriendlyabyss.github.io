@@ -118,6 +118,29 @@ footer {
   flex-shrink: 0;
 }
 
+/* Small navbar avatar - hidden by default */
+.navbar-scroll-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #e0f0d0;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  object-fit: cover;
+}
+
+/* Show when scrolled */
+nav.top-nav-short .navbar-scroll-avatar {
+  display: block;
+  opacity: 1;
+}
+
+/* Hide large avatar when scrolled */
+nav.top-nav-short .avatar-container {
+  display: none;
+}
+
 /* ============================================
    FOOTER
    ============================================ */
