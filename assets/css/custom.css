@@ -52,6 +52,17 @@ body.homepage .page-content {
    NAVBAR
    ============================================ */
 
+/* Hide header when it has no content (homepage only) */
+.header-section:not(:has(h1)):not(:has(h2)) {
+  display: none !important;
+}
+
+/* Remove top padding from footer */
+footer {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
 .navbar {
   background-color: #0a2828 !important;
 }
