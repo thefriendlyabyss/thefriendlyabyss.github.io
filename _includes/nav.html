@@ -20,7 +20,13 @@
       </ul>
 
       <!-- Center spacer for avatar -->
-      <div class="avatar-spacer"></div>
+      <div class="avatar-spacer">
+        <a href="{{ '/' | absolute_url }}" class="navbar-scroll-avatar-link">
+          <img class="navbar-scroll-avatar" 
+               src="{{ site.avatar | relative_url }}" 
+               alt="El Pinero" />
+        </a>
+      </div>
 
       <!-- Right two links -->
       <ul class="navbar-nav nav-right">
