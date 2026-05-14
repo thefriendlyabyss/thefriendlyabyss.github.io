@@ -247,4 +247,24 @@ footer {
   .avatar-spacer {
     display: none;
   }
+   @media (max-width: 768px) {
+  /* Hide both avatars on mobile - hamburger is enough */
+  .avatar-container {
+    display: none !important;
+  }
+
+  .navbar-scroll-avatar {
+    display: none !important;
+  }
+
+  /* Shrink hero text on mobile */
+  .homepage-hero p:first-child {
+    font-size: 1em !important;
+  }
+
+  /* Push text content down so it clears the hamburger */
+  .homepage-hero div[style] {
+    top: 60% !important;
+  }
+}
 }
