@@ -51,13 +51,34 @@
       </div>
     </div>
   {% endif %}
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const toggler = document.querySelector('.navbar-toggler');
-      const avatar = document.querySelector('.avatar-container');
-
-      if (toggler && avatar) {
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const toggler = document.querySelector('.navbar-toggler');
+        const avatar = document.querySelector('.avatar-container');
+    
+        if (!toggler || !avatar) return;
+    
+        function isMobile() {
+          return window.innerWidth <= 768;
+        }
+    
+        // Show avatar on mobile initially
+        if (isMobile()) {
+          avatar.style.opacity = '1';
+          avatar.style.visibility = 'visible';
+        }
+    
+        // Keep avatar visible on mobile when scrolling
+        window.addEventListener('scroll', function() {
+          if (isMobile()) {
+            avatar.style.opacity = '1';
+            avatar.style.visibility = 'visible';
+          }
+        });
+    
+        // Handle hamburger toggle
         toggler.addEventListener('click', function() {
+          if (!isMobile()) return;
           const isCurrentlyOpen = toggler.getAttribute('aria-expanded') === 'true';
           avatar.style.transition = 'opacity 0.3s ease, visibility 0.3s ease';
           if (!isCurrentlyOpen) {
@@ -68,8 +89,7 @@
             avatar.style.visibility = 'visible';
           }
         });
-      }
-    });
+      });
   </script>
 </nav>
 {% include search.html %}
