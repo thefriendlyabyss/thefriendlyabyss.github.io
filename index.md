@@ -3,7 +3,7 @@ layout: page
 full-width: true
 ---
 
-<div style="position: relative; margin-left: calc(-50vw + 50%); 
+<div class="homepage-hero" style="position: relative; margin-left: calc(-50vw + 50%); 
   margin-right: calc(-50vw + 50%); margin-bottom: 0;
   height: 100vh; overflow: hidden;">
   <img src="/assets/img/isla-de-pinos.jpg" alt="El Pinero" 
