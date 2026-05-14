@@ -235,4 +235,11 @@ footer {
   .hero-content p:first-child {
     font-size: 1.1em !important;
   }
+   
+   /* Fade avatar out when mobile menu is open */
+  .navbar:has(.navbar-collapse.show) .avatar-container {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
 }
