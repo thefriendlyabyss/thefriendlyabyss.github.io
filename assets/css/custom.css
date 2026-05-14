@@ -225,7 +225,7 @@ footer {
   }
 
   /* Fade avatar when menu is open */
-  .navbar:has(#main-navbar.show) .avatar-container {
+  .navbar .avatar-container {
     opacity: 0 !important;
     visibility: hidden !important;
     transition: opacity 0.3s ease, visibility 0.3s ease;
