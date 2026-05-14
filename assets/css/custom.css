@@ -59,7 +59,9 @@ body.homepage .page-content {
 
 /* Remove top padding from footer */
 footer {
-  padding-top: 0 !important;
+  background-color: #0a2828 !important;
+  color: #e0f0d0 !important;
+  padding-top: 20px !important;
   margin-top: 0 !important;
 }
 
