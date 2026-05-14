@@ -33,7 +33,6 @@ a:hover {
    HEADER
    ============================================ */
 
-/* Hide header when empty (homepage only) */
 .header-section:not(:has(h1)):not(:has(h2)) {
   display: none !important;
 }
@@ -135,7 +134,7 @@ nav.top-nav-short .navbar-scroll-avatar {
   visibility: visible;
 }
 
-/* Large avatar fade */
+/* Large avatar */
 .avatar-container {
   opacity: 1;
   visibility: visible;
@@ -208,9 +207,14 @@ footer {
    ============================================ */
 
 @media (max-width: 768px) {
-  /* Restore large avatar on mobile */
+  /* Keep large avatar visible on mobile */
   .avatar-container {
-    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  /* Keep avatar visible when scrolled on mobile */
+  nav.top-nav-short .avatar-container {
     opacity: 1 !important;
     visibility: visible !important;
   }
@@ -220,10 +224,11 @@ footer {
     display: none !important;
   }
 
-  /* Keep scrolled avatar container hidden on mobile too */
-  nav.top-nav-short .avatar-container {
-    opacity: 1 !important;
-    visibility: visible !important;
+  /* Fade avatar when menu is open */
+  .navbar:has(#main-navbar.show) .avatar-container {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
   }
 
   /* Move hero text higher */
@@ -234,12 +239,5 @@ footer {
   /* Shrink hero text */
   .hero-content p:first-child {
     font-size: 1.1em !important;
-  }
-   
-   /* Fade avatar out when mobile menu is open */
-  .navbar:has(.navbar-collapse.show) .avatar-container {
-    opacity: 0 !important;
-    visibility: hidden !important;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
   }
 }
