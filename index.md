@@ -34,3 +34,7 @@ body-class: homepage
     </div>
   </div>
 </div>
+
+<script>
+  document.body.classList.add('homepage');
+</script>
