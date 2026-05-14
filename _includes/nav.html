@@ -51,6 +51,25 @@
       </div>
     </div>
   {% endif %}
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggler = document.querySelector('.navbar-toggler');
+      const avatar = document.querySelector('.avatar-container');
 
+      if (toggler && avatar) {
+        toggler.addEventListener('click', function() {
+          const isCurrentlyOpen = toggler.getAttribute('aria-expanded') === 'true';
+          avatar.style.transition = 'opacity 0.3s ease, visibility 0.3s ease';
+          if (!isCurrentlyOpen) {
+            avatar.style.opacity = '0';
+            avatar.style.visibility = 'hidden';
+          } else {
+            avatar.style.opacity = '1';
+            avatar.style.visibility = 'visible';
+          }
+        });
+      }
+    });
+  </script>
 </nav>
 {% include search.html %}
