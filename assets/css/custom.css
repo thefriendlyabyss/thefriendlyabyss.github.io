@@ -33,17 +33,17 @@ a:hover {
    HOMEPAGE HERO
    ============================================ */
 
-body:has(.homepage-hero) {
+body.homepage {
   padding-top: 0 !important;
 }
 
-body:has(.homepage-hero) main {
+body.homepage main {
   padding: 0 !important;
   margin: 0 !important;
   min-height: 0 !important;
 }
 
-body:has(.homepage-hero) .page-content {
+body.homepage .page-content {
   padding: 0 !important;
   margin: 0 !important;
 }
