@@ -56,9 +56,6 @@ I wrote the script and will be producing the film.
 
 Currently in development. Script on its seventh draft. Principal photography planned for 2026 on location on the Isla de la Juventud.
 
-**Written & Produced by** Robert Potter
-**Directed & Produced by** Meilín Quilez Durañona
-
 ---
 
 ### Support the Film
