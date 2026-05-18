@@ -23,7 +23,7 @@ navbar-links:
   The Film: "film"
   Crew: "crew"
   Blog: "blog"
-  Support Us: "https://ko-fi.com/elpinero"
+  Support Us: "/support/"
 
 ################
 # --- Logo --- #
