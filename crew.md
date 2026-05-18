@@ -43,7 +43,7 @@ Meilín Quilez Durañona is a Cuban filmmaker born and raised on the Isla de la 
 ### Ava Abreu
 #### _Graphic Designer / Production Assistant_ 
 
-Ava Abreu is a Florida-based student currently studying at State College of Florida, with a focus in directing, cinematography, and technical theatre. Ava has done work one several productions in both film and theatre, ranging from directing and assistant directing to production design and crew. Her most recent work includes directing two PSA-style shorts for her film course, and directing for her college's play festival, _Mall Stories of the 80's_.
+Ava Abreu is a Florida-based film student currently studying at State College of Florida, with a focus in directing, cinematography, and technical theatre. Ava has done work one several productions in both film and theatre, ranging from directing and assistant directing to production design and crew. Her most recent work includes directing two PSA-style shorts for her film course, and directing for her college's play festival, _Mall Stories of the 80's_.
 
 ---
  
