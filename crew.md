@@ -41,7 +41,7 @@ Meilín Quilez Durañona is a Cuban filmmaker born and raised on the Isla de la 
 ---
  
 ### Gabriel Karrera
-#### Cinematographer
+#### Cinematographer <a href="https://instagram.com/gabrielkarrera" class="social-bubble" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
  
 Gabriel Karrera is a Havana-based cinematographer, director, and colorist with over thirteen years of experience across fiction, documentary, and commercial production. A graduate of the Universidad de las Artes de Cuba in Cinematography, he has collaborated with international production companies and worked extensively at the EICTV film school. He was nominated for the 2024 Premio Lucas and received the Premio Cubadisco 2023 for the documentary Sueños.
  
