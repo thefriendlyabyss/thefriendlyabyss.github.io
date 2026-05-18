@@ -17,11 +17,8 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.05em;
 }
 
-.post-title,
-.post-subtitle,
-.post-meta {
-  color: #404040;
-  text-shadow: none;
+.intro-header {
+  background-color: rgba(0, 0, 0, 0.35) !important;
 }
 
 /* ============================================
