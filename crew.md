@@ -43,12 +43,12 @@ Meilín Quilez Durañona is a Cuban filmmaker born and raised on the Isla de la 
 ### Gabriel Karrera
 #### Cinematographer
  
-Gabriel Karrera is a Havana-based cinematographer with over 13 years of experience working across film and media. A recipient of the Premio Cubadisco 2023, Gabriel brings deep experience with Cuban landscapes, light, and production conditions to *El Pinero*.
+Gabriel Karrera is a Havana-based cinematographer, director, and colorist with over thirteen years of experience across fiction, documentary, and commercial production. A graduate of the Universidad de las Artes de Cuba in Cinematography, he has collaborated with international production companies and worked extensively at the EICTV film school. He was nominated for the 2024 Premio Lucas and received the Premio Cubadisco 2023 for the documentary Sueños.
  
 ---
  
 ### Saulo Adrián Fernández Gil
 #### Sound Designer
  
-Saulo Adrián Fernández Gil is a Mexico City-based sound designer trained at the Instituto Superior de Arte (ISA) in Havana and the Escuela Internacional de Cine y Televisión (EICTV). His work has screened at the Berlinale, Cinéma du Réel, and the Beijing International Film Festival.
+Saulo Adrián Fernández Gil is a Mexico City-based sound designer specializing in direct sound and post-production for film and media. Trained at the Universidad de las Artes (ISA) in Havana and the International Film School (EICTV) in San Antonio de los Baños, his work has screened at the Berlinale, Cinéma du Réel, and the Beijing Film Festival. Recent credits include Fukuyama, Cábala, and Uterus, and he currently works as a studio operator at Lucerna Post.
  
