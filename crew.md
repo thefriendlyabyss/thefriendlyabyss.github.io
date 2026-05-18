@@ -39,6 +39,13 @@ Robert W. Potter is an American writer and producer. *El Pinero* is his second f
 Meilín Quilez Durañona is a Cuban filmmaker born and raised on the Isla de la Juventud. *El Pinero* is her second collaboration with Robert Potter on the island. Holding a degree in Audiovisual Media Arts and as a graduate of the EICTV's Low-Budget Filmmaking Workshop, she has worked in film, television, and advertising as a director, producer, and assistant director. Her short films have been screened and awarded at national and international showcases and festivals, including events organized by the ICAIC and Lift-Off. Her roots and relationships on the island are central to the film's ability to tell this story authentically and with the trust of the community.
  
 ---
+
+### Ava Abreu
+#### _Graphic Designer / Production Assistant_ 
+
+Ava Abreu is a Florida-based student currently studying at State College of Florida, with a focus in directing, cinematography, and technical theatre. Ava has done work one several productions in both film and theatre, ranging from directing and assistant directing to production design and crew. Her most recent work includes directing two PSA-style shorts for her film course, and directing for her college's play festival, _Mall Stories of the 80's_.
+
+---
  
 ### Gabriel Karrera
 #### _Cinematographer_ <a href="https://instagram.com/gabrielkarrera" class="social-bubble" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
