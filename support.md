@@ -10,6 +10,6 @@ Independent filmmaking is hard under any circumstances. Making it in Cuba — na
  
 If you've found your way to this page, maybe you're one of them. Any contribution helps, and every dollar goes directly toward bringing this film to life.
  
-<div style="max-width:480px; margin: 2rem auto; border-radius:12px; overflow:hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.08); padding: 12px 12px 6px 12px;">
+<div style="max-width:480px; margin: 2rem auto; border-radius:12px; overflow:hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.08); padding: 24px 12px 2px 12px;">
   <iframe id='kofiframe' src='https://ko-fi.com/elpinero/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;background:transparent;' height='635' title='elpinero'></iframe>
 </div>
