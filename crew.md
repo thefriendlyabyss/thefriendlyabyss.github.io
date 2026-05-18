@@ -29,7 +29,7 @@ title: The Crew
 ### Robert W. Potter 
 #### _Writer / Producer_ <a href="https://instagram.com/robertthepotter" class="social-bubble" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a> <a href="https://linkedin.com/in/robertwpotter" class="social-bubble" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
  
-Robert Potter is an American writer and producer. *El Pinero* is his second film produced on Cuba's Isla de la Juventud. He's a Florida native with a degree in filmmaking from Ringling College of Art and Design. He has worked in film and advertising for many years, both in Florida and Los Angeles. Many of his projects have been screened and won awards from various festivals and showcases, including the Telly Awards, the Experience Design & Tech Awards, and Lift Off Sessions.
+Robert W. Potter is an American writer and producer. *El Pinero* is his second film produced on Cuba's Isla de la Juventud. He's a Florida native with a degree in filmmaking from Ringling College of Art and Design. He has worked in film and advertising for many years, both in Florida and Los Angeles. Many of his projects have been screened and won awards from various festivals and showcases, including the Telly Awards, the Experience Design & Tech Awards, and Lift Off Sessions.
  
 ---
  
