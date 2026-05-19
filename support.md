@@ -13,6 +13,6 @@ If you've found your way to this page, maybe you're one of them. Any contributio
 <div style="max-width:480px; margin: 2rem auto; border-radius:12px; overflow:hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.08); padding: 36px 12px 0px 12px;">
   <iframe id='kofiframe' src='https://ko-fi.com/elpinero/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;background:transparent;' height='580' title='elpinero'></iframe>
 
- ###### *Having trouble with the widget? [Support us on Ko-fi directly →](https://ko-fi.com/elpinero)*
+ <p style="text-align:center; font-size:0.875rem;"><em>Having trouble with the widget? <a href="https://ko-fi.com/elpinero"   target="_blank">Support us on Ko-fi directly →</a></em></p>
 </div>
 
