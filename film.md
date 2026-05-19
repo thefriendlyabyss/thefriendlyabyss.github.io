@@ -63,3 +63,5 @@ Currently in development. Script on its seventh draft. Principal photography pla
 *El Pinero* is independently funded. Every contribution goes directly toward making this film.
 
 [Support the film →](/support/)
+
+*Prefer to give directly? Visit our [Ko-fi page](https://ko-fi.com/elpinero).*
