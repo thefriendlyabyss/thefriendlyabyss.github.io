@@ -9,7 +9,7 @@ title: The Film
 
 ---
 
-### The Story
+### The Plot
 
 When Cole Smith's father dies, he leaves behind a single request: find the grave of Cole's grandfather on Cuba's Isla de la Juventud — an island Cole has never visited and knows almost nothing about.
 
@@ -21,9 +21,9 @@ What begins as an act of grief becomes something harder to name. Moving through 
 
 ### The History
 
-About forty miles off Cuba's southwest coast lies an island most people have never heard of. It goes by a few names. The Spanish called it Isla de Pinos — the Isle of Pines. Fidel Castro renamed it Isla de la Juventud — the Isle of Youth — in 1978. Cuban writers had another name for it: *La Isla Olvidada*. The forgotten island. The name fits.
+About forty miles off Cuba's southwest coast lies an island most people have never heard of. Over the years, it has gone by many names. The Spanish called it Isla de Pinos — the Isle of Pines. Cuban writers called it La Isla Olvidada — the forgotten island. Locals, worn down by centuries of names, called it the Island of a Thousand Names. American land promoters marketed it as the real-life Treasure Island of Robert Louis Stevenson, leaning into its reputation as a pirate haven and a place of buried fortune. In 1978, Fidel Castro renamed it the Isla de la Juventud — the Isle of Youth. That name has mostly stuck. But the older names say something truer about the place: it has always been easier to project a story onto this island than to know it.
 
-For most of its history the island was sparsely populated and easy to overlook. Spain used it, at various points, as a place to send criminals and political prisoners — which gave it an early reputation as a penal colony and pirate haven that stifled serious development for generations. Even José Martí, Cuba's national hero, was exiled there. The island was peripheral, isolated, a footnote.
+For most of its history theis island was sparsely populated and easy to overlook. Spain used it, at various points, as a place to send criminals and political prisoners — which gave it an early reputation as a penal colony and pirate haven that stifled serious development for generations. Even José Martí, Cuba's National Hero, was exiled there. The island was peripheral, isolated, a footnote.
 
 That began to change after the Spanish-American War of 1898. In the ambiguous years that followed, the island's political status was left deliberately unresolved. A treaty signed in 1904 recognized Cuban sovereignty, but the United States Senate declined to ratify it — leaving the island in a kind of diplomatic limbo for more than two decades. Into that limbo came Americans.
 
