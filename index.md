@@ -15,9 +15,9 @@ body-class: homepage
     transform: translate(-50%, -50%); text-align: center; padding: 20px; width: 80%;">
     <p style="color: #ffffff; font-size: 1.4em; font-style: italic; 
       margin-bottom: 15px;">
-      An American man travels to Cuba's Isla de la Juventud to find his 
-      grandfather's grave and discovers a family history rooted in an 
-      era he never knew existed.
+      In Cuba, an American man searches for his grandfather's grave, 
+      but as he moves through the island, the history he came to recover 
+      begins to slip away from him.
     </p>
     <p style="color: #e0f0d0; font-size: 0.95em; margin-bottom: 25px;">
       <em>El Pinero</em> — a short film by Robert Potter and Meilín Quilez Durañona
