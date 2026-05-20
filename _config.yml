@@ -84,7 +84,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: A website about the short film, El Pinero.
 
 ###########################
 # --- General options --- #
@@ -172,7 +172,7 @@ site-css:
 #gtag: "G-XXXXXXXXXX"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
-cloudflare_analytics: "8bfb1be0708447369a145f5b6f34105a"
+cloudflare_analytics: "75b45575ee40413b9154e62bfc869996"
 
 # Google Tag Manager ID
 #gtm: ""
