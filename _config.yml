@@ -172,7 +172,7 @@ site-css:
 #gtag: "G-XXXXXXXXXX"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
-#cloudflare_analytics: ""
+cloudflare_analytics: "8bfb1be0708447369a145f5b6f34105a"
 
 # Google Tag Manager ID
 #gtm: ""
