@@ -32,9 +32,14 @@ body-class: homepage
         style="display: inline-block; margin: 8px; padding: 10px 24px; 
         background-color: #1a7070; color: #e0f0d0; text-decoration: none; 
         border-radius: 4px; font-size: 0.95em;">Support The Film</a>
+      <a href="/blog/" 
+        style="display: inline-block; margin: 8px; padding: 10px 24px; 
+        background-color: #1a7070; color: #e0f0d0; text-decoration: none; 
+        border-radius: 4px; font-size: 0.95em;">Sign Up for Updates</a>
     </div>
   </div>
 </div>
 <script>
   document.body.classList.add('homepage');
 </script>
+ 
