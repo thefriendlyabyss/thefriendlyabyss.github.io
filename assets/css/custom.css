@@ -31,9 +31,9 @@ a:hover {
    SHARE BUTTONS
    ============================================ */
 
-.btn-social-icon svg {
-  width: 1.25em;
-  height: 1.25em;
+#social-share-section .btn-social-icon svg {
+  width: 0.85em;
+  height: 0.85em;
   vertical-align: middle;
   display: inline-block;
 }
