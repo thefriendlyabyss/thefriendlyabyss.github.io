@@ -22,7 +22,7 @@ That's okay — there are other ways to help this film get made.
  
 **Follow along.** The more people who know this story exists, the better. Find us on [Instagram](https://www.instagram.com/cubaxfilm) and [Facebook](https://www.facebook.com/cubaxfilm) for updates from production, history from the island, and behind-the-scenes work as we build toward the shoot.
  
-**Stay in the loop.** Head to our [Updates page](/updates/) to read the latest news from the project — and if something resonates, subscribe and share it.
+**Stay in the loop.** Head to our [Updates page](/blog/) to read the latest news from the project — and if something resonates, subscribe and share it.
  
 Every follow, share, and kind word moves this forward. Thank you for being here.
 
