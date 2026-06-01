@@ -210,43 +210,41 @@ footer {
     opacity: 1 !important;
     visibility: visible !important;
   }
-
   /* Keep avatar visible when scrolled on mobile */
   nav.top-nav-short .avatar-container {
     opacity: 1 !important;
     visibility: visible !important;
   }
-
   /* Hide small scroll avatar on mobile */
   .navbar-scroll-avatar {
     display: none !important;
   }
-
   /* Fade avatar when menu is open */
   .navbar .avatar-container {
     opacity: 0 !important;
     visibility: hidden !important;
     transition: opacity 0.3s ease, visibility 0.3s ease;
   }
-
   /* Move hero text higher */
   .hero-content {
-    top: 45% !important;
+    top: 50% !important;
   }
-
-  /* Shrink hero text */
+  /* Shrink logline text */
   .hero-content p:first-child {
-    font-size: 1.1em !important;
+    font-size: 0.9em !important;
   }
-     /* Stack buttons vertically on mobile */
+  /* Tighten paragraph spacing */
+  .hero-content p {
+    margin-bottom: 10px !important;
+  }
+  /* Stack buttons vertically */
   .hero-content div {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
   }
-
-  /* Remove the inline margin so gap handles spacing */
+  /* Remove inline margin, fix button width */
   .hero-content div a {
     margin: 0;
     width: 200px;
