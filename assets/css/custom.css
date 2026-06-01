@@ -227,7 +227,7 @@ footer {
   }
   /* Move hero text higher */
   .hero-content {
-    top: 45% !important;
+    top: 50% !important;
   }
   /* Shrink logline text */
   .hero-content p:first-child {
