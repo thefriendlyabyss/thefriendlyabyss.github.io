@@ -35,7 +35,7 @@ body-class: homepage
       <a href="/blog/" 
         style="display: inline-block; margin: 8px; padding: 10px 24px; 
         background-color: #0d4a52; color: #e0f0d0; text-decoration: none; 
-        border-radius: 4px; font-size: 0.95em;">Sign Up for Updates</a>
+        border-radius: 4px; font-size: 0.95em;">Sign Up For Updates</a>
     </div>
   </div>
 </div>
