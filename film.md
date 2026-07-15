@@ -22,10 +22,10 @@ What begins as an act of grief becomes something harder to name. Moving through 
 
 ---
 
-### The History
-
 <!-- PHOTO 2: history opener -->
 <img src="/assets/img/posts/map-of-island.jpg" alt="Map of Isle of Youth" style="max-width: 100%;">
+
+### The History
 
 About forty miles off Cuba's southwest coast lies an island most people have never heard of. Over the years, it has gone by many names. The Spanish called it Isla de Pinos — the Isle of Pines. Cuban writers called it La Isla Olvidada — the forgotten island. Locals, worn down by centuries of names, called it the Island of a Thousand Names. American land promoters marketed it as the real-life Treasure Island of Robert Louis Stevenson, leaning into its reputation as a pirate haven and a place of buried fortune. In 1978, Fidel Castro renamed it the Isla de la Juventud — the Isle of Youth. That name has mostly stuck. But the older names say something truer about the place: it has always been easier to project a story onto this island than to know it.
 
@@ -60,10 +60,10 @@ The history behind this film is documented history. For those who want to go dee
 
 ---
 
-### The Origin
-
 <!-- PHOTO 4: Robert -->
 <img src="/assets/img/posts/robert-director-photo.jpg" alt="Black and white of Robert Potter" style="max-width: 100%; width: 400px;">
+
+### The Origin
 
 My name is Robert Potter. I'm a writer, producer, and filmmaker based in the United States. Over the past year I've made multiple trips to Cuba's Isla de la Juventud — drawn first by curiosity, then by something harder to shake. The island holds a history most Americans don't know exists. I found myself wanting to tell it.
 
