@@ -8,7 +8,7 @@ title: The Film
 *El Pinero* is a narrative short film — approximately 20 minutes — set on Cuba's Isla de la Juventud, formerly known as the Isle of Pines. It is a bilingual film, spoken in English and Spanish, shot on location on the island.
 
 <!-- PHOTO 1: island photo -->
-<img src="/assets/images/isla-de-pinos.jpg" alt="The coast of the Isla de la Juventud, Cuba" style="max-width: 100%;">
+<img src="/assets/img/posts/isla-de-pinos.jpg" alt="The coast of the Isla de la Juventud, Cuba" style="max-width: 100%;">
 
 ---
 
@@ -25,7 +25,7 @@ What begins as an act of grief becomes something harder to name. Moving through 
 ### The History
 
 <!-- PHOTO 2: history opener -->
-<img src="/assets/images/map-of-island.jpg" alt="Map of Isle of Youth" style="max-width: 100%;">
+<img src="/assets/img/posts/map-of-island.jpg" alt="Map of Isle of Youth" style="max-width: 100%;">
 
 About forty miles off Cuba's southwest coast lies an island most people have never heard of. Over the years, it has gone by many names. The Spanish called it Isla de Pinos — the Isle of Pines. Cuban writers called it La Isla Olvidada — the forgotten island. Locals, worn down by centuries of names, called it the Island of a Thousand Names. American land promoters marketed it as the real-life Treasure Island of Robert Louis Stevenson, leaning into its reputation as a pirate haven and a place of buried fortune. In 1978, Fidel Castro renamed it the Isla de la Juventud — the Isle of Youth. That name has mostly stuck. But the older names say something truer about the place: it has always been easier to project a story onto this island than to know it.
 
@@ -36,7 +36,7 @@ That began to change after the Spanish-American War of 1898. Some in Washington 
 Land companies advertised the Isle of Pines in newspapers across the United States — in Ohio, Wisconsin, Indiana, Florida — as a tropical paradise ready to be farmed. They sold the climate, the soil, the citrus groves, and the proximity to American markets. Thousands of settlers came. At the peak of the American presence, around the 1910s, perhaps as many as two thousand U.S. citizens lived on the island. By some estimates, Americans had purchased close to ninety percent of the island's arable land. They founded roughly a dozen towns, built farms and groves, established churches, schools, and social clubs. An English-language newspaper operated for years. A private school — the American Central School — offered instruction from grade school through high school, drawing students from across the island, many of them Cuban families who wanted their children to learn English.
 
 <!-- PHOTO 3: mid-history -->
-<img src="/assets/images/nueva-gerona-harbor.jpg" alt="old picture of nueva gerona" style="max-width: 100%;">
+<img src="/assets/img/posts/nueva-gerona-harbor.jpg" alt="old picture of nueva gerona" style="max-width: 100%;">
 
 Life was harder than the land companies had promised. Clearing land, planting groves, and building in a tropical climate proved more expensive and more exhausting than most settlers had anticipated. Many businesses failed. Hurricanes damaged or destroyed what settlers had built. Most who came eventually left, disillusioned. But some stayed — and those who stayed long enough often developed a deep attachment to the island, its landscape, and its people.
 
@@ -63,7 +63,7 @@ The history behind this film is documented history. For those who want to go dee
 ### The Origin
 
 <!-- PHOTO 4: Robert -->
-<img src="/assets/images/robert-director-photo.jpg" alt="Black and white of Robert Potter" style="max-width: 100%; width: 400px;">
+<img src="/assets/img/posts/robert-director-photo.jpg" alt="Black and white of Robert Potter" style="max-width: 100%; width: 400px;">
 
 My name is Robert Potter. I'm a writer, producer, and filmmaker based in the United States. Over the past year I've made multiple trips to Cuba's Isla de la Juventud — drawn first by curiosity, then by something harder to shake. The island holds a history most Americans don't know exists. I found myself wanting to tell it.
 
