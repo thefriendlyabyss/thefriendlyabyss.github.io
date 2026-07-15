@@ -40,14 +40,14 @@ What remained was a cemetery. Founded in 1907 in the settlement of Columbia, the
 ---
 
 ### Further Reading
-
-The history behind this film is documented history. For those who want to go deeper, these are excellent sources to delve into:
-
-**Michael Neagle, *America's Forgotten Colony: Cuba's Isle of Pines* (Cambridge University Press, 2016)** — the definitive scholarly account of the American presence on the island, from the land companies of the early 1900s to the last settlers.
-
-**Jane McManus, *Cuba's Island of Dreams: Voices from the Isle of Pines and Youth* (University Press of Florida, 2000)** — an oral history built from the voices of the people who lived it: American settlers, native pineros, and the Jamaican and Caymanian families who made the island's southern coast their home. It includes testimony from the last American on the island.
-
-**Irene A. Wright, *Isle of Pines* (1910)** — a journalist's firsthand account, written at the height of the American colony.
+ 
+The history behind this film is documented history. For those who want to go deeper, these are the sources we keep returning to:
+ 
+**Michael Neagle, [*America's Forgotten Colony: Cuba's Isle of Pines*](https://www.amazon.com/Americas-Forgotten-Colony-Cambridge-Relations/dp/1316502015){:target="_blank"} (Cambridge University Press, 2016)** — the definitive scholarly account of the American presence on the island, from the land companies of the early 1900s to the last settlers.
+ 
+**Jane McManus, [*Cuba's Island of Dreams: Voices from the Isle of Pines and Youth*](https://www.amazon.com/Cubas-Island-Dreams-Voices-Pines/dp/0813017416){:target="_blank"} (University Press of Florida, 2000)** — an oral history built from the voices of the people who lived it: American settlers, native pineros, and the Jamaican and Caymanian families who made the island's southern coast their home. It includes testimony from the last American on the island.
+ 
+**Irene A. Wright, [*Isle of Pines*](https://catalog.hathitrust.org/Record/009832907){:target="_blank"} (1910)** — a journalist's firsthand account, written at the height of the American colony. Long out of print, it can be read free online.
 
 ---
 
