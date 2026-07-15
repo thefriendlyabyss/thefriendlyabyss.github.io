@@ -53,7 +53,7 @@ The history behind this film is documented history. For those who want to go dee
 
 ### The Origin
 
-My name is Robert Potter. I'm a writer, producer, and filmmaker based in the United States. Over the past year I've made multiple trips to Cuba's Isla de la Juventud — drawn first by curiosity, then by something harder to shake. The island holds a history most Americans don't know exists. I found myself wanting to tell it.
+My name is Robert Potter. I'm a writer, producer, and filmmaker based in the United States. Over the past year I've made multiple trips to Cuba's Isla de la Juventud, drawn first by curiosity, then by something harder to shake. The island holds a history most Americans don't know exists. I found myself wanting to tell it.
 
 *El Pinero* is my second film made on the island, produced in close collaboration with Meilín Quilez Durañona, a Cuban filmmaker who was born and raised there. Her roots on the island, her relationships, her knowledge of the place, her trust within the community are central to everything this film is trying to do. This story could not be told without her.
 
