@@ -41,9 +41,7 @@ If you've found your way to this page, maybe you're one of them. Any contributio
 
 ---
 
-### Not in a position to donate right now?
+##### Not in a position to donate right now?
 That's okay — there are other ways to help this film get made.
-**Stay in the loop.** Get production updates, island history, and news from the project — straight to your inbox, no noise.
-<script async data-uid="cd6707b8c3" src="https://elpinero.kit.com/cd6707b8c3/index.js"></script>
 **Follow along.** The more people who know this story exists, the better. Find us on [Instagram](https://www.instagram.com/cubaxfilm) and [Facebook](https://www.facebook.com/cubaxfilm) for updates from production, history from the island, and behind-the-scenes work as we build toward the shoot.
 Every follow, share, and kind word moves this forward. Thank you for being here.
