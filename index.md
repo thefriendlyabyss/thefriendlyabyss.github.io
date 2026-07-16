@@ -26,8 +26,11 @@ body-class: homepage
     font-style: italic;
     text-shadow: 0 1px 4px rgba(0,0,0,0.6);
     opacity: 0.85;
-    transition: opacity 0.6s ease-in-out;
+    transition: opacity 0.9s ease-in-out;
     z-index: 2;
+  }
+  .homepage-hero .hero-caption.fading {
+    opacity: 0;
   }
 </style>
 <div class="homepage-hero" style="position: relative; margin-left: calc(-50vw + 50%); 
@@ -37,17 +40,17 @@ body-class: homepage
   width="1920" height="1080"
   fetchpriority="high"
   class="hero-slide active"
-  data-caption="Isla de la Juventud, Cuba">
+  data-caption="Isla de la Juventud, Cuba.">
   <img src="/assets/img/presidio-modelo.webp" alt=""
   width="1920" height="1080"
   loading="lazy" fetchpriority="low"
   class="hero-slide"
-  data-caption="The Presidio Modelo, begun 1926">
+  data-caption="The Presidio Modelo, begun 1926.">
   <img src="/assets/img/pine-forest.webp" alt=""
   width="1920" height="1080"
   loading="lazy" fetchpriority="low"
   class="hero-slide"
-  data-caption="The pine forests that gave the island its old name.">
+  data-caption="The pine forest of the island.">
   <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; 
     background: rgba(0,0,0,0.4);">
   </div>
@@ -83,10 +86,9 @@ body-class: homepage
   (function () {
     var slides = document.querySelectorAll('.homepage-hero .hero-slide');
     var caption = document.getElementById('heroCaption');
-    function setCaption(i) {
-      if (caption) caption.textContent = slides[i].dataset.caption || '';
+    if (caption && slides.length) {
+      caption.textContent = slides[0].dataset.caption || '';
     }
-    setCaption(0);
     if (slides.length < 2) return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     var current = 0;
@@ -94,7 +96,13 @@ body-class: homepage
       slides[current].classList.remove('active');
       current = (current + 1) % slides.length;
       slides[current].classList.add('active');
-      setCaption(current);
+      if (caption) {
+        caption.classList.add('fading');
+        setTimeout(function () {
+          caption.textContent = slides[current].dataset.caption || '';
+          caption.classList.remove('fading');
+        }, 900);
+      }
     }, 5000);
   })();
 </script>
