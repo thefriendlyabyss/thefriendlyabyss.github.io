@@ -3,13 +3,36 @@ layout: page
 full-width: true
 body-class: homepage
 ---
+<style>
+  .homepage-hero .hero-slide {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+    opacity: 0;
+    transition: opacity 1.8s ease-in-out;
+  }
+  .homepage-hero .hero-slide.active {
+    opacity: 1;
+  }
+</style>
 <div class="homepage-hero" style="position: relative; margin-left: calc(-50vw + 50%); 
   margin-right: calc(-50vw + 50%); margin-bottom: 0;
   height: 100vh; overflow: hidden;">
   <img src="/assets/img/isla-de-pinos.webp" alt="El Pinero"
   width="1920" height="1080"
   fetchpriority="high"
-  style="width: 100%; height: 100vh; object-fit: cover; display: block;">
+  class="hero-slide active">
+  <img src="/assets/img/presidio-modelo.webp" alt=""
+  width="1920" height="1080"
+  loading="lazy" fetchpriority="low"
+  class="hero-slide">
+  <img src="/assets/img/pine-forest.webp" alt=""
+  width="1920" height="1080"
+  loading="lazy" fetchpriority="low"
+  class="hero-slide">
   <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; 
     background: rgba(0,0,0,0.4);">
   </div>
@@ -41,5 +64,16 @@ body-class: homepage
 </div>
 <script>
   document.body.classList.add('homepage');
+
+  (function () {
+    var slides = document.querySelectorAll('.homepage-hero .hero-slide');
+    if (slides.length < 2) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var current = 0;
+    setInterval(function () {
+      slides[current].classList.remove('active');
+      current = (current + 1) % slides.length;
+      slides[current].classList.add('active');
+    }, 7000);
+  })();
 </script>
- 
