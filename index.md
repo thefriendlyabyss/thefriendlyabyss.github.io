@@ -50,7 +50,7 @@ body-class: homepage
   width="1920" height="1080"
   loading="lazy" fetchpriority="low"
   class="hero-slide"
-  data-caption="The pine forest of the island.">
+  data-caption="The pine forests that cover the Isla de la Juventud.">
   <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; 
     background: rgba(0,0,0,0.4);">
   </div>
