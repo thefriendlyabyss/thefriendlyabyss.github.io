@@ -103,6 +103,6 @@ body-class: homepage
           caption.classList.remove('fading');
         }, 900);
       }
-    }, 5000);
+    }, 6000);
   })();
 </script>
