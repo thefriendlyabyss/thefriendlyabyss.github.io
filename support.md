@@ -45,8 +45,10 @@ If you've found your way to this page, maybe you're one of them. Any contributio
 
 ### Make a Tax-Deductible Donation
 
-*El Pinero* is a fiscally sponsored project of From the Heart Productions, a 501(c)(3) nonprofit organization. Donations are tax-deductible to the extent allowed by law.
-
 <div style="text-align: center; margin: 2rem 0;">
   <a href="https://www.paypal.com/donate/?hosted_button_id=Q5CKGFCV9H94G" target="_blank" class="donate-button">Donate — Tax-Deductible</a>
 </div>
+
+*El Pinero* is a fiscally sponsored project of From the Heart Productions, a 501(c)(3) nonprofit organization. Donations are tax-deductible to the extent allowed by law.
+
+
