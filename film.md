@@ -78,7 +78,7 @@ I wrote the script and will be producing the film.
 
 ### Production
 
-Currently in development. Script on its eleventh draft, revised following professional coverage. Principal photography planned for 2026 on location on the Isla de la Juventud.
+Currently in development. Principal photography planned for 2026 on location on the Isla de la Juventud.
 
 ---
 
