@@ -1,3 +1,8 @@
+---
+layout: page
+full-width: true
+body-class: homepage
+---
 <style>
   .homepage-hero .hero-slide {
     position: absolute;
@@ -82,7 +87,7 @@
     </p>
     <div class="hero-video-wrap">
       <div class="ratio">
-        <iframe src="https://www.youtube.com/embed/g6fpe6pIZBw?rel=0&modestbranding=1&iv_load_policy=3" title="El Pinero fundraising video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe id="heroVideoFrame" src="https://www.youtube.com/embed/g6fpe6pIZBw?rel=0&modestbranding=1&iv_load_policy=3&enablejsapi=1" title="El Pinero fundraising video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
     <div>
@@ -100,18 +105,20 @@
     </div>
   </div>
 </div>
+<script src="https://www.youtube.com/iframe_api"></script>
 <script>
   document.body.classList.add('homepage');
-  (function () {
+  var HeroSlideshow = (function () {
     var slides = document.querySelectorAll('.homepage-hero .hero-slide');
     var caption = document.getElementById('heroCaption');
+    var current = 0;
+    var timer = null;
+
     if (caption && slides.length) {
       caption.textContent = slides[0].dataset.caption || '';
     }
-    if (slides.length < 2) return;
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    var current = 0;
-    setInterval(function () {
+
+    function tick() {
       slides[current].classList.remove('active');
       current = (current + 1) % slides.length;
       slides[current].classList.add('active');
@@ -122,6 +129,36 @@
           caption.classList.remove('fading');
         }, 900);
       }
-    }, 6000);
+    }
+
+    function start() {
+      if (timer || slides.length < 2) return;
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      timer = setInterval(tick, 6000);
+    }
+
+    function stop() {
+      clearInterval(timer);
+      timer = null;
+    }
+
+    start();
+    return { start: start, stop: stop };
   })();
+
+  function onYouTubeIframeAPIReady() {
+    var frame = document.getElementById('heroVideoFrame');
+    if (!frame) return;
+    new YT.Player('heroVideoFrame', {
+      events: {
+        onStateChange: function (event) {
+          if (event.data === YT.PlayerState.PLAYING) {
+            HeroSlideshow.stop();
+          } else if (event.data === YT.PlayerState.PAUSED || event.data === YT.PlayerState.ENDED) {
+            HeroSlideshow.start();
+          }
+        }
+      }
+    });
+  }
 </script>
