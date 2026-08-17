@@ -1,8 +1,3 @@
----
-layout: page
-full-width: true
-body-class: homepage
----
 <style>
   .homepage-hero .hero-slide {
     position: absolute;
@@ -31,6 +26,25 @@ body-class: homepage
   }
   .homepage-hero .hero-caption.fading {
     opacity: 0;
+  }
+  .hero-video-wrap {
+    max-width: 640px;
+    margin: 0 auto 25px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+  }
+  .hero-video-wrap .ratio {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .hero-video-wrap iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
   }
 </style>
 <div class="homepage-hero" style="position: relative; margin-left: calc(-50vw + 50%); 
@@ -66,6 +80,11 @@ body-class: homepage
     <p style="color: #e0f0d0; font-size: 0.95em; margin-bottom: 25px;">
       <em>El Pinero</em> — a short film by Robert Potter and Meilín Quilez Durañona
     </p>
+    <div class="hero-video-wrap">
+      <div class="ratio">
+        <iframe src="https://www.youtube.com/embed/g6fpe6pIZBw?rel=0&modestbranding=1&iv_load_policy=3" title="El Pinero fundraising video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
     <div>
       <a href="film" style="display: inline-block; margin: 8px; padding: 10px 24px; 
         background-color: #0d4a52; color: #e0f0d0; text-decoration: none; 
