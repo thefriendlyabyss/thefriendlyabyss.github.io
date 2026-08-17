@@ -71,6 +71,7 @@ Every contribution helps, at any amount. A couple of tiers come with something b
     <p>Sticker set + A small souvenir sourced from Isla de la Juventud itself. Quantities are limited and go first come, first served.</p>
   </div>
 </div>
+<p style="text-align: center; margin: 1.5rem 0;">Own or run a business? <a href="https://elpinerofilm.com/sponsor/" style="color: #1a7070; font-weight: bold;">Check out our sponsorship opportunities →</a></p>
 ---
 ### Make a Tax-Deductible Donation
 <div style="text-align: center; margin: 2rem 0;">
