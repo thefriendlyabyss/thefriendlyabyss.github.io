@@ -86,7 +86,7 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
       <li>Enhanced logo visibility</li>
-      <li></li>
+      <li>associate producer credit</li>
       <li>Presence in premiere materials (flyers/programs)</li>
       <li>Product placement in the film</li>
     </ul>
