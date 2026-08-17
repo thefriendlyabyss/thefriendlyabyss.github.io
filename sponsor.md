@@ -73,7 +73,7 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
   <div class="tier-card">
     <div class="tier-amount">$500</div>
     <h4>Community Partner</h4>
-    <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything above, plus:</p>
+    <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
       <li>Small logo placement in the credits</li>
       <li>A dedicated social media spotlight</li>
@@ -83,7 +83,7 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
   <div class="tier-card">
     <div class="tier-amount">$1,000</div>
     <h4>Featured Partner</h4>
-    <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything above, plus:</p>
+    <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
       <li>Enhanced logo visibility</li>
       <li></li>
@@ -94,7 +94,7 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
   <div class="tier-card">
     <div class="tier-amount">$2,000</div>
     <h4>Premiere Sponsor</h4>
-    <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything above, plus:</p>
+    <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
       <li>A short promotional video (30 to 45 sec) made for your business</li>
       <li>"Supported by" acknowledgment on the film's opening slate</li>
