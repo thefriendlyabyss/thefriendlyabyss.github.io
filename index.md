@@ -134,11 +134,7 @@ body-class: homepage
     <p style="color: #e0f0d0; font-size: 0.95em; margin-bottom: 25px;">
       <em>El Pinero</em> — a short film by Robert Potter and Meilín Quilez Durañona
     </p>
-    <div class="hero-video-wrap">
-      <div class="ratio">
-        <iframe id="heroVideoFrame" src="https://www.youtube.com/embed/g6fpe6pIZBw?rel=0&modestbranding=1&iv_load_policy=3&enablejsapi=1" title="El Pinero fundraising video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-    </div>
+    <div id="heroVideoContainer"></div>
     <div>
       <a href="film" style="display: inline-block; margin: 8px; padding: 10px 24px; 
         background-color: #0d4a52; color: #e0f0d0; text-decoration: none; 
@@ -154,9 +150,9 @@ body-class: homepage
     </div>
   </div>
 </div>
-<script src="https://www.youtube.com/iframe_api"></script>
 <script>
   document.body.classList.add('homepage');
+
   var HeroSlideshow = (function () {
     var slides = document.querySelectorAll('.homepage-hero .hero-slide');
     var caption = document.getElementById('heroCaption');
@@ -195,19 +191,39 @@ body-class: homepage
     return { start: start, stop: stop };
   })();
 
-  function onYouTubeIframeAPIReady() {
-    var frame = document.getElementById('heroVideoFrame');
-    if (!frame) return;
-    new YT.Player('heroVideoFrame', {
-      events: {
-        onStateChange: function (event) {
-          if (event.data === YT.PlayerState.PLAYING) {
-            HeroSlideshow.stop();
-          } else if (event.data === YT.PlayerState.PAUSED || event.data === YT.PlayerState.ENDED) {
-            HeroSlideshow.start();
+  // Only load and insert the video on wider screens. On mobile, neither
+  // the iframe nor the YouTube API script are added to the page at all.
+  if (window.matchMedia('(min-width: 601px)').matches) {
+    var container = document.getElementById('heroVideoContainer');
+    if (container) {
+      container.innerHTML =
+        '<div class="hero-video-wrap">' +
+          '<div class="ratio">' +
+            '<iframe id="heroVideoFrame" ' +
+              'src="https://www.youtube.com/embed/g6fpe6pIZBw?rel=0&modestbranding=1&iv_load_policy=3&enablejsapi=1" ' +
+              'title="El Pinero fundraising video" ' +
+              'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ' +
+              'allowfullscreen></iframe>' +
+          '</div>' +
+        '</div>';
+
+      window.onYouTubeIframeAPIReady = function () {
+        new YT.Player('heroVideoFrame', {
+          events: {
+            onStateChange: function (event) {
+              if (event.data === YT.PlayerState.PLAYING) {
+                HeroSlideshow.stop();
+              } else if (event.data === YT.PlayerState.PAUSED || event.data === YT.PlayerState.ENDED) {
+                HeroSlideshow.start();
+              }
+            }
           }
-        }
-      }
-    });
+        });
+      };
+
+      var apiScript = document.createElement('script');
+      apiScript.src = 'https://www.youtube.com/iframe_api';
+      document.body.appendChild(apiScript);
+    }
   }
 </script>
