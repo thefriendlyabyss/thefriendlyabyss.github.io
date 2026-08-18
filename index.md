@@ -4,11 +4,22 @@ full-width: true
 body-class: homepage
 ---
 <style>
+  .hero-wrap {
+    position: relative;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    height: 100vh;
+    overflow: hidden;
+  }
+  .homepage-hero {
+    position: absolute;
+    inset: 0;
+  }
   .homepage-hero .hero-slide {
     position: absolute;
     top: 0; left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
     display: block;
     opacity: 0;
@@ -17,7 +28,12 @@ body-class: homepage
   .homepage-hero .hero-slide.active {
     opacity: 1;
   }
-  .homepage-hero .hero-caption {
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+  }
+  .hero-caption {
     position: absolute;
     bottom: 24px;
     right: 28px;
@@ -29,8 +45,17 @@ body-class: homepage
     transition: opacity 0.9s ease-in-out;
     z-index: 2;
   }
-  .homepage-hero .hero-caption.fading {
+  .hero-caption.fading {
     opacity: 0;
+  }
+  .hero-content {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    z-index: 3;
   }
   .hero-video-wrap {
     max-width: 640px;
@@ -51,31 +76,55 @@ body-class: homepage
     height: 100%;
     border: none;
   }
+
+  @media (max-width: 600px) {
+    .hero-wrap {
+      height: auto;
+      overflow: visible;
+    }
+    .homepage-hero {
+      position: relative;
+      height: 60svh;
+      min-height: 320px;
+    }
+    .hero-content {
+      position: static;
+      transform: none;
+      width: 100%;
+      padding: 30px 16px;
+      background-color: #0a2828;
+    }
+    .hero-content p {
+      font-size: 1em !important;
+    }
+    .hero-content div a {
+      display: block;
+      margin: 8px auto;
+      max-width: 260px;
+    }
+  }
 </style>
-<div class="homepage-hero" style="position: relative; margin-left: calc(-50vw + 50%); 
-  margin-right: calc(-50vw + 50%); margin-bottom: 0;
-  height: 100vh; overflow: hidden;">
-  <img src="/assets/img/isla-de-pinos.webp" alt="El Pinero"
-  width="1920" height="1080"
-  fetchpriority="high"
-  class="hero-slide active"
-  data-caption="Isla de la Juventud, Cuba.">
-  <img src="/assets/img/presidio-modelo.webp" alt=""
-  width="1920" height="1080"
-  loading="lazy" fetchpriority="low"
-  class="hero-slide"
-  data-caption="The Presidio Modelo, begun 1926.">
-  <img src="/assets/img/pine-forest.webp" alt=""
-  width="1920" height="1080"
-  loading="lazy" fetchpriority="low"
-  class="hero-slide"
-  data-caption="The pine forests that cover the Isla de la Juventud.">
-  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; 
-    background: rgba(0,0,0,0.4);">
+<div class="hero-wrap">
+  <div class="homepage-hero">
+    <img src="/assets/img/isla-de-pinos.webp" alt="El Pinero"
+    width="1920" height="1080"
+    fetchpriority="high"
+    class="hero-slide active"
+    data-caption="Isla de la Juventud, Cuba.">
+    <img src="/assets/img/presidio-modelo.webp" alt=""
+    width="1920" height="1080"
+    loading="lazy" fetchpriority="low"
+    class="hero-slide"
+    data-caption="The Presidio Modelo, begun 1926.">
+    <img src="/assets/img/pine-forest.webp" alt=""
+    width="1920" height="1080"
+    loading="lazy" fetchpriority="low"
+    class="hero-slide"
+    data-caption="The pine forests that cover the Isla de la Juventud.">
+    <div class="hero-overlay"></div>
+    <div class="hero-caption" id="heroCaption"></div>
   </div>
-  <div class="hero-caption" id="heroCaption"></div>
-  <div class="hero-content" style="position: absolute; top: 50%; left: 50%; 
-    transform: translate(-50%, -50%); text-align: center; padding: 20px; width: 80%;">
+  <div class="hero-content">
     <p style="color: #ffffff; font-size: 1.4em; font-style: italic; 
       margin-bottom: 15px;">
       In Cuba, an American man searches for his grandfather's grave, 
