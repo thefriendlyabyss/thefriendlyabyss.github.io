@@ -159,6 +159,11 @@ nav.top-nav-short .avatar-container {
    FOOTER
    ============================================ */
 
+:root {
+  --footer-link-col: #e0f0d0;
+  --footer-text-col: #e0f0d0;
+}
+
 footer {
   background-color: #0a2828 !important;
   color: #e0f0d0 !important;
@@ -260,5 +265,4 @@ footer {
     margin: 0;
     width: 200px;
   }
-}
 }
