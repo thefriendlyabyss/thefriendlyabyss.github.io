@@ -50,13 +50,6 @@ subtitle: Help us tell a story that history almost forgot.
 Independent filmmaking is hard under any circumstances. Making it in Cuba involves navigating permits, equipment, and the realities of working across two countries with a fractured relationship makes it harder. What makes it possible is people who believe the story is worth telling.
 If you've found your way to this page, maybe you're one of them. Any contribution helps, and every dollar goes directly toward bringing this film to life.
 ---
-### See What Your Support Makes Possible
-<div style="max-width: 700px; margin: 2rem auto; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0;">
-    <iframe src="https://www.youtube.com/embed/g6fpe6pIZBw?rel=0&modestbranding=1&iv_load_policy=3" title="El Pinero fundraising video" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
-</div>
----
 ### Donation Levels
 Every contribution helps, at any amount. A couple of tiers come with something back.
 <div class="tier-grid">
