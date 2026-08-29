@@ -65,9 +65,8 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <div class="tier-amount">$250</div>
     <h4>Supporter</h4>
     <ul>
-      <li>Name in the film's end credits</li>
-      <li>Thank you mention on our social media</li>
-      <li>Access to a private online screening</li>
+      <li>Logo placement on our website</li>
+      
     </ul>
   </div>
   <div class="tier-card">
@@ -75,9 +74,9 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <h4>Community Partner</h4>
     <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
-      <li>Small logo placement in the credits</li>
-      <li>A dedicated social media spotlight</li>
-      <li>Invitation to Florida screening events</li>
+      <li>Logo placement in the end credits</li>
+      <li>Invitation to in-person Florida screening events</li>
+      <li>Mention by name at various screening events</li>    
     </ul>
   </div>
   <div class="tier-card">
@@ -85,10 +84,10 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <h4>Featured Partner</h4>
     <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
-      <li>Enhanced logo visibility</li>
-      <li>associate producer credit</li>
-      <li>Presence in premiere materials (flyers/programs)</li>
-      <li>Product placement in the film</li>
+      <li>Logo placement in premiere materials (flyers/programs, brochures, etc.)</li>
+      <li>A framed still or print from the Isla de la Juventud, taken during the film's production.</li>
+      <li>A dedicated social media reel spotlight</li>
+      <li>Associate Producer credit</li> 
     </ul>
   </div>
   <div class="tier-card">
@@ -97,9 +96,9 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
       <li>A short promotional video (30 to 45 sec) made for your business</li>
-      <li>"Supported by" acknowledgment on the film's opening slate</li>
+      <li>"Presented with support from" acknowledgment on the film's opening slate</li>
       <li>Pre-screening advertisement placement</li>
-      <li>Presence at events, with Q&A opportunities</li>
+      <li>Executive Producer credit</li>
     </ul>
   </div>
 </div>
