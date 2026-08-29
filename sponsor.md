@@ -112,12 +112,8 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
 ---
 ### Get Involved
 
-To discuss sponsorship or ask a question, reach out directly.
-
-<div style="text-align: center; margin: 2rem 0;">
-  <a href="mailto:elpinerofilm@gmail.com?subject=El%20Pinero%20Sponsorship%20Inquiry" class="donate-button">Email Us to Sponsor</a>
-</div>
+To discuss sponsorship or ask a question, reach out directly at **elpinero@gmail.com**
 
 Thank you for considering *El Pinero*. Your support helps bring a rare and deeply human story to the screen.
 
-NOTE: These tiers are a starting point, not a ceiling. If you'd like to support the film in a way that doesn't quite match what's listed above: a different budget, a different kind of partnership, an in-kind contribution, email us all the same and we'll figure out something that works.
+**NOTE:** *These tiers are a starting point, not a ceiling. If you'd like to support the film in a way that doesn't quite match what's listed above: a different budget, a different kind of partnership, an in-kind contribution, email us all the same and we'll figure out something that works.*
