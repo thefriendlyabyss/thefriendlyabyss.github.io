@@ -98,7 +98,6 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <ul>
       <li>A short promotional video (30 to 45 sec) made for your business</li>
       <li>"Presented with support from" acknowledgment on the film's opening slate</li>
-      <li>Pre-screening advertisement placement</li>
       <li>Executive Producer credit</li>
     </ul>
   </div>
