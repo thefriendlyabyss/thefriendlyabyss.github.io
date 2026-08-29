@@ -75,9 +75,9 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <h4>Community Partner</h4>
     <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
-      <li>Logo placement in the end credits</li>
-      <li>Invitation to in-person Florida screening events</li>     
-      <li>A dedicated social media reel spotlight</li>
+      <li>Logo placement in the end credits</li>    
+      <li>Product placement opportunity</li>
+      <li>Mention by name at various screening events</li>
     </ul>
   </div>
   <div class="tier-card">
@@ -87,7 +87,8 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <ul>
       <li>Logo placement in premiere materials (flyers/programs, brochures, etc.)</li>
       <li>A framed still or print from the Isla de la Juventud, taken during the film's production.</li>
-      <li>Mention by name at various screening events</li>
+      <li>A dedicated social media reel spotlight</li>
+      <li>Invitation to select in-person Florida screening events</li> 
       <li>Associate Producer credit</li> 
     </ul>
   </div>
