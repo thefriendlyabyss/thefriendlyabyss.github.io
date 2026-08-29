@@ -67,6 +67,7 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <ul>
       <li>Logo placement on our website</li>
       <li>A dedicated social media post spotlight</li>
+      <li>Founding sponsor credit</li>
     </ul>
   </div>
   <div class="tier-card">
@@ -118,3 +119,5 @@ To discuss sponsorship or ask a question, reach out directly.
 </div>
 
 Thank you for considering *El Pinero*. Your support helps bring a rare and deeply human story to the screen.
+
+NOTE: These tiers are a starting point, not a ceiling. If you'd like to support the film in a way that doesn't quite match what's listed above: a different budget, a different kind of partnership, an in-kind contribution, email us all the same and we'll figure out something that works.
