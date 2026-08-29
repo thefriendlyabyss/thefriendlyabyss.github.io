@@ -63,16 +63,16 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
 <div class="tier-grid">
   <div class="tier-card">
     <div class="tier-amount">$250</div>
-    <h4>Supporter</h4>
+    <h4>Sponsor</h4>
     <ul>
       <li>Logo placement on our website</li>
       <li>A dedicated social media post spotlight</li>
-      <li>Founding sponsor credit</li>
+      <li>Founding Sponsor credit</li>
     </ul>
   </div>
   <div class="tier-card">
     <div class="tier-amount">$500</div>
-    <h4>Community Partner</h4>
+    <h4>Community Sponsor</h4>
     <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
       <li>Logo placement in the end credits</li>    
@@ -82,7 +82,7 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
   </div>
   <div class="tier-card">
     <div class="tier-amount">$1,000</div>
-    <h4>Featured Partner</h4>
+    <h4>Featured Sponsor</h4>
     <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
       <li>Logo placement in premiere materials (flyers/programs, brochures, etc.)</li>
