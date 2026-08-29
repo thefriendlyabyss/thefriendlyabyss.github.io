@@ -66,7 +66,7 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <h4>Supporter</h4>
     <ul>
       <li>Logo placement on our website</li>
-      
+      <li>A dedicated social media post spotlight</li>
     </ul>
   </div>
   <div class="tier-card">
