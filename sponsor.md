@@ -115,4 +115,4 @@ To discuss sponsorship or ask a question, reach out directly at **elpinerofilm@g
 
 Thank you for considering *El Pinero*. Your support helps bring a rare and deeply human story to the screen.
 
-**NOTE:** *These tiers are a starting point, not a ceiling. If you'd like to support the film in a way that doesn't quite match what's listed above: a different budget, a different kind of partnership, an in-kind contribution, email us all the same and we'll figure out something that works.*
+**NOTE:** *These tiers are a starting point, not a ceiling. If you'd like to support the film in a way that doesn't quite match what's listed above: a different budget, a different kind of partnership, an in-kind contribution, email us all the same and we'll customize as needed.*
