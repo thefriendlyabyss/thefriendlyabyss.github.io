@@ -66,7 +66,6 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <h4>Sponsor</h4>
     <ul>
       <li>Logo placement on our website</li>
-      <li>A dedicated social media post spotlight</li>
       <li>Founding Sponsor credit</li>
     </ul>
   </div>
@@ -86,7 +85,6 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
       <li>Logo placement in premiere materials (flyers/programs, brochures, etc.)</li>
-      <li>A dedicated social media reel spotlight</li>
       <li>Invitation to select in-person Florida screening events</li> 
       <li>Associate Producer credit</li> 
     </ul>
