@@ -54,7 +54,7 @@ title: The Crew
   min-width: 0;
 }
 .crew-photo-meilin {
-  object-position: center 25%;
+  max-height: 300px;
 }
 @media (max-width: 767px) {
   .crew-entry {
