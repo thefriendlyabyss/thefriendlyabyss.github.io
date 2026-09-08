@@ -64,7 +64,7 @@ title: The Crew
   }
   .crew-photo {
     width: 100%;
-    height: 260px;
+    height: 340px;
     object-position: center 20%;
   }
 }
