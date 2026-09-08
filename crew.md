@@ -53,6 +53,9 @@ title: The Crew
   flex: 1;
   min-width: 0;
 }
+.crew-photo-meilin {
+  object-position: center 25%;
+}
 @media (max-width: 767px) {
   .crew-entry {
     flex-direction: column;
@@ -84,7 +87,7 @@ Robert W. Potter is an American writer and producer as well as Florida native wi
 
 <div class="crew-entry">
   <div class="crew-photo-wrap">
-    <img src="{{ '/assets/img/Meilin Quilez Duranona.webp' | relative_url }}" alt="Meilín Quilez Durañona" class="crew-photo">
+    <img src="{{ '/assets/img/meilin-quilez-duranona.webp' | relative_url }}" alt="Meilín Quilez Durañona" class="crew-photo crew-photo-meilin">
   </div>
   <div class="crew-content" markdown="1">
 
