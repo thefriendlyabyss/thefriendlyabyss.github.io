@@ -84,7 +84,7 @@ Robert W. Potter is an American writer and producer as well as Florida native wi
 
 <div class="crew-entry">
   <div class="crew-photo-wrap">
-    <img src="{{ '/assets/img/Meilín Quilez Durañona.webp' | relative_url }}" alt="Meilín Quilez Durañona" class="crew-photo">
+    <img src="{{ '/assets/img/Meilin Quilez Duranona.webp' | relative_url }}" alt="Meilín Quilez Durañona" class="crew-photo">
   </div>
   <div class="crew-content" markdown="1">
 
@@ -140,7 +140,7 @@ Jonathan Fernandez is a Cuban-American multi-instrumentalist, pianist, and compo
 
 <div class="crew-entry">
   <div class="crew-photo-wrap">
-    <img src="{{ '/assets/img/Saulo Adrián Fernández Gil.webp' | relative_url }}" alt="Saulo Adrián Fernández Gil" class="crew-photo">
+    <img src="{{ '/assets/img/Saulo Adrian Fernandez Gil.webp' | relative_url }}" alt="Saulo Adrián Fernández Gil" class="crew-photo">
   </div>
   <div class="crew-content" markdown="1">
 
