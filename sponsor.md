@@ -65,7 +65,7 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <div class="tier-amount">$250</div>
     <h4>Sponsor</h4>
     <ul>
-      <li>Logo placement on our website</li>
+      <li>Logo or name placement in the end credits</li>
       <li>Founding Sponsor credit</li>
     </ul>
   </div>
@@ -74,7 +74,7 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <h4>Community Sponsor</h4>
     <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
-      <li>Logo placement in the end credits</li>    
+      <li>Logo or name placement on our website</li>    
       <li>Product placement opportunity</li>
       <li>Mention by name at various screening events</li>
     </ul>
@@ -84,7 +84,7 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <h4>Featured Sponsor</h4>
     <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
-      <li>Logo placement in premiere materials (flyers/programs, brochures, etc.)</li>
+      <li>Logo or name placement in premiere materials (flyers/programs, brochures, etc.)</li>
       <li>Invitation to select in-person Florida screening events</li> 
       <li>Associate Producer credit</li> 
     </ul>
@@ -95,8 +95,8 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
       <li>"Presented with support from" acknowledgment on the film's opening slate</li>
-      <li>A short promotional video (30 to 45 sec) made for your business</li>
-      <li>A framed still or print from the Isla de la Juventud, taken during the film's production.</li>
+      <li>A short video, promotional (for your business) or a personal thank-you/behind-the-scenes video (for individual supporters)</li>
+      <li>An early look at the final cut of the film before anyone else.</li>
       <li>Executive Producer credit</li>
     </ul>
   </div>
