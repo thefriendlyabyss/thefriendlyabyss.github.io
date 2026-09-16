@@ -95,7 +95,7 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
     <p style="margin: 0 0 0.5rem 0; font-size: 0.9em; color: #0d4a52;">Everything in previous tier, plus:</p>
     <ul>
       <li>"Presented with support from" acknowledgment on the film's opening slate</li>
-      <li>A short video, promotional (for your business) or a personal thank-you/behind-the-scenes video (for individual supporters)</li>
+      <li>A short, promotional video (for your business) or a personal thank-you/behind-the-scenes video (for individual supporters)</li>
       <li>An early look at the final cut of the film before anyone else.</li>
       <li>Executive Producer credit</li>
     </ul>
