@@ -29,3 +29,142 @@ layout: base
     </div>
   </div>
 </main>
+
+{% if page.url == "/" %}
+<!-- El Pinero RSVP popup — homepage only -->
+<style>
+  :root {
+    --ep-teal-dark: #0a2828;
+    --ep-teal-mid: #0d4a52;
+    --ep-teal-light: #1a7070;
+    --ep-mint: #e0f0d0;
+  }
+
+  #ep-rsvp-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(10, 40, 40, 0.55);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    padding: 16px;
+  }
+
+  #ep-rsvp-overlay.ep-visible {
+    display: flex;
+  }
+
+  #ep-rsvp-modal {
+    background: var(--ep-mint);
+    color: var(--ep-teal-dark);
+    max-width: 420px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 28px 24px 24px;
+    position: relative;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-align: center;
+  }
+
+  #ep-rsvp-close {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    background: none;
+    border: none;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--ep-teal-mid);
+  }
+
+  #ep-rsvp-modal h3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+    color: var(--ep-teal-mid);
+  }
+
+  #ep-rsvp-modal p {
+    margin: 0 0 18px;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  #ep-rsvp-cta {
+    display: inline-block;
+    background: var(--ep-teal-light);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+  }
+
+  #ep-rsvp-cta:hover {
+    background: var(--ep-teal-dark);
+  }
+</style>
+
+<div id="ep-rsvp-overlay">
+  <div id="ep-rsvp-modal">
+    <button id="ep-rsvp-close" aria-label="Close">&times;</button>
+    <h3>Join us in Sarasota</h3>
+    <p>
+      We're hosting a fundraising event for <em>El Pinero</em> on
+      Saturday, Oct 10, 12&ndash;1pm at Burns Court Cinemas in
+      Sarasota, FL. Come hear about the film and help us get to Cuba.
+    </p>
+    <a id="ep-rsvp-cta"
+       href="https://www.eventbrite.com/e/a-fundraising-event-for-the-short-film-el-pinero-tickets-1996347768917"
+       target="_blank" rel="noopener">
+      RSVP on Eventbrite
+    </a>
+  </div>
+</div>
+
+<script>
+(function () {
+  // ---- CONFIGURE THESE ----
+  var EVENT_DATE_CUTOFF = "2026-10-10T13:00:00-04:00"; // stop showing once the event is over (Eastern time)
+  var SHOW_DELAY_MS = 4000;   // wait 4 seconds before showing, so it doesn't feel instant/intrusive
+  var SNOOZE_HOURS = 24;      // don't re-show to the same visitor for this many hours after they dismiss it
+  var STORAGE_KEY = "epRsvpDismissedUntil";
+  // --------------------------
+
+  var now = new Date();
+  var cutoff = new Date(EVENT_DATE_CUTOFF);
+  if (now > cutoff) return; // event's over — never show again, nothing to clean up manually
+
+  var dismissedUntil = localStorage.getItem(STORAGE_KEY);
+  if (dismissedUntil && now < new Date(parseInt(dismissedUntil, 10))) return;
+
+  var overlay = document.getElementById("ep-rsvp-overlay");
+  var closeBtn = document.getElementById("ep-rsvp-close");
+
+  function showModal() {
+    overlay.classList.add("ep-visible");
+  }
+
+  function hideModal(snooze) {
+    overlay.classList.remove("ep-visible");
+    if (snooze) {
+      var until = Date.now() + SNOOZE_HOURS * 60 * 60 * 1000;
+      localStorage.setItem(STORAGE_KEY, String(until));
+    }
+  }
+
+  setTimeout(showModal, SHOW_DELAY_MS);
+
+  closeBtn.addEventListener("click", function () { hideModal(true); });
+  overlay.addEventListener("click", function (e) {
+    if (e.target === overlay) hideModal(true);
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") hideModal(true);
+  });
+})();
+</script>
+{% endif %}
