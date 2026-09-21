@@ -105,6 +105,7 @@ body-class: homepage
   }
 </style>
 <div class="hero-wrap">
+  {{ page.url }}
   <div class="homepage-hero">
     <img src="/assets/img/isla-de-pinos.webp" alt="El Pinero"
     width="1920" height="1080"
