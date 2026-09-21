@@ -131,7 +131,6 @@ body-class: homepage
       but as he moves through the island, the history he came to recover 
       begins to slip away from him.
     </p>
-    {{ page.url }}
     <p style="color: #e0f0d0; font-size: 0.95em; margin-bottom: 25px;">
       <em>El Pinero</em> — a short film by Robert Potter and Meilín Quilez Durañona
     </p>
