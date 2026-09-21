@@ -2,7 +2,9 @@
 layout: base
 ---
 
-{% include header.html type="page" %}
+{% unless page.url == "/" %}
+  {% include header.html type="page" %}
+{% endunless %}
 
 <main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
   <div class="row">
