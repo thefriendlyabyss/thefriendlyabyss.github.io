@@ -139,14 +139,10 @@ body-class: homepage
       <a href="film" style="display: inline-block; margin: 8px; padding: 10px 24px; 
         background-color: #0d4a52; color: #e0f0d0; text-decoration: none; 
         border-radius: 4px; font-size: 0.95em;">About The Film</a>
-      <a href="/support/" target="_blank" 
+      <a href="/support/"
         style="display: inline-block; margin: 8px; padding: 10px 24px; 
         background-color: #1a7070; color: #e0f0d0; text-decoration: none; 
         border-radius: 4px; font-size: 0.95em;">Support The Film</a>
-      <a href="/blog/" 
-        style="display: inline-block; margin: 8px; padding: 10px 24px; 
-        background-color: #0d4a52; color: #e0f0d0; text-decoration: none; 
-        border-radius: 4px; font-size: 0.95em;">Sign Up For Updates</a>
     </div>
   </div>
 </div>
