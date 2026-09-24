@@ -46,8 +46,10 @@ subtitle: Help us tell a story that history almost forgot.
   color: #1a7070;
 }
 </style>
-*El Pinero* tells a story most people have never heard: American families once built lives on Cuba's Isla de la Juventud, and that traces of that world, however faded, still exist there today. That history doesn't appear in many textbooks. It rarely makes it to the screen. Getting it there requires traveling to one of the most logistically complicated places an American filmmaker can work, with a small crew, limited resources, and a deep commitment to getting it right.
-Independent filmmaking is hard under any circumstances. Making it in Cuba involves navigating permits, equipment, and the realities of working across two countries with a fractured relationship makes it harder. What makes it possible is people who believe the story is worth telling.
+*El Pinero* tells a story most people have never heard: American families once built lives on Cuba's Isla de la Juventud, and traces of that world, however faded, still exist there today. That history doesn't appear in many textbooks. It rarely makes it to the screen. Getting it there requires traveling to one of the most logistically complicated places an American filmmaker can work, with a small crew, limited resources, and a deep commitment to getting it right.
+
+Independent filmmaking is hard under any circumstances. Making a film in Cuba is harder still: it means navigating permits, equipment, and the realities of working across two countries with a fractured relationship. What makes it possible is people who believe the story is worth telling.
+
 If you've found your way to this page, maybe you're one of them. Any contribution helps, and every dollar goes directly toward bringing this film to life.
 
 ---
@@ -65,7 +67,7 @@ Every contribution helps, at any amount. A couple of tiers come with something b
     <p>Sticker set + A small souvenir sourced from Isla de la Juventud itself. Quantities are limited and go first come, first served.</p>
   </div>
 </div>
-<p style="text-align: center; margin: 1.5rem 0;">Own or run a business? <a href="https://elpinerofilm.com/sponsor/" style="color: #1a7070; font-weight: bold;">Check out our sponsorship opportunities →</a></p>
+<p style="text-align: center; margin: 1.5rem 0;">Own or run a business? <a href="/sponsor/" style="color: #1a7070; font-weight: bold;">Check out our sponsorship opportunities →</a></p>
 ---
 ### Make a Tax-Deductible Donation
 <div style="text-align: center; margin: 2rem 0;">

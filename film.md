@@ -1,6 +1,7 @@
 ---
 layout: page
 title: The Film
+share-description: "El Pinero is a bilingual narrative short film set on Cuba's Isla de la Juventud. Read the story, the forgotten history of the American settlers behind it, and how the film came to be."
 ---
 
 ## El Pinero
@@ -82,7 +83,7 @@ I wrote the script and will be producing the film.
 
 ### Production
 
-Currently in development. Principal photography planned for 2026 on location on the Isla de la Juventud.
+Currently in pre-production. Principal photography is planned for December 2026 on location on the Isla de la Juventud.
 
 ---
 

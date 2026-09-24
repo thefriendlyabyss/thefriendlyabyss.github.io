@@ -12,6 +12,9 @@
 # Name of website
 title: El Pinero - A narrative, bilingual short film
 
+# Full address of the live site, used for the sitemap, RSS feed and link previews
+url: "https://elpinerofilm.com"
+
 # Your name to show in the footer
 author: © 2026 Far Shore Media, LLC
 
@@ -294,6 +297,9 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - Appraisals
+  - beautiful-jekyll-theme.gemspec
+  - staticman.yml
 
 plugins:
   - jekyll-paginate

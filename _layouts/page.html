@@ -113,9 +113,9 @@ layout: base
 </style>
 
 <div id="ep-rsvp-overlay">
-  <div id="ep-rsvp-modal">
-    <button id="ep-rsvp-close" aria-label="Close">&times;</button>
-    <h3>Join us in Sarasota</h3>
+  <div id="ep-rsvp-modal" role="dialog" aria-modal="true" aria-labelledby="ep-rsvp-title">
+    <button id="ep-rsvp-close" type="button" aria-label="Close">&times;</button>
+    <h3 id="ep-rsvp-title">Join us in Sarasota</h3>
     <p>
       We're hosting a fundraising event for <em>El Pinero</em> on
       Saturday, Oct 10, 12&ndash;1pm at Burns Court Cinemas in
@@ -142,21 +142,31 @@ layout: base
   var cutoff = new Date(EVENT_DATE_CUTOFF);
   if (now > cutoff) return; // event's over — never show again, nothing to clean up manually
 
-  var dismissedUntil = localStorage.getItem(STORAGE_KEY);
+  var dismissedUntil = null;
+  try { dismissedUntil = localStorage.getItem(STORAGE_KEY); } catch (e) {}
   if (dismissedUntil && now < new Date(parseInt(dismissedUntil, 10))) return;
 
   var overlay = document.getElementById("ep-rsvp-overlay");
   var closeBtn = document.getElementById("ep-rsvp-close");
+  var previousFocus = null;
+
+  function isVisible() {
+    return overlay.classList.contains("ep-visible");
+  }
 
   function showModal() {
+    previousFocus = document.activeElement;
     overlay.classList.add("ep-visible");
+    closeBtn.focus();
   }
 
   function hideModal(snooze) {
+    if (!isVisible()) return;
     overlay.classList.remove("ep-visible");
+    if (previousFocus && previousFocus.focus) previousFocus.focus();
     if (snooze) {
       var until = Date.now() + SNOOZE_HOURS * 60 * 60 * 1000;
-      localStorage.setItem(STORAGE_KEY, String(until));
+      try { localStorage.setItem(STORAGE_KEY, String(until)); } catch (e) {}
     }
   }
 
@@ -167,7 +177,14 @@ layout: base
     if (e.target === overlay) hideModal(true);
   });
   document.addEventListener("keydown", function (e) {
+    if (!isVisible()) return;
     if (e.key === "Escape") hideModal(true);
+    // Keep Tab focus inside the popup while it is open
+    if (e.key === "Tab") {
+      var cta = document.getElementById("ep-rsvp-cta");
+      if (e.shiftKey && document.activeElement === closeBtn) { e.preventDefault(); cta.focus(); }
+      else if (!e.shiftKey && document.activeElement === cta) { e.preventDefault(); closeBtn.focus(); }
+    }
   });
 })();
 </script>

@@ -34,7 +34,7 @@
           <a class="nav-link" href="{{ '/blog' | relative_url }}">Updates</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/support/" target="_blank">Support The Film</a>
+          <a class="nav-link" href="{{ '/support/' | relative_url }}">Support The Film</a>
         </li>
       </ul>
 
@@ -45,56 +45,11 @@
     <div class="avatar-container">
       <div class="avatar-img-border">
         <a href="{{ '/' | absolute_url }}">
-          <img alt="Navigation bar avatar" class="avatar-img" 
+          <img alt="El Pinero home" class="avatar-img" 
                src="{{ site.avatar | relative_url }}" />
         </a>
       </div>
     </div>
   {% endif %}
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const toggler = document.querySelector('.navbar-toggler');
-      const avatar = document.querySelector('.avatar-container');
-  
-      if (!toggler || !avatar) return;
-  
-      function isMobile() {
-        return window.innerWidth <= 768;
-      }
-  
-      function showAvatar() {
-        avatar.style.setProperty('opacity', '1', 'important');
-        avatar.style.setProperty('visibility', 'visible', 'important');
-        avatar.style.setProperty('display', 'block', 'important');
-      }
-  
-      function hideAvatar() {
-        avatar.style.setProperty('opacity', '0', 'important');
-        avatar.style.setProperty('visibility', 'hidden', 'important');
-      }
-  
-      if (isMobile()) {
-        // Show immediately
-        showAvatar();
-        // Keep checking every 200ms in case Beautiful Jekyll overrides it
-        setInterval(function() {
-          if (isMobile() && toggler.getAttribute('aria-expanded') !== 'true') {
-            showAvatar();
-          }
-        }, 200);
-      }
-  
-      toggler.addEventListener('click', function() {
-        if (!isMobile()) return;
-        const isCurrentlyOpen = toggler.getAttribute('aria-expanded') === 'true';
-        avatar.style.transition = 'opacity 0.3s ease, visibility 0.3s ease';
-        if (!isCurrentlyOpen) {
-          hideAvatar();
-        } else {
-          showAvatar();
-        }
-      });
-    });
-  </script>
 </nav>
 {% include search.html %}

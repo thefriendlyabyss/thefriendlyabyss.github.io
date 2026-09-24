@@ -5,7 +5,7 @@ subtitle: How we collect, use, and protect your information
 meta-description: Privacy Policy for El Pinero, a short film by Far Shore Media, LLC.
 ---
 
-**Last updated: August 26, 2026**
+**Last updated: September 24, 2026**
 
 This Privacy Policy explains how Far Shore Media, LLC ("Far Shore Media," "we," "us," or "our") collects, uses, and shares information when you visit elpinerofilm.com (the "Site"), the website for our short film *El Pinero*.
 
@@ -14,7 +14,7 @@ By using the Site, you agree to the practices described in this Privacy Policy. 
 ## 1. Information We Collect
 
 **Information you give us directly**
-- **Email address**, if you sign up for our email updates through the form on this Site (powered by our email provider, Kit).
+- **Email address**, if you have signed up for our email updates. Our mailing list is managed by our email provider, Kit.
 - **Name, email address, and message content**, if you contact us directly — for example, by emailing elpinerofilm@gmail.com, submitting a casting inquiry, or reaching out about a sponsorship or partnership.
 - **Audition or casting materials** (such as a self-tape, headshot, résumé, or written responses), if you submit them for consideration for a role in the film.
 
@@ -22,13 +22,18 @@ We do not collect payment card information ourselves. If you make a donation thr
 
 **Information collected automatically**
 
-Like most websites, the Site's hosting and security providers automatically log some technical information when you visit — such as your IP address, browser type, device type, and the pages you view. This Site is hosted on GitHub Pages and delivered through Cloudflare, and this basic log information is collected by those providers as part of operating and securing the Site. We use this information only in aggregate, to understand how the Site is used and to keep it running securely; we do not use it to individually identify visitors.
+Like most websites, the Site's hosting and security providers automatically log some technical information when you visit — such as your IP address, browser type, device type, and the pages you view. This Site is hosted on GitHub Pages and delivered through Cloudflare, and this basic log information is collected by those providers as part of operating and securing the Site.
+
+**Analytics**
+
+We use **Cloudflare Web Analytics** to understand, in aggregate, how the Site is used. When you load a page, a small script from Cloudflare records information about that visit, such as the page viewed, the referring website, your general location (country), your browser and device type, and page load performance. According to Cloudflare, Web Analytics does not use cookies or local storage to collect these metrics, and does not "fingerprint" individual visitors using their IP address, browser details, or other data. We see only aggregated statistics (for example, how many visits a page received), not information about individual visitors. You can read more in [Cloudflare's description of Web Analytics](https://www.cloudflare.com/web-analytics/){:target="_blank"}.
+
+We use this information only in aggregate, to understand how the Site is used and to keep it running securely; we do not use it to individually identify visitors.
 
 **Information from embedded third-party services**
 
 Some pages on this Site embed content or forms from other companies, each of which may collect information according to its own privacy policy, independently of us:
 - **YouTube / Google**, for embedded video content
-- **Kit**, for the email signup form
 - **PayPal**, for donation processing
 
 We encourage you to review those companies' own privacy policies if you have questions about how they handle your information.
@@ -46,7 +51,9 @@ We do not sell your personal information, and we do not use it for advertising o
 
 ## 3. Cookies and Tracking
 
-This Site does not run its own analytics or advertising trackers. However, some of the embedded third-party services described in Section 1 — particularly YouTube video embeds — may set cookies or use similar technologies in your browser as part of their own operation, governed by their own policies. Cloudflare, our content delivery and security provider, may also use limited technical cookies to protect the Site from abuse.
+This Site does not use advertising trackers, and it does not set its own cookies. As described in Section 1, we use Cloudflare Web Analytics, which does not use cookies. The Site may store a small preference in your browser's local storage, for example to remember that you closed an announcement pop-up so it isn't shown to you again right away; this stays on your device and is not sent to us.
+
+However, some of the embedded third-party services described in Section 1 — particularly YouTube video embeds — may set cookies or use similar technologies in your browser as part of their own operation, governed by their own policies. Cloudflare, our content delivery and security provider, may also use limited technical cookies to protect the Site from abuse.
 
 **Do Not Track:** This Site does not currently respond differently to "Do Not Track" browser signals, and its behavior is the same whether or not such a signal is present. Third-party services embedded on the Site may independently honor Do Not Track signals under their own policies.
 
@@ -59,7 +66,7 @@ If you qualify for a donor-tier item (such as a sticker set or care package), we
 ## 5. How We Share Information
 
 We don't sell personal information. We share it only:
-- With service providers who help us operate the Site and the project (Kit, PayPal, From the Heart Productions, GitHub Pages, Cloudflare), each acting under its own policies
+- With service providers who help us operate the Site and the project (Kit, PayPal, From the Heart Productions, GitHub Pages, and Cloudflare, including Cloudflare Web Analytics), each acting under its own policies
 - If required to by law, subpoena, or other legal process
 - To protect the rights, safety, or property of Far Shore Media, LLC, our collaborators, or others
 

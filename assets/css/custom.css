@@ -2,6 +2,13 @@
    FONTS
    ============================================ */
 
+/* Point the theme's font variables at the site fonts (loaded in
+   _includes/head.html) so no element falls back to Lora/Open Sans. */
+:root {
+  --body-font: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --header-font: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -235,8 +242,9 @@ footer {
   .navbar-scroll-avatar {
     display: none !important;
   }
-  /* Fade avatar when menu is open */
-  .navbar .avatar-container {
+  /* Fade avatar when menu is open (the theme adds .top-nav-expanded
+     to the navbar while the mobile menu is open) */
+  .navbar.top-nav-expanded .avatar-container {
     opacity: 0 !important;
     visibility: hidden !important;
     transition: opacity 0.3s ease, visibility 0.3s ease;
