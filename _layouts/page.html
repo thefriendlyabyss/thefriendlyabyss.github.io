@@ -66,8 +66,13 @@ layout: base
     padding: 28px 24px 24px;
     position: relative;
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
+  }
+
+  /* The popup box receives focus when it opens; no outline needed there */
+  #ep-rsvp-modal:focus {
+    outline: none;
   }
 
   #ep-rsvp-close {
@@ -76,6 +81,7 @@ layout: base
     right: 14px;
     background: none;
     border: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; /* keeps the × at its original size */
     font-size: 22px;
     line-height: 1;
     cursor: pointer;
@@ -113,7 +119,7 @@ layout: base
 </style>
 
 <div id="ep-rsvp-overlay">
-  <div id="ep-rsvp-modal" role="dialog" aria-modal="true" aria-labelledby="ep-rsvp-title">
+  <div id="ep-rsvp-modal" role="dialog" aria-modal="true" aria-labelledby="ep-rsvp-title" tabindex="-1">
     <button id="ep-rsvp-close" type="button" aria-label="Close">&times;</button>
     <h3 id="ep-rsvp-title">Join us in Sarasota</h3>
     <p>
@@ -147,6 +153,7 @@ layout: base
   if (dismissedUntil && now < new Date(parseInt(dismissedUntil, 10))) return;
 
   var overlay = document.getElementById("ep-rsvp-overlay");
+  var modal = document.getElementById("ep-rsvp-modal");
   var closeBtn = document.getElementById("ep-rsvp-close");
   var previousFocus = null;
 
@@ -157,7 +164,7 @@ layout: base
   function showModal() {
     previousFocus = document.activeElement;
     overlay.classList.add("ep-visible");
-    closeBtn.focus();
+    modal.focus();
   }
 
   function hideModal(snooze) {
@@ -182,7 +189,7 @@ layout: base
     // Keep Tab focus inside the popup while it is open
     if (e.key === "Tab") {
       var cta = document.getElementById("ep-rsvp-cta");
-      if (e.shiftKey && document.activeElement === closeBtn) { e.preventDefault(); cta.focus(); }
+      if (e.shiftKey && (document.activeElement === closeBtn || document.activeElement === modal)) { e.preventDefault(); cta.focus(); }
       else if (!e.shiftKey && document.activeElement === cta) { e.preventDefault(); closeBtn.focus(); }
     }
   });
