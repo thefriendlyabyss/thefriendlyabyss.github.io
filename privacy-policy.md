@@ -22,7 +22,7 @@ We do not collect payment card information ourselves. If you make a donation thr
 
 **Information collected automatically**
 
-Like most websites, the Site's hosting and security providers automatically log some technical information when you visit — such as your IP address, browser type, device type, and the pages you view. This Site is hosted on GitHub Pages and delivered through Cloudflare, and this basic log information is collected by those providers as part of operating and securing the Site.
+Like most websites, the Site's hosting provider automatically logs some technical information when you visit — such as your IP address, browser type, device type, and the pages you view. This Site is hosted on GitHub Pages, and this basic log information is collected by GitHub as part of operating and securing the Site. Our domain name is managed through Cloudflare's DNS service, but visits to the Site are not routed through Cloudflare's network.
 
 **Analytics**
 
@@ -53,7 +53,7 @@ We do not sell your personal information, and we do not use it for advertising o
 
 This Site does not use advertising trackers, and it does not set its own cookies. As described in Section 1, we use Cloudflare Web Analytics, which does not use cookies. The Site may store a small preference in your browser's local storage, for example to remember that you closed an announcement pop-up so it isn't shown to you again right away; this stays on your device and is not sent to us.
 
-However, some of the embedded third-party services described in Section 1 — particularly YouTube video embeds — may set cookies or use similar technologies in your browser as part of their own operation, governed by their own policies. Cloudflare, our content delivery and security provider, may also use limited technical cookies to protect the Site from abuse.
+However, some of the embedded third-party services described in Section 1 — particularly YouTube video embeds — may set cookies or use similar technologies in your browser as part of their own operation, governed by their own policies.
 
 **Do Not Track:** This Site does not currently respond differently to "Do Not Track" browser signals, and its behavior is the same whether or not such a signal is present. Third-party services embedded on the Site may independently honor Do Not Track signals under their own policies.
 
@@ -66,7 +66,7 @@ If you qualify for a donor-tier item (such as a sticker set or care package), we
 ## 5. How We Share Information
 
 We don't sell personal information. We share it only:
-- With service providers who help us operate the Site and the project (Kit, PayPal, From the Heart Productions, GitHub Pages, and Cloudflare, including Cloudflare Web Analytics), each acting under its own policies
+- With service providers who help us operate the Site and the project (Kit, PayPal, From the Heart Productions, GitHub Pages, and Cloudflare for domain name services and Web Analytics), each acting under its own policies
 - If required to by law, subpoena, or other legal process
 - To protect the rights, safety, or property of Far Shore Media, LLC, our collaborators, or others
 
