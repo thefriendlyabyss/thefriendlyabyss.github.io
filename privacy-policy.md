@@ -5,7 +5,7 @@ subtitle: How we collect, use, and protect your information
 meta-description: Privacy Policy for El Pinero, a short film by Far Shore Media, LLC.
 ---
 
-**Last updated: September 24, 2026**
+**Last updated: September 29, 2026**
 
 This Privacy Policy explains how Far Shore Media, LLC ("Far Shore Media," "we," "us," or "our") collects, uses, and shares information when you visit elpinerofilm.com (the "Site"), the website for our short film *El Pinero*.
 
@@ -14,7 +14,7 @@ By using the Site, you agree to the practices described in this Privacy Policy. 
 ## 1. Information We Collect
 
 **Information you give us directly**
-- **Email address**, if you have signed up for our email updates. Our mailing list is managed by our email provider, Kit.
+- **Email address**, if you have donated to *El Pinero*. We add donors to our email list so we can keep them updated on the project; there is no public sign-up. Our mailing list is managed by our email provider, Kit.
 - **Name, email address, and message content**, if you contact us directly — for example, by emailing elpinerofilm@gmail.com, submitting a casting inquiry, or reaching out about a sponsorship or partnership.
 - **Audition or casting materials** (such as a self-tape, headshot, résumé, or written responses), if you submit them for consideration for a role in the film.
 
@@ -41,7 +41,7 @@ We encourage you to review those companies' own privacy policies if you have que
 ## 2. How We Use Information
 
 We use the information described above to:
-- Send you updates about *El Pinero*, if you've signed up for our email list
+- Send project updates about *El Pinero* to donors on our email list
 - Respond to inquiries, casting submissions, and sponsorship or partnership requests
 - Evaluate and follow up on audition materials
 - Understand and improve how people use the Site
@@ -61,7 +61,7 @@ However, some of the embedded third-party services described in Section 1 — pa
 
 *El Pinero* is a fiscally sponsored project of **From the Heart Productions**, a 501(c)(3) nonprofit organization. When you donate through the PayPal link on this Site, your donation and any information you provide during that transaction (such as your name, email, and payment details) are collected and processed by PayPal and by From the Heart Productions, not by Far Shore Media, LLC directly. That information is handled under PayPal's and From the Heart Productions' own privacy policies, which we encourage you to review.
 
-If you qualify for a donor-tier item (such as a sticker set or care package), we may receive your name, email, and mailing address from PayPal or From the Heart Productions solely to fulfill that item, and we'll use it only for that purpose.
+When you donate, we may receive your name and email address (and, if you qualify for a donor-tier item such as a sticker set or care package, your mailing address) from PayPal or From the Heart Productions, or directly from you if you share it with us. We use this information to thank you, to fulfill any donor-tier item, and to send you occasional updates about *El Pinero*. All donors are added to our email list, and you can unsubscribe at any time, including from the very first email (see Section 6). We use your mailing address only to ship your item.
 
 ## 5. How We Share Information
 
@@ -72,7 +72,7 @@ We don't sell personal information. We share it only:
 
 ## 6. Your Choices
 
-- **Email list:** every email from us includes an unsubscribe link, or you can email us at elpinerofilm@gmail.com to be removed.
+- **Email list:** every email from us includes an unsubscribe link, or you can email us at elpinerofilm@gmail.com to be removed. If you donate and would prefer not to be added to the list at all, just let us know.
 - **General requests:** you can email elpinerofilm@gmail.com at any time to ask what information we hold about you, to correct it, or to request that we delete it. We'll do our best to accommodate reasonable requests, even where a particular privacy law's formal rights may not technically apply to a project our size.
 - **California residents:** consistent with the California Online Privacy Protection Act, you may contact us at the email above with any questions about our privacy practices.
 
