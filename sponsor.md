@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Become a Sponsor
-subtitle: Put your business behind a story worth telling.
+subtitle: Put your business, or your name, behind a story worth telling.
 ---
 <style>
 .donate-button {
@@ -55,7 +55,7 @@ subtitle: Put your business behind a story worth telling.
 </style>
 *El Pinero* follows Cole, a young American searching for the grave of a grandfather who left home for Cuba's Isla de la Juventud decades ago. What starts as a physical journey becomes an exploration of identity, memory, and inheritance, grounded in a little known chapter of American-Cuban history: the migration of thousands of Americans to the island in the early twentieth century.
 
-The film is made by a bilingual, cross-cultural team with direct ties to the story and the place it's set. Sponsoring it puts your business behind a culturally meaningful project, not traditional advertising. What that partnership actually offers is cultural visibility, community engagement, artistic collaboration, and support for independent cinema.
+The film is made by a bilingual, cross-cultural team with direct ties to the story and the place it's set. Sponsoring it puts your business or your name behind a culturally meaningful project, not traditional advertising. For businesses, that partnership offers cultural visibility, community engagement, and artistic collaboration. For individuals, it means a lasting credit on a film you helped make and a closer look at how it comes together. Either way, it's direct support for independent cinema.
 
 ---
 ### Sponsorship Tiers
