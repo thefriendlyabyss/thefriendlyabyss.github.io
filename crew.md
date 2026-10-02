@@ -46,12 +46,12 @@ share-description: "Meet the cast and the Cuban and American filmmakers behind E
 .crew-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 48px;
+  column-gap: 40px;
 }
 
 .crew-entry {
   display: flex;
-  align-items: stretch;
+  align-items: flex-start;
   gap: 24px;
   padding-bottom: 32px;
   margin-bottom: 32px;
@@ -64,17 +64,18 @@ share-description: "Meet the cast and the Cuban and American filmmakers behind E
   padding-bottom: 0;
 }
 .crew-photo-wrap {
-  flex: 0 0 180px;
-  width: 180px;
+  flex: 0 0 220px;
+  width: 220px;
 }
 .cast-section .crew-photo-wrap {
-  flex-basis: 240px;
-  width: 240px;
+  flex-basis: 260px;
+  width: 260px;
 }
 .crew-photo {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
+  object-position: center 20%;
   border-radius: 6px;
   display: block;
   filter: grayscale(100%);
@@ -113,6 +114,7 @@ share-description: "Meet the cast and the Cuban and American filmmakers behind E
   }
   .crew-photo {
     width: 100%;
+    aspect-ratio: auto;
     height: 340px;
     object-position: center 20%;
   }
