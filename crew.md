@@ -1,7 +1,7 @@
 ---
 layout: page
-title: The Crew
-share-description: "Meet the Cuban and American filmmakers behind El Pinero, a bilingual short film shot on Cuba's Isla de la Juventud."
+title: Cast + Crew
+share-description: "Meet the cast and the Cuban and American filmmakers behind El Pinero, a bilingual short film shot on Cuba's Isla de la Juventud."
 ---
 
 <style>
@@ -26,10 +26,25 @@ share-description: "Meet the Cuban and American filmmakers behind El Pinero, a b
   text-decoration: none;
 }
 
+.cast-crew-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+.cast-crew-heading {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin: 0 0 24px 0;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #1d3d3d;
+}
+
 .crew-entry {
   display: flex;
-  align-items: stretch;
-  gap: 24px;
+  flex-direction: column;
+  gap: 16px;
   padding-bottom: 32px;
   margin-bottom: 32px;
   border-bottom: 1px solid #ddd;
@@ -40,36 +55,57 @@ share-description: "Meet the Cuban and American filmmakers behind El Pinero, a b
   padding-bottom: 0;
 }
 .crew-photo-wrap {
-  flex: 0 0 200px;
-  width: 200px;
+  width: 100%;
 }
 .crew-photo {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
+  object-position: center 20%;
   border-radius: 6px;
   display: block;
+  filter: grayscale(100%);
 }
 .crew-content {
-  flex: 1;
   min-width: 0;
+}
+.crew-content h3 {
+  margin-top: 0;
 }
 
 @media (max-width: 767px) {
-  .crew-entry {
-    flex-direction: column;
-  }
-  .crew-photo-wrap {
-    width: 100%;
-    flex: 0 0 auto;
+  .cast-crew-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
   }
   .crew-photo {
-    width: 100%;
+    aspect-ratio: auto;
     height: 340px;
-    object-position: center 20%;
   }
 }
 </style>
+
+<div class="cast-crew-grid">
+<section class="cast-crew-col" aria-labelledby="cast-heading">
+<h2 class="cast-crew-heading" id="cast-heading">Cast</h2>
+
+<div class="crew-entry">
+  <div class="crew-photo-wrap">
+    <img src="{{ '/assets/img/Tony Palles.webp' | relative_url }}" alt="Tony Palles" class="crew-photo">
+  </div>
+  <div class="crew-content" markdown="1">
+
+### Tony Palles
+#### _Cole_
+
+Tony Palles is a Tampa-born actor of Cuban and Puerto Rican heritage. Acting was a lifelong dream that he finally pursued at age 40, and he has been building an impressive body of work ever since. His commercial credits include spots for USAA, CarShield, HealthCare.gov, and Hard Rock Bet. On screen, he has appeared in the feature films *Married to a Balla 2* and *Velocity Kings*, and starred in the award-winning short films *Forest of Fools* and *Baby Teeth*, earning Best Lead Actor for both at the Orlando International Film Festival. A proud father of two, Tony brings both heart and lived experience to the role of Cole in *El Pinero*.
+
+  </div>
+</div>
+
+</section>
+<section class="cast-crew-col" aria-labelledby="crew-heading">
+<h2 class="cast-crew-heading" id="crew-heading">Crew</h2>
 
 <div class="crew-entry">
   <div class="crew-photo-wrap">
@@ -167,6 +203,9 @@ Saulo Adrián Fernández Gil is a Mexico City-based sound designer specializing 
 Ava Abreu is a Florida-based film student currently studying at State College of Florida, with a focus in directing, cinematography, and technical theatre. Ava has done work on several productions in both film and theatre, ranging from directing and assistant directing to production design and run crew. Her most recent work includes directing two PSA-style shorts for her film course, and directing for her college's play festival, _Mall Stories of the 80's_.
 
   </div>
+</div>
+
+</section>
 </div>
 
 ---
