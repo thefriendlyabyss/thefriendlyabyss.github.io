@@ -14,7 +14,7 @@ By using the Site, you agree to the practices described in this Privacy Policy. 
 ## 1. Information We Collect
 
 **Information you give us directly**
-- **Email address**, if you have donated to *El Pinero* or RSVPed to one of our events. We add donors and event attendees to our email list so we can keep them updated on the project; there is no public sign-up. Our mailing list is managed by our email provider, Kit.
+- **Email address**, if you have donated to *El Pinero* or RSVPed to one of our events. We add donors and everyone who RSVPs to our events to our email list so we can keep them updated on the project; there is no public sign-up. Our mailing list is managed by our email provider, Kit.
 - **Name, email address, and message content**, if you contact us directly — for example, by emailing elpinerofilm@gmail.com, submitting a casting inquiry, or reaching out about a sponsorship or partnership.
 - **Audition or casting materials** (such as a self-tape, headshot, résumé, or written responses), if you submit them for consideration for a role in the film.
 
@@ -41,7 +41,7 @@ We encourage you to review those companies' own privacy policies if you have que
 ## 2. How We Use Information
 
 We use the information described above to:
-- Send project updates about *El Pinero* to donors and event attendees on our email list
+- Send project updates about *El Pinero* to people on our email list (donors and everyone who has RSVPed to our events)
 - Respond to inquiries, casting submissions, and sponsorship or partnership requests
 - Evaluate and follow up on audition materials
 - Understand and improve how people use the Site
@@ -63,7 +63,7 @@ However, some of the embedded third-party services described in Section 1 — pa
 
 When you donate, we may receive your name and email address (and, if you qualify for a donor-tier item such as a sticker set or care package, your mailing address) from PayPal or From the Heart Productions, or directly from you if you share it with us. We use this information to thank you, to fulfill any donor-tier item, and to send you occasional updates about *El Pinero*. All donors are added to our email list, and you can unsubscribe at any time, including from the very first email (see Section 6). We use your mailing address only to ship your item.
 
-When you RSVP or register for an *El Pinero* event through a platform such as Eventbrite, that platform collects your registration information under its own privacy policy and shares your name and email address with us as the event organizer. We use this information to manage the event, to follow up with you about it, and to send you occasional updates about *El Pinero*. Event attendees are added to our email list, and you can unsubscribe at any time, including from the very first email (see Section 6).
+When you RSVP or register for an *El Pinero* event through a platform such as Eventbrite, that platform collects your registration information under its own privacy policy and shares your name and email address with us as the event organizer. We use this information to manage the event, to follow up with you about it, and to send you occasional updates about *El Pinero*. Everyone who RSVPs is added to our email list, whether or not they end up attending, and you can unsubscribe at any time, including from the very first email (see Section 6).
 
 ## 5. How We Share Information
 
