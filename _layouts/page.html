@@ -31,3 +31,194 @@ layout: base
     </div>
   </div>
 </main>
+
+{% if page.url == "/" %}
+<!-- El Pinero announcement popup — homepage only.
+     Currently: the YouTube premiere of Last Thread. The popup picks its wording
+     from the dates below and stops showing on its own after END_AT. -->
+<style>
+  :root {
+    --ep-teal-dark: #0a2828;
+    --ep-teal-mid: #0d4a52;
+    --ep-teal-light: #1a7070;
+    --ep-mint: #e0f0d0;
+  }
+
+  #ep-promo-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(10, 40, 40, 0.55);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    padding: 16px;
+  }
+
+  #ep-promo-overlay.ep-visible {
+    display: flex;
+  }
+
+  #ep-promo-modal {
+    background: var(--ep-teal-dark);
+    color: var(--ep-mint);
+    max-width: 420px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 28px 24px 24px;
+    position: relative;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+  }
+
+  /* The popup box receives focus when it opens; no outline needed there */
+  #ep-promo-modal:focus {
+    outline: none;
+  }
+
+  #ep-promo-close {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    background: none;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; /* keeps the × at its original size */
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--ep-mint);
+  }
+
+  #ep-promo-modal h3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+    color: var(--ep-mint);
+  }
+
+  #ep-promo-modal p {
+    margin: 0 0 18px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--ep-mint);
+  }
+
+  #ep-promo-cta {
+    display: inline-block;
+    background: var(--ep-mint);
+    color: var(--ep-teal-dark);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 6px;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  #ep-promo-cta:hover {
+    background: var(--ep-teal-light);
+    color: var(--ep-mint);
+  }
+
+  .ep-promo-phase[hidden] {
+    display: none;
+  }
+</style>
+
+<div id="ep-promo-overlay">
+  <div id="ep-promo-modal" role="dialog" aria-modal="true" aria-labelledby="ep-promo-title" tabindex="-1">
+    <button id="ep-promo-close" type="button" aria-label="Close">&times;</button>
+
+    <!-- Shown before the premiere -->
+    <div class="ep-promo-phase" data-phase="before" hidden>
+      <h3>Premiering Sunday on YouTube</h3>
+      <p>
+        Our short film <em>Last Thread</em>, shot on Cuba's Isle of Youth and an
+        Official Selection at FilmGate Miami, premieres on our YouTube channel
+        this Sunday, Oct 18, at 10am ET. Set a reminder and watch with us.
+      </p>
+    </div>
+
+    <!-- Shown from the premiere until END_AT -->
+    <div class="ep-promo-phase" data-phase="after" hidden>
+      <h3>Now on YouTube</h3>
+      <p>
+        Our short film <em>Last Thread</em>, shot on Cuba's Isle of Youth and an
+        Official Selection at FilmGate Miami, is now streaming free on our
+        YouTube channel.
+      </p>
+    </div>
+
+    <a id="ep-promo-cta" href="https://www.youtube.com/watch?v=8HGDw1lh20c" target="_blank" rel="noopener"></a>
+  </div>
+</div>
+
+<script>
+(function () {
+  // ---- CONFIGURE THESE ----
+  var PREMIERE_AT = "2026-10-18T10:00:00-04:00"; // wording switches from "premiering" to "now on YouTube" (Eastern time)
+  var END_AT      = "2026-10-25T10:00:00-04:00"; // stop showing one week after the premiere
+  var CTA_TEXT = { before: "Set a reminder on YouTube", after: "Watch on YouTube" };
+  var SHOW_DELAY_MS = 4000;   // wait 4 seconds before showing, so it doesn't feel instant/intrusive
+  var SNOOZE_HOURS = 24;      // don't re-show to the same visitor for this many hours after they dismiss it
+  var STORAGE_KEY = "epPromoDismissedUntil";
+  // --------------------------
+
+  var now = new Date();
+  if (now >= new Date(END_AT)) return; // promotion's over — never show again, nothing to clean up manually
+  var phase = now < new Date(PREMIERE_AT) ? "before" : "after";
+
+  // A dismissal only snoozes the wording it was made on, so someone who closed the
+  // "premiering Sunday" version still sees the "now on YouTube" version once it's out.
+  var dismissed = null;
+  try { dismissed = JSON.parse(localStorage.getItem(STORAGE_KEY)); } catch (e) {}
+  if (dismissed && dismissed.phase === phase && now < new Date(dismissed.until)) return;
+
+  var overlay = document.getElementById("ep-promo-overlay");
+  var modal = document.getElementById("ep-promo-modal");
+  var closeBtn = document.getElementById("ep-promo-close");
+  var cta = document.getElementById("ep-promo-cta");
+  var content = modal.querySelector('.ep-promo-phase[data-phase="' + phase + '"]');
+  var previousFocus = null;
+
+  content.hidden = false;
+  content.querySelector("h3").id = "ep-promo-title";
+  cta.textContent = CTA_TEXT[phase];
+
+  function isVisible() {
+    return overlay.classList.contains("ep-visible");
+  }
+
+  function showModal() {
+    previousFocus = document.activeElement;
+    overlay.classList.add("ep-visible");
+    modal.focus();
+  }
+
+  function hideModal(snooze) {
+    if (!isVisible()) return;
+    overlay.classList.remove("ep-visible");
+    if (previousFocus && previousFocus.focus) previousFocus.focus();
+    if (snooze) {
+      var until = Date.now() + SNOOZE_HOURS * 60 * 60 * 1000;
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify({ phase: phase, until: until })); } catch (e) {}
+    }
+  }
+
+  setTimeout(showModal, SHOW_DELAY_MS);
+
+  closeBtn.addEventListener("click", function () { hideModal(true); });
+  overlay.addEventListener("click", function (e) {
+    if (e.target === overlay) hideModal(true);
+  });
+  document.addEventListener("keydown", function (e) {
+    if (!isVisible()) return;
+    if (e.key === "Escape") hideModal(true);
+    // Keep Tab focus inside the popup while it is open
+    if (e.key === "Tab") {
+      if (e.shiftKey && (document.activeElement === closeBtn || document.activeElement === modal)) { e.preventDefault(); cta.focus(); }
+      else if (!e.shiftKey && document.activeElement === cta) { e.preventDefault(); closeBtn.focus(); }
+    }
+  });
+})();
+</script>
+{% endif %}
