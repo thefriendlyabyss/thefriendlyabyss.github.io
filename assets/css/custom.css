@@ -200,7 +200,7 @@ footer {
    DESKTOP - SPLIT NAV BREAKPOINT
    ============================================ */
 
-@media (max-width: 1200px) {
+@media (max-width: 1199.98px) { /* ends just below Bootstrap's 1200px navbar-expand-xl breakpoint so the two never overlap */
   .navbar-split-layout {
     flex-direction: column;
     gap: 0;
