@@ -61,6 +61,10 @@ body-class: homepage
     z-index: 3;
   }
   .hero-video-wrap {
+    /* An explicit width keeps the video from collapsing to 0x0 when a
+       mobile rule turns its container into a centered flex column
+       (about 601-768px wide, e.g. portrait tablets) */
+    width: 100%;
     /* Full 640px on tall screens; shrinks on short ones so the logline,
        video and buttons all fit below the menu */
     max-width: clamp(320px, calc((100vh - 460px) * 16 / 9), 640px);
@@ -133,7 +137,7 @@ body-class: homepage
     <p style="color: #ffffff; font-size: 1.4em; font-style: italic; 
       margin-bottom: 15px;">
       To fulfill his father's last wish, a young American man travels to
-      Isla de la Juventud, Cuba. But as he journeys deeper into the Island,
+      Isla de la Juventud, Cuba. But as he journeys deeper into the island,
       the search for his grandfather's grave opens the door to a family
       history he never knew.
     </p>
