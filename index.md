@@ -50,7 +50,10 @@ body-class: homepage
   }
   .hero-content {
     position: absolute;
-    top: 50%; left: 50%;
+    /* Center in the space below the fixed menu bar and its round logo
+       (about 120px tall), not the whole screen, so the logline isn't
+       tucked under the menu on shorter laptop screens */
+    top: calc(50% + 60px); left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 20px;
@@ -58,7 +61,9 @@ body-class: homepage
     z-index: 3;
   }
   .hero-video-wrap {
-    max-width: 640px;
+    /* Full 640px on tall screens; shrinks on short ones so the logline,
+       video and buttons all fit below the menu */
+    max-width: clamp(320px, calc((100vh - 460px) * 16 / 9), 640px);
     margin: 0 auto 25px auto;
     border-radius: 10px;
     overflow: hidden;
@@ -127,9 +132,10 @@ body-class: homepage
   <div class="hero-content">
     <p style="color: #ffffff; font-size: 1.4em; font-style: italic; 
       margin-bottom: 15px;">
-      In Cuba, an American man searches for his grandfather's grave, 
-      but as he moves through the island, the history he came to recover 
-      begins to slip away from him.
+      To fulfill his father's last wish, a young American man travels to
+      Isla de la Juventud, Cuba. But as he journeys deeper into the Island,
+      the search for his grandfather's grave opens the door to a family
+      history he never knew.
     </p>
     <p style="color: #e0f0d0; font-size: 0.95em; margin-bottom: 25px;">
       <em>El Pinero</em> — a short film by Robert Potter and Meilín Quilez Durañona
