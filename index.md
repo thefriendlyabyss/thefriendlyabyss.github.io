@@ -148,7 +148,7 @@ body-class: homepage
     <div>
       <a href="film" style="display: inline-block; margin: 8px; padding: 10px 24px; 
         background-color: #0d4a52; color: #e0f0d0; text-decoration: none; 
-        border-radius: 4px; font-size: 0.95em;">About The Film</a>
+        border-radius: 4px; font-size: 0.95em;">The History</a>
       <a href="/support/"
         style="display: inline-block; margin: 8px; padding: 10px 24px; 
         background-color: #1a7070; color: #e0f0d0; text-decoration: none; 
