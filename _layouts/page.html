@@ -31,3 +31,167 @@ layout: base
     </div>
   </div>
 </main>
+
+{% if page.url == "/" %}
+<!-- El Pinero announcement popup — homepage only.
+     Currently: the new Michael Neagle video on YouTube (posted Nov 8, 2026).
+     It stops showing on its own after END_AT. -->
+<style>
+  :root {
+    --ep-teal-dark: #0a2828;
+    --ep-teal-mid: #0d4a52;
+    --ep-teal-light: #1a7070;
+    --ep-mint: #e0f0d0;
+  }
+
+  #ep-promo-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(10, 40, 40, 0.55);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    padding: 16px;
+  }
+
+  #ep-promo-overlay.ep-visible {
+    display: flex;
+  }
+
+  #ep-promo-modal {
+    background: var(--ep-teal-dark);
+    color: var(--ep-mint);
+    max-width: 420px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 28px 24px 24px;
+    position: relative;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+  }
+
+  /* The popup box receives focus when it opens; no outline needed there */
+  #ep-promo-modal:focus {
+    outline: none;
+  }
+
+  #ep-promo-close {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    background: none;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; /* keeps the × at its original size */
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--ep-mint);
+  }
+
+  #ep-promo-modal h3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+    color: var(--ep-mint);
+  }
+
+  #ep-promo-modal p {
+    margin: 0 0 18px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--ep-mint);
+  }
+
+  #ep-promo-cta {
+    display: inline-block;
+    background: var(--ep-mint);
+    color: var(--ep-teal-dark);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 6px;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  #ep-promo-cta:hover {
+    background: var(--ep-teal-light);
+    color: var(--ep-mint);
+  }
+</style>
+
+<div id="ep-promo-overlay">
+  <div id="ep-promo-modal" role="dialog" aria-modal="true" aria-labelledby="ep-promo-title" tabindex="-1">
+    <button id="ep-promo-close" type="button" aria-label="Close">&times;</button>
+
+    <h3 id="ep-promo-title">New on YouTube</h3>
+    <p>
+      Our new video features historian Michael Neagle, author of
+      <em>America's Forgotten Colony: Cuba's Isle of Pines</em>, on the history
+      behind <em>El Pinero</em>. Watch it now on our YouTube channel.
+    </p>
+
+    <a id="ep-promo-cta" href="https://www.youtube.com/watch?v=AYp0d09Czv0" target="_blank" rel="noopener">Watch on YouTube</a>
+  </div>
+</div>
+
+<script>
+(function () {
+  // ---- CONFIGURE THESE ----
+  var END_AT = "2026-11-15T23:59:00-05:00"; // stop showing after Sunday, Nov 15 (Eastern time)
+  var SHOW_DELAY_MS = 4000;   // wait 4 seconds before showing, so it doesn't feel instant/intrusive
+  var SNOOZE_HOURS = 24;      // don't re-show to the same visitor for this many hours after they dismiss it
+  var STORAGE_KEY = "epPromoNeagleDismissedUntil";
+  // --------------------------
+
+  var now = new Date();
+  if (now >= new Date(END_AT)) return; // promotion's over — never show again, nothing to clean up manually
+
+  var dismissedUntil = null;
+  try { dismissedUntil = Number(localStorage.getItem(STORAGE_KEY)); } catch (e) {}
+  if (dismissedUntil && Date.now() < dismissedUntil) return;
+
+  var overlay = document.getElementById("ep-promo-overlay");
+  var modal = document.getElementById("ep-promo-modal");
+  var closeBtn = document.getElementById("ep-promo-close");
+  var cta = document.getElementById("ep-promo-cta");
+  var previousFocus = null;
+
+  function isVisible() {
+    return overlay.classList.contains("ep-visible");
+  }
+
+  function showModal() {
+    previousFocus = document.activeElement;
+    overlay.classList.add("ep-visible");
+    modal.focus();
+  }
+
+  function hideModal(snooze) {
+    if (!isVisible()) return;
+    overlay.classList.remove("ep-visible");
+    if (previousFocus && previousFocus.focus) previousFocus.focus();
+    if (snooze) {
+      var until = Date.now() + SNOOZE_HOURS * 60 * 60 * 1000;
+      try { localStorage.setItem(STORAGE_KEY, String(until)); } catch (e) {}
+    }
+  }
+
+  setTimeout(showModal, SHOW_DELAY_MS);
+
+  closeBtn.addEventListener("click", function () { hideModal(true); });
+  overlay.addEventListener("click", function (e) {
+    if (e.target === overlay) hideModal(true);
+  });
+  document.addEventListener("keydown", function (e) {
+    if (!isVisible()) return;
+    if (e.key === "Escape") hideModal(true);
+    // Keep Tab focus inside the popup while it is open
+    if (e.key === "Tab") {
+      if (e.shiftKey && (document.activeElement === closeBtn || document.activeElement === modal)) { e.preventDefault(); cta.focus(); }
+      else if (!e.shiftKey && document.activeElement === cta) { e.preventDefault(); closeBtn.focus(); }
+    }
+  });
+})();
+</script>
+{% endif %}
