@@ -150,6 +150,13 @@ body-class: homepage
     margin-top: 36px;
   }
 
+  .home-intro {
+    max-width: 640px;
+    margin: -12px auto 36px;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+
   /* Filmmakers */
   .home-people {
     display: flex;
@@ -392,6 +399,7 @@ body-class: homepage
   <div class="home-section-inner">
     <p class="home-eyebrow">The Filmmakers</p>
     <h2 id="home-filmmakers">From Florida to the Isla de la Juventud</h2>
+    <p class="home-intro"><em>El Pinero</em> brings together American and Cuban filmmakers to tell a story that belongs to both countries.</p>
     <div class="home-people">
       <div class="home-person">
         <img src="{{ '/assets/img/Robert W. Potter.webp' | relative_url }}" alt="Robert W. Potter" loading="lazy">
