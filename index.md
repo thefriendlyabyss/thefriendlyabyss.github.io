@@ -174,6 +174,8 @@ body-class: homepage
     filter: grayscale(100%);
     display: block;
     margin-bottom: 16px;
+    border: 6px solid #ffffff;
+    box-shadow: 0 4px 14px rgba(10, 40, 40, 0.18);
   }
   .home-person h3 {
     margin: 0 0 4px;
@@ -244,9 +246,68 @@ body-class: homepage
     opacity: 0.7;
   }
 
+  .home-history-short {
+    display: none;
+  }
+
   @media (max-width: 767px) {
     .home-section {
-      padding: 56px 16px;
+      padding: 48px 16px;
+    }
+    .home-section h2 {
+      margin-bottom: 24px;
+    }
+    .home-cta {
+      margin-top: 28px;
+    }
+    /* Filmmakers: side by side, smaller */
+    .home-people {
+      gap: 16px;
+      flex-wrap: nowrap;
+    }
+    .home-person {
+      width: 50%;
+      max-width: 180px;
+    }
+    .home-person img {
+      border-width: 4px;
+      margin-bottom: 10px;
+    }
+    .home-person h3 {
+      font-size: 1rem;
+    }
+    .home-role {
+      font-size: 0.9em;
+      margin-bottom: 4px;
+    }
+    .home-shoot {
+      margin-top: 24px;
+    }
+    /* History: one short paragraph and a wide, short photo */
+    .home-history-full {
+      display: none;
+    }
+    .home-history-short {
+      display: block;
+      margin: 0;
+      text-align: center;
+    }
+    .home-history {
+      gap: 20px;
+    }
+    .home-history img {
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+    /* Updates: title and date only */
+    .home-update {
+      gap: 14px;
+    }
+    .home-update img {
+      aspect-ratio: 16 / 9;
+    }
+    .home-update p {
+      display: none;
     }
     .home-history,
     .home-update {
@@ -358,10 +419,11 @@ body-class: homepage
     <h2 id="home-history">America's Forgotten Colony</h2>
     <div class="home-history">
       <img src="{{ '/assets/img/posts/nueva-gerona-harbor.jpg' | relative_url }}" alt="An old photograph of the harbor at Nueva Gerona" loading="lazy">
-      <div>
+      <div class="home-history-full">
         <p>In the early 1900s, while the island's political status sat unresolved, American land companies sold Cuba's Isle of Pines as a tropical paradise ready to be farmed. Thousands of settlers came. At the peak, perhaps two thousand Americans lived there, founding roughly a dozen towns with their own churches, schools, and an English-language newspaper.</p>
         <p>Most eventually left. In 1925 the United States recognized Cuban sovereignty over the island, and after the 1959 Revolution nearly all who remained went home. The last of them died there in 1995. What is left is a weathered cemetery holding the graves of some two hundred Americans, and that is where <em>El Pinero</em> begins.</p>
       </div>
+      <p class="home-history-short">In the early 1900s, as many as two thousand Americans settled Cuba's Isle of Pines. Nearly all of them eventually left. What remains is a weathered cemetery holding some two hundred American graves, and that is where <em>El Pinero</em> begins.</p>
     </div>
     <div class="home-cta">
       <a href="{{ '/film/' | relative_url }}" class="home-btn">Learn the History</a>
