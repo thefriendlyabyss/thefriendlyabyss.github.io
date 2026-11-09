@@ -3,14 +3,17 @@ layout: page
 title: Support the Film
 subtitle: Help us tell a story that history almost forgot.
 # Budget tracker: update these two numbers (whole dollars, no commas or $).
-# The percentage, "still to go" amount and progress bar all update from them.
+# The page rounds the amount raised DOWN to the nearest $100 before showing it,
+# so you can enter the exact total. The percentage, "still to go" amount and
+# progress bar all update from these.
 raised: 3051
 goal: 17000
 ---
 {% comment %} Dollar amounts with thousands commas, e.g. 17000 -> 17,000 {% endcomment %}
-{% assign to_go = page.goal | minus: page.raised | at_least: 0 %}
-{% assign pct = page.raised | times: 100.0 | divided_by: page.goal | round | at_most: 100 %}
-{% assign amounts = "" | split: "" | push: page.raised | push: page.goal | push: to_go %}
+{% assign raised_shown = page.raised | divided_by: 100 | times: 100 %}
+{% assign to_go = page.goal | minus: raised_shown | at_least: 0 %}
+{% assign pct = raised_shown | times: 100.0 | divided_by: page.goal | round | at_most: 100 %}
+{% assign amounts = "" | split: "" | push: raised_shown | push: page.goal | push: to_go %}
 {% assign fmt = "" | split: "" %}
 {% for n in amounts %}
   {% assign thousands = n | divided_by: 1000 %}
@@ -140,7 +143,7 @@ Every contribution helps, at any amount. A couple of tiers come with something b
 <div class="budget-tracker">
   <div class="budget-raised">${{ fmt[0] }} raised</div>
   <div class="budget-sub">of our ${{ fmt[1] }} production budget, with ${{ fmt[2] }} still to go</div>
-  <div class="budget-bar" role="progressbar" aria-label="Production budget raised" aria-valuemin="0" aria-valuemax="{{ page.goal }}" aria-valuenow="{{ page.raised }}" aria-valuetext="${{ fmt[0] }} of ${{ fmt[1] }} raised">
+  <div class="budget-bar" role="progressbar" aria-label="Production budget raised" aria-valuemin="0" aria-valuemax="{{ page.goal }}" aria-valuenow="{{ raised_shown }}" aria-valuetext="${{ fmt[0] }} of ${{ fmt[1] }} raised">
     <div class="budget-fill" style="width: {{ pct }}%;"></div>
   </div>
   <div class="budget-ticks"><span>$0</span><span>{{ pct }}% funded</span><span>${{ fmt[1] }}</span></div>
