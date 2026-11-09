@@ -391,7 +391,7 @@ body-class: homepage
 <section class="home-section" aria-labelledby="home-filmmakers">
   <div class="home-section-inner">
     <p class="home-eyebrow">The Filmmakers</p>
-    <h2 id="home-filmmakers">Made on the Island, Together</h2>
+    <h2 id="home-filmmakers">From Florida to the Isla de la Juventud</h2>
     <div class="home-people">
       <div class="home-person">
         <img src="{{ '/assets/img/Robert W. Potter.webp' | relative_url }}" alt="Robert W. Potter" loading="lazy">
