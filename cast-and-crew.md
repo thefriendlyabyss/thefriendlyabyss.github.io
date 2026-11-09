@@ -137,11 +137,13 @@ Robert W. Potter is a Florida-born writer and producer as well as the founder of
 
 <div class="statement-columns" markdown="1">
 
-My name is Robert Potter. I'm the writer and producer of *El Pinero*, a narrative short film set on Cuba's Isla de la Juventud, developed together with Meilín Quilez Durañona, its co-producer and director. *El Pinero* is our second film together on the island; the first was [*Last Thread*](https://www.youtube.com/watch?v=8HGDw1lh20c), a short film made last year that let us explore the world of this story and confirm it was one worth telling.
+*El Pinero* is Meilín and I's second film together on the island; the first was [*Last Thread*](https://www.youtube.com/watch?v=8HGDw1lh20c), a short film made last year that let us explore the world of this story and confirm it was one worth telling.
 
 The remarkable journey of *El Pinero* grew out of two personal struggles in my life: a lack of direction, and the absence of a meaningful connection with the people around me. So when the chance came to travel to Cuba and work alongside a filmmaker from a different world, though one just ninety miles away, I didn't hesitate to take it.
 
-Traveling to the Isla de la Juventud with Meilín for the first time was a revelation. I saw the traces of American architecture that still remain there and discovered a largely forgotten history that once tied Cuba and the United States together. I also learned about the many groups, beyond Cubans and Americans, who settled on the island over the years, some of whom remain there to this day. This experience felt like uncovering buried treasure, and from there, the idea of telling a story about a journey of discovery clicked with me.
+Traveling to the Isla de la Juventud with Meilín for the first time was a revelation. I saw the traces of American architecture that still remain there and discovered a largely forgotten history that once tied Cuba and the United States together. 
+
+I also learned about the many groups, beyond Cubans and Americans, who settled on the island over the years, some of whom remain there to this day. This experience felt like uncovering buried treasure, and from there, the idea of telling a story about a journey of discovery clicked with me.
 
 And so the story we developed follows Cole, a man with whom I share certain similarities, arriving on the Isla de la Juventud hoping to fulfill his father's last wish and perhaps connect with him for the first time in a very long time. Searching the mountains, the pines, and the cemeteries scattered across the island, Cole comes to understand the truth about his mission: it was never about being a good son. His father sent him there so he could recover something he had lost long ago.
 
@@ -176,7 +178,9 @@ Meilín Quilez Durañona is a Cuban filmmaker born and raised on the Isla de la 
 
 <div class="statement-columns" markdown="1">
 
-I was born on the Isla de la Juventud, a place shaped by isolation and migration, where the stories are not only of those who leave, but of those who came and never went back. Over the last century, communities from many different diasporas across the world have lived side by side on this island. This history has always fascinated me, and two years ago, I began researching it as part of a documentary about the Japanese community that lives on the Isla de la Juventud to this day. Through that work, I learned about a history of an American presence, one that has long remained outside the larger narratives of both Cuba and the United States.
+I was born on the Isla de la Juventud, a place shaped by isolation and migration, where the stories are not only of those who leave, but of those who came and never went back. Over the last century, communities from many different diasporas across the world have lived side by side on this island. 
+
+This history has always fascinated me, and two years ago, I began researching it as part of a documentary about the Japanese community that lives on the Isla de la Juventud to this day. Through that work, I learned about a history of an American presence, one that has long remained outside the larger narratives of both Cuba and the United States.
 
 My connection to the story we tell in *El Pinero* is first a familial one for me. My grandfather was a taxi driver on the island and drove the Americans who lived there. I grew up with those anecdotes, which are now part of my family. Telling this story is a way of bringing my grandfather's memories to life. 
 
