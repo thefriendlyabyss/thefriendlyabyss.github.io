@@ -4,7 +4,7 @@ title: Support the Film
 subtitle: Help us tell a story that history almost forgot.
 # Budget tracker: update these two numbers (whole dollars, no commas or $).
 # The percentage, "still to go" amount and progress bar all update from them.
-raised: 3000
+raised: 3051
 goal: 17000
 ---
 {% comment %} Dollar amounts with thousands commas, e.g. 17000 -> 17,000 {% endcomment %}
