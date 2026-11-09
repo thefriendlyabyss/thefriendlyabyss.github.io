@@ -29,7 +29,7 @@ What begins as an act of grief becomes something harder to name. Moving through 
 ### The History
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; margin: 0 0 1.5rem;">
-  <iframe src="https://www.youtube-nocookie.com/embed/AYp0d09Czv0" title="Michael Neagle video on YouTube" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/AYp0d09Czv0" title="Interview with historian Michael Neagle (YouTube)" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 </div>
 
 About thirty miles off Cuba's southwest coast lies an island most people have never heard of. Over the years, it has gone by many names. The Spanish called it Isla de Pinos — the Isle of Pines. Cuban writers called it La Isla Olvidada — the forgotten island. Locals, worn down by centuries of names, called it the Island of a Thousand Names. American land promoters marketed it as the real-life Treasure Island of Robert Louis Stevenson, leaning into its reputation as a pirate haven and a place of buried fortune. In 1978, Fidel Castro renamed it the Isla de la Juventud — the Isle of Youth. That name has mostly stuck. But the older names say something truer about the place: it has always been easier to project a story onto this island than to know it.
