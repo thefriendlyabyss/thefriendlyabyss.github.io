@@ -137,15 +137,15 @@ Robert W. Potter is a Florida-born writer and producer as well as the founder of
 
 <div class="statement-columns" markdown="1">
 
-My name is Robert Potter. I'm the writer and producer of *El Pinero*, a narrative short film set on Cuba's Isla de la Juventud, developed together with Meilín Quilez Durañona, its co-producer and director. Her knowledge of the people, the landscape, and the rhythms of the place has been essential to making this film possible. *El Pinero* is our second film together on the island; the first, a short we made last year, let us explore the world of this story and confirm it was one worth telling.
+My name is Robert Potter. I'm the writer and producer of *El Pinero*, a narrative short film set on Cuba's Isla de la Juventud, developed together with Meilín Quilez Durañona, its co-producer and director. *El Pinero* is our second film together on the island; the first was [Last Thread](https://www.youtube.com/watch?v=8HGDw1lh20c), a short film made last year that let us explore the world of this story and confirm it was one worth telling.
 
-It all grew out of two personal struggles in my life: a lack of direction, and the absence of a meaningful connection with the people around me, even members of my own family. So when the chance came to travel to Cuba and work alongside a filmmaker from a different world, though one just ninety miles away, I didn't hesitate to take it.
+The remarkable journey of El Pinero grew out of two personal struggles in my life: a lack of direction, and the absence of a meaningful connection with the people around me. So when the chance came to travel to Cuba and work alongside a filmmaker from a different world, though one just ninety miles away, I didn't hesitate to take it.
 
-Traveling to the Isla de la Juventud with Meilín for the first time was a revelation. I saw the traces of American architecture that still remain there and discovered a largely forgotten history that ties Cuba and the United States together. I also learned about the many groups, beyond Cubans and Americans, who settled on the island over the years, some of whom remain there today.
+Traveling to the Isla de la Juventud with Meilín for the first time was a revelation. I saw the traces of American architecture that still remain there and discovered a largely forgotten history that once tied Cuba and the United States together. I also learned about the many groups, beyond Cubans and Americans, who settled on the island over the years, some of whom remain there to this day. This experience felt like uncovering buried treasure, and from there, the idea of telling a story about a journey of discovery clicked with me. 
 
-Cole, a man with whom I share certain similarities, arrives on the Isla de la Juventud hoping to find his grandfather's grave, fulfill his father's last wish, and perhaps connect with him for the first time. Searching the mountains, the pines, and the cemeteries scattered across the island, Cole comes to understand the truth about his mission: it was never about being a good son. His father sent him there so he could recover something he had lost long ago.
+And so the story we developed follows, Cole, a man with whom I share certain similarities, arriving on the Isla de la Juventud hoping to fulfill his father's last wish and perhaps connect with him for the first time in a very long time. Searching the mountains, the pines, and the cemeteries scattered across the island, Cole comes to understand the truth about his mission: it was never about being a good son. His father sent him there so he could recover something he had lost long ago.
 
-*El Pinero* is, at its heart, a reflection of my own journey: an American who arrives in an unfamiliar place and pieces together a past he never knew. It is a search for meaning that many people undertake, and one I'm convinced will resonate with audiences wherever they come from.
+*El Pinero* is, at its heart, a reflection of my own journey: an American who arrives in an unfamiliar place and discovers a truth, one of identity or purpose or community or even a mix of all three. It is a search for meaning that many people no matter where you are from undertake, and one I'm convinced will resonate with audiences all over the world.
 
 Meilín and I both believe deeply in this project. It deserves to be made.
 
@@ -176,21 +176,19 @@ Meilín Quilez Durañona is a Cuban filmmaker born and raised on the Isla de la 
 
 <div class="statement-columns" markdown="1">
 
-I was born on the Isla de la Juventud, a place shaped by isolation and migration, where the stories are not only of those who leave, but of those who came and never went back. Over the last century, communities from many different diasporas lived side by side on the island. Two years ago, I began researching this history as part of a documentary about the Japanese on the island. Alongside the Japanese community, there is also a history tied to the American presence, one that often remains outside the larger narratives of both Cuba and the United States.
+I was born on the Isla de la Juventud, a place shaped by isolation and migration, where the stories are not only of those who leave, but of those who came and never went back. This is exemplified by the fact that over the last century, communities from many different diasporas across the world have lived side by side on this island. This history has always fascinated me, and two years ago, I began researching it as part of a documentary about the Japanese community who live on the Isla de la Juventud to this day. In that research, I learned there is also a history of an American presence, one that to this day has remained outside the larger narratives of both Cuba and the United States.
 
-My connection to the story we tell in *El Pinero* is also a family one. My grandfather was a taxi driver on the island and drove the Americans who lived there. I grew up with those anecdotes, which are now part of my family. Telling this story is also a way of bringing my grandfather's memories to life.
-
-For me, Cole's story is above all a story about return. Through his journey, I want to explore how we build our identity out of incomplete family histories, silences, and versions of the past that we inherit without having lived them.
+My connection to the story we tell in *El Pinero* is also a familial one. My grandfather was a taxi driver on the island and drove the Americans who lived there. I grew up with those anecdotes, which are now part of my family. Telling this story is also a way of bringing my grandfather's memories to life. In the end, though, for me, Cole's story is above all a story about return. Through his journey, I want to explore how we build our identity out of incomplete family histories, silences, and versions of the past that we inherit without having lived them.
 
 I'm especially interested in the relationship between the intimate and the historical. Cole arrives looking for a physical place, but ends up finding a family history far more complex than he imagined. His personal journey connects to a larger history: that of the Americans who lived in Cuba, of those who chose to stay after great political change, and of the families who, for generations, have had to rebuild themselves on both sides of the Florida Straits.
 
 As a Cuban director, and a *pinera*, a native of the island, I want to tell this story from a place that doesn't claim to offer definitive answers. I don't want to make a film about "Cubans" or "Americans" as closed categories. I want to observe what happens when those identities meet within the same family.
 
-So what truly makes you belong to a place? What does it mean to belong, when part of our story always seems to be somewhere else?
+In the end, what truly makes you belong to a place and what does it mean to belong when part of our story always seems to be somewhere else?
 
 I believe cinema can do something very powerful with memory: not give us back the past, but let us look at it again.
 
-*El Pinero* was born from that need to look again at this place, at who we are and where we come from.
+*El Pinero* was born from that need to look again at this place, at who we are, and where we come from.
 
 </div>
 </div>
