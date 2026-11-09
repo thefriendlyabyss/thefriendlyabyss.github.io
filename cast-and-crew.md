@@ -32,57 +32,29 @@ share-description: "Meet the cast and the Cuban and American filmmakers behind E
   margin: 0 auto;
   padding: 0 16px;
 }
-.cast-crew-heading {
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  margin: 0 0 24px 0;
-  padding-bottom: 8px;
-  border-bottom: 2px solid #1d3d3d;
-}
-.cast-section {
-  margin-bottom: 56px;
-}
-.crew-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 40px;
-}
 
-.crew-entry {
-  display: flex;
-  align-items: stretch;
-  gap: 24px;
-  padding-bottom: 32px;
-  margin-bottom: 32px;
+/* One full-width block per person */
+.person {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
   border-bottom: 1px solid #ddd;
 }
-.crew-grid .crew-entry:last-child,
-.cast-section .crew-entry,
-.crew-featured .crew-entry {
+.person:last-child {
   border-bottom: none;
   margin-bottom: 0;
-  padding-bottom: 0;
+}
+.crew-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
 }
 .crew-photo-wrap {
-  flex: 0 0 200px;
-  width: 200px;
-}
-.cast-section .crew-photo-wrap,
-.crew-featured .crew-photo-wrap {
-  flex-basis: 260px;
+  flex: 0 0 260px;
   width: 260px;
-}
-.cast-section .crew-photo,
-.crew-featured .crew-photo {
-  height: auto;
-  max-height: none;
-  aspect-ratio: 3 / 4;
 }
 .crew-photo {
   width: 100%;
-  height: 100%;
-  max-height: 360px; /* stretch with the bio, but no taller than this */
+  aspect-ratio: 3 / 4;
   object-fit: cover;
   object-position: center 20%;
   border-radius: 6px;
@@ -96,35 +68,33 @@ share-description: "Meet the cast and the Cuban and American filmmakers behind E
 .crew-content h3 {
   margin-top: 0;
 }
-.crew-featured {
-  padding-bottom: 32px;
-  margin-bottom: 32px;
-  border-bottom: 1px solid #ddd;
+
+/* Producer's / director's statement: full width under the photo and bio, in two columns */
+.statement {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 2px solid #1d3d3d;
 }
-.directors-statement {
-  margin-top: 28px;
-  padding-left: 20px;
-  border-left: 3px solid #1d3d3d;
-}
-.directors-statement h4 {
-  margin-top: 0;
+.statement h4 {
+  margin: 0 0 16px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 0.95rem;
 }
-
-/* Bottom row of a two-column grid: the left entry is also last in its row */
-@media (min-width: 992px) {
-  .crew-grid .crew-entry:nth-child(odd):nth-last-child(2) {
-    border-bottom: none;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
+.statement-columns {
+  column-count: 2;
+  column-gap: 40px;
+}
+.statement-columns > :first-child {
+  margin-top: 0;
+}
+.statement-columns p {
+  break-inside: avoid;
 }
 
 @media (max-width: 991px) {
-  .crew-grid {
-    grid-template-columns: 1fr;
+  .statement-columns {
+    column-count: 1;
   }
 }
 
@@ -132,47 +102,59 @@ share-description: "Meet the cast and the Cuban and American filmmakers behind E
   .crew-entry {
     flex-direction: column;
   }
-  .crew-photo-wrap,
-  .cast-section .crew-photo-wrap,
-  .crew-featured .crew-photo-wrap {
+  .crew-photo-wrap {
     width: 100%;
     flex: 0 0 auto;
   }
-  .crew-photo,
-  .cast-section .crew-photo,
-  .crew-featured .crew-photo {
-    width: 100%;
+  .crew-photo {
     aspect-ratio: auto;
     height: 340px;
-    object-position: center 20%;
   }
 }
 </style>
 
 <div class="cast-crew-page">
-<section class="cast-section" aria-labelledby="cast-heading">
-<h2 class="cast-crew-heading" id="cast-heading">Cast</h2>
+
+<div class="person">
 
 <div class="crew-entry">
   <div class="crew-photo-wrap">
-    <img src="{{ '/assets/img/Tony Palles.webp' | relative_url }}" alt="Tony Palles" class="crew-photo">
+    <img src="{{ '/assets/img/Robert W. Potter.webp' | relative_url }}" alt="Robert W. Potter" class="crew-photo">
   </div>
   <div class="crew-content" markdown="1">
 
-### Tony Palles
-#### _Cole (Lead)_ | <a href="https://www.instagram.com/tonypalles81/" target="_blank" rel="noopener" aria-label="Tony Palles on Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+### Robert W. Potter
+#### _Writer / Producer_ | <a href="https://www.instagram.com/robertthepotter" target="_blank" rel="noopener" aria-label="Robert W. Potter on Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a> <a href="https://www.linkedin.com/in/robertwpotter/" target="_blank" rel="noopener" aria-label="Robert W. Potter on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
 
-*Cole Smith travels to Cuba's Isle of Youth after his father's death to find his grandfather's grave, and uncovers a piece of family history he never knew was his.*
-
-Tony Palles is a Tampa-born actor of Cuban and Puerto Rican heritage. Acting was a lifelong dream that he finally pursued at age 40, and he has been building an impressive body of work ever since. His commercial credits include spots for USAA, CarShield, HealthCare.gov, and Hard Rock Bet. On screen, he has appeared in the feature films *Married to a Balla 2* and *Velocity Kings*, and starred in the award-winning short films *Forest of Fools* and *Baby Teeth*, earning Best Lead Actor for both at the Orlando International Film Festival. A proud father of two, Tony brings both heart and lived experience to the role of Cole in *El Pinero*.
+Robert W. Potter is a Florida-born writer and producer as well as the founder of Far Shore Media. He holds a BFA in Film from Ringling College of Art and Design and is the Film Lab Instructor at State College of Florida. His work at Edelman was shortlisted by PRWeek and won a Silver Award at the Experience Design & Tech Awards. He wrote and produced *Last Thread* (2025), an Official Selection at FilmGate Miami and Lift-Off Global Network.
 
   </div>
 </div>
 
-</section>
-<section aria-labelledby="crew-heading">
-<h2 class="cast-crew-heading" id="crew-heading">Crew</h2>
-<div class="crew-featured">
+<div class="statement" markdown="1">
+
+#### Producer's Statement
+
+<div class="statement-columns" markdown="1">
+
+My name is Robert Potter. I'm the writer and producer of *El Pinero*, a narrative short film set on Cuba's Isla de la Juventud, developed together with Meilín Quilez Durañona, its co-producer and director. Her knowledge of the people, the landscape, and the rhythms of the place has been essential to making this film possible. *El Pinero* is our second film together on the island; the first, a short we made last year, let us explore the world of this story and confirm it was one worth telling.
+
+It all grew out of two personal struggles in my life: a lack of direction, and the absence of a meaningful connection with the people around me, even members of my own family. So when the chance came to travel to Cuba and work alongside a filmmaker from a different world, though one just ninety miles away, I didn't hesitate to take it.
+
+Traveling to the Isla de la Juventud with Meilín for the first time was a revelation. I saw the traces of American architecture that still remain there and discovered a largely forgotten history that ties Cuba and the United States together. I also learned about the many groups, beyond Cubans and Americans, who settled on the island over the years, some of whom remain there today.
+
+Cole, a man with whom I share certain similarities, arrives on the Isla de la Juventud hoping to find his grandfather's grave, fulfill his father's last wish, and perhaps connect with him for the first time. Searching the mountains, the pines, and the cemeteries scattered across the island, Cole comes to understand the truth about his mission: it was never about being a good son. His father sent him there so he could recover something he had lost long ago.
+
+*El Pinero* is, at its heart, a reflection of my own journey: an American who arrives in an unfamiliar place and pieces together a past he never knew. It is a search for meaning that many people undertake, and one I'm convinced will resonate with audiences wherever they come from.
+
+Meilín and I both believe deeply in this project. It deserves to be made.
+
+</div>
+</div>
+
+</div>
+
+<div class="person">
 
 <div class="crew-entry">
   <div class="crew-photo-wrap">
@@ -185,10 +167,14 @@ Tony Palles is a Tampa-born actor of Cuban and Puerto Rican heritage. Acting was
 
 Meilín Quilez Durañona is a Cuban filmmaker born and raised on the Isla de la Juventud and based in Havana. She holds a degree in Audiovisual Media Arts from the University of the Arts of Cuba (ISA), trained as an actor at Cuba's National School of Art, and completed the Low-Budget Filmmaking Workshop at the Escuela Internacional de Cine de San Antonio de los Baños. She has worked in film, television, and advertising as a director, producer, and assistant director. Her short *Generación* was part of ICAIC's first showcase of films made by women, and she directed *Last Thread* (2025), an Official Selection at FilmGate Miami and Lift-Off Global Network.
 
+  </div>
+</div>
 
-<div class="directors-statement" markdown="1">
+<div class="statement" markdown="1">
 
 #### Director's Statement
+
+<div class="statement-columns" markdown="1">
 
 I was born on the Isla de la Juventud, a place shaped by isolation and migration, where the stories are not only of those who leave, but of those who came and never went back. Over the last century, communities from many different diasporas lived side by side on the island. Two years ago, I began researching this history as part of a documentary about the Japanese on the island. Alongside the Japanese community, there is also a history tied to the American presence, one that often remains outside the larger narratives of both Cuba and the United States.
 
@@ -207,26 +193,31 @@ I believe cinema can do something very powerful with memory: not give us back th
 *El Pinero* was born from that need to look again at this place, at who we are and where we come from.
 
 </div>
-
-  </div>
 </div>
 
 </div>
-<div class="crew-grid">
+
+<div class="person">
 
 <div class="crew-entry">
   <div class="crew-photo-wrap">
-    <img src="{{ '/assets/img/Robert W. Potter.webp' | relative_url }}" alt="Robert W. Potter" class="crew-photo">
+    <img src="{{ '/assets/img/Tony Palles.webp' | relative_url }}" alt="Tony Palles" class="crew-photo">
   </div>
   <div class="crew-content" markdown="1">
 
-### Robert W. Potter
-#### _Writer / Producer_ | <a href="https://www.instagram.com/robertthepotter" target="_blank" rel="noopener" aria-label="Robert W. Potter on Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a> <a href="https://www.linkedin.com/in/robertwpotter/" target="_blank" rel="noopener" aria-label="Robert W. Potter on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+### Tony Palles
+#### _Cole (Lead)_ | <a href="https://www.instagram.com/tonypalles81/" target="_blank" rel="noopener" aria-label="Tony Palles on Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
 
-Robert W. Potter is a Florida-born writer and producer as well as the founder of Far Shore Media. He holds a BFA in Film from Ringling College of Art and Design and is the Film Lab Instructor at State College of Florida. His work at Edelman was shortlisted by PRWeek and won a Silver Award at the Experience Design & Tech Awards. He wrote and produced *Last Thread* (2025), an Official Selection at FilmGate Miami and Lift-Off Global Network.
+*Cole Smith travels to Cuba's Isle of Youth after his father's death to find his grandfather's grave, and uncovers a piece of family history he never knew was his.*
+
+Tony Palles is a Tampa-born actor of Cuban and Puerto Rican heritage. Acting was a lifelong dream that he finally pursued at age 40, and he has been building an impressive body of work ever since. His commercial credits include spots for USAA, CarShield, HealthCare.gov, and Hard Rock Bet. On screen, he has appeared in the feature films *Married to a Balla 2* and *Velocity Kings*, and starred in the award-winning short films *Forest of Fools* and *Baby Teeth*, earning Best Lead Actor for both at the Orlando International Film Festival. A proud father of two, Tony brings both heart and lived experience to the role of Cole in *El Pinero*.
 
   </div>
 </div>
+
+</div>
+
+<div class="person">
 
 <div class="crew-entry">
   <div class="crew-photo-wrap">
@@ -242,6 +233,10 @@ Gabriel Karrera is a Havana-based cinematographer, director, and colorist with o
   </div>
 </div>
 
+</div>
+
+<div class="person">
+
 <div class="crew-entry">
   <div class="crew-photo-wrap">
     <img src="{{ '/assets/img/Osmara Alberteris.webp' | relative_url }}" alt="Osmara Alberteris" class="crew-photo">
@@ -255,6 +250,10 @@ As a visual artist and set designer, Osmara holds a degree in Visual Arts from t
 
   </div>
 </div>
+
+</div>
+
+<div class="person">
 
 <div class="crew-entry">
   <div class="crew-photo-wrap">
@@ -270,6 +269,10 @@ Jonathan Fernandez is a Cuban-American multi-instrumentalist, pianist, and compo
   </div>
 </div>
 
+</div>
+
+<div class="person">
+
 <div class="crew-entry">
   <div class="crew-photo-wrap">
     <img src="{{ '/assets/img/Saulo Adrian Fernandez Gil.webp' | relative_url }}" alt="Saulo Adrián Fernández Gil" class="crew-photo">
@@ -283,6 +286,10 @@ Saulo Adrián Fernández Gil is a Mexico City-based sound designer specializing 
 
   </div>
 </div>
+
+</div>
+
+<div class="person">
 
 <div class="crew-entry">
   <div class="crew-photo-wrap">
@@ -299,7 +306,5 @@ Ava Abreu is a Florida-based film student currently studying at State College of
 </div>
 
 </div>
-</section>
-</div>
 
----
+</div>
