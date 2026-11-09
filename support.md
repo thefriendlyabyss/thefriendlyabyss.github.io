@@ -2,7 +2,22 @@
 layout: page
 title: Support the Film
 subtitle: Help us tell a story that history almost forgot.
+# Budget tracker: update these two numbers (whole dollars, no commas or $).
+# The percentage, "still to go" amount and progress bar all update from them.
+raised: 3000
+goal: 17000
 ---
+{% comment %} Dollar amounts with thousands commas, e.g. 17000 -> 17,000 {% endcomment %}
+{% assign to_go = page.goal | minus: page.raised | at_least: 0 %}
+{% assign pct = page.raised | times: 100.0 | divided_by: page.goal | round | at_most: 100 %}
+{% assign amounts = "" | split: "" | push: page.raised | push: page.goal | push: to_go %}
+{% assign fmt = "" | split: "" %}
+{% for n in amounts %}
+  {% assign thousands = n | divided_by: 1000 %}
+  {% assign rest = n | modulo: 1000 | prepend: "00" | slice: -3, 3 %}
+  {% if thousands > 0 %}{% assign f = thousands | append: "," | append: rest %}{% else %}{% assign f = n | append: "" %}{% endif %}
+  {% assign fmt = fmt | push: f %}
+{% endfor %}
 <style>
 .donate-button {
   display: inline-block;
@@ -19,6 +34,57 @@ subtitle: Help us tell a story that history almost forgot.
   background-color: #0d4a52;
   color: #ffffff;
   text-decoration: none;
+}
+.budget-tracker {
+  background-color: #0a2828;
+  color: #e0f0d0;
+  border-radius: 12px;
+  padding: 28px 24px;
+  text-align: center;
+  margin: 2rem 0;
+}
+.budget-raised {
+  font-size: 2.4em;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.budget-sub {
+  opacity: 0.85;
+  margin: 6px 0 16px;
+}
+.budget-bar {
+  height: 14px;
+  max-width: 520px;
+  margin: 0 auto;
+  background-color: rgba(224, 240, 208, 0.18);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.budget-fill {
+  height: 100%;
+  background-color: #e0f0d0;
+  border-radius: 999px;
+}
+.budget-ticks {
+  display: flex;
+  justify-content: space-between;
+  max-width: 520px;
+  margin: 8px auto 22px;
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+.budget-tracker .donate-button {
+  background-color: #e0f0d0;
+  color: #0a2828;
+}
+.budget-tracker .donate-button:hover {
+  background-color: #1a7070;
+  color: #e0f0d0;
+}
+@media (max-width: 480px) {
+  .budget-raised {
+    font-size: 1.9em;
+  }
 }
 .tier-grid {
   display: flex;
@@ -70,7 +136,14 @@ Every contribution helps, at any amount. A couple of tiers come with something b
 <p style="text-align: center; margin: 1.5rem 0;">Own a business, or want to support the film in a bigger way? <a href="/sponsor/" style="color: #1a7070; font-weight: bold;">Check out our sponsorship opportunities →</a></p>
 ---
 ### Make a Tax-Deductible Donation
-<div style="text-align: center; margin: 2rem 0;">
-  <a href="https://www.paypal.com/donate/?hosted_button_id=Q5CKGFCV9H94G" target="_blank" class="donate-button">Donate — Tax-Deductible</a>
+
+<div class="budget-tracker">
+  <div class="budget-raised">${{ fmt[0] }} raised</div>
+  <div class="budget-sub">of our ${{ fmt[1] }} production budget, with ${{ fmt[2] }} still to go</div>
+  <div class="budget-bar" role="progressbar" aria-label="Production budget raised" aria-valuemin="0" aria-valuemax="{{ page.goal }}" aria-valuenow="{{ page.raised }}" aria-valuetext="${{ fmt[0] }} of ${{ fmt[1] }} raised">
+    <div class="budget-fill" style="width: {{ pct }}%;"></div>
+  </div>
+  <div class="budget-ticks"><span>$0</span><span>{{ pct }}% funded</span><span>${{ fmt[1] }}</span></div>
+  <a href="https://www.paypal.com/donate/?hosted_button_id=Q5CKGFCV9H94G" target="_blank" rel="noopener" class="donate-button">Donate — Tax-Deductible</a>
 </div>
 *El Pinero* is a fiscally sponsored project of From the Heart Productions, a 501(c)(3) nonprofit organization. Donations are tax-deductible to the extent allowed by law.
