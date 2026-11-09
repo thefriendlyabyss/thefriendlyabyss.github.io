@@ -1,36 +1,14 @@
 ---
 layout: page
-title: The Film
-share-description: "El Pinero is a bilingual narrative short film set on Cuba's Isla de la Juventud. Read the story, the forgotten history of the American settlers behind it, and how the film came to be."
+title: The History Behind the Film
+share-description: "The forgotten history behind El Pinero: how thousands of Americans settled Cuba's Isle of Pines, now the Isla de la Juventud, and what remains of them there today."
 ---
-
-## El Pinero
-
-*El Pinero* is a narrative short film — approximately 20 minutes — set on Cuba's Isla de la Juventud, formerly known as the Isle of Pines. It is a bilingual film, spoken in English and Spanish, shot on location on the island.
-
-<!-- PHOTO 1: island photo -->
-<img src="/assets/img/posts/isla-de-pinos.jpg" alt="The coast of the Isla de la Juventud, Cuba" style="max-width: 100%;">
-
----
-
-### The Plot
-
-When Cole Smith's father dies, he leaves behind a single request: find the grave of Cole's grandfather on Cuba's Isla de la Juventud — an island Cole has never visited and knows almost nothing about.
-
-What begins as an act of grief becomes something harder to name. Moving through cemeteries, records offices, and the quiet roads of an island that doesn't give up its history easily, Cole discovers that the story he inherited about his family may not be the whole story. The island has its own version — and it has been waiting.
-
-*El Pinero* is a film about what we carry from people we've lost, and what we find when we go looking.
-
----
-
-<!-- PHOTO 2: history opener -->
-<img src="/assets/img/posts/map-of-island.jpg" alt="Map of Isle of Youth" style="max-width: 100%;">
-
-### The History
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; margin: 0 0 1.5rem;">
   <iframe src="https://www.youtube-nocookie.com/embed/AYp0d09Czv0" title="Interview with historian Michael Neagle (YouTube)" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 </div>
+
+<img src="/assets/img/posts/map-of-island.jpg" alt="Map of Isle of Youth" style="max-width: 100%;">
 
 About thirty miles off Cuba's southwest coast lies an island most people have never heard of. Over the years, it has gone by many names. The Spanish called it Isla de Pinos — the Isle of Pines. Cuban writers called it La Isla Olvidada — the forgotten island. Locals, worn down by centuries of names, called it the Island of a Thousand Names. American land promoters marketed it as the real-life Treasure Island of Robert Louis Stevenson, leaning into its reputation as a pirate haven and a place of buried fortune. In 1978, Fidel Castro renamed it the Isla de la Juventud — the Isle of Youth. That name has mostly stuck. But the older names say something truer about the place: it has always been easier to project a story onto this island than to know it.
 
@@ -66,33 +44,3 @@ The history behind this film is documented history. For those who want to go dee
 **Morton D. Winsberg, [*The Isle of Pines, Cuba: A Geographic Interpretation*](https://archive.org/details/isleofpinescubag00winsrich){:target="_blank"} (PhD dissertation, University of Florida, 1958)** — a geographer's on-the-ground study from the tail end of the American period, covering the island's landscape, economy, and population in more granular detail than any other source we've found. Freely available online.
 
 **Irene A. Wright, [*Isle of Pines*](https://catalog.hathitrust.org/Record/009832907){:target="_blank"} (1910)** — a journalist's firsthand account, written at the height of the American colony. Long out of print, it can be read free online.
-
----
-
-<!-- PHOTO 4: Robert -->
-<img src="/assets/img/posts/robert-director-photo.jpg" alt="Black and white of Robert Potter" style="max-width: 100%; width: 400px;">
-
-### The Origin
-
-My name is Robert Potter. I'm a writer, producer, and filmmaker based in the United States. Over the past year I've made multiple trips to Cuba's Isla de la Juventud — drawn first by curiosity, then by something harder to shake. The island holds a history most Americans don't know exists. I found myself wanting to tell it.
-
-*El Pinero* is my second film made on the island, produced in close collaboration with Meilín Quilez Durañona, a Cuban filmmaker who was born and raised there. Her roots on the island — her relationships, her knowledge of the place, her trust within the community — are central to everything this film is trying to do. This story could not be told without her.
-
-I wrote the script and will be producing the film.
-
-*Have a question or want to get in touch?*
-[Send us an email](mailto:elpinerofilm@gmail.com)
-
----
-
-### Production
-
-Currently in pre-production. Principal photography is planned for December 2026 on location on the Isla de la Juventud.
-
----
-
-### Support the Film
-
-*El Pinero* is independently funded. Every contribution goes directly toward making this film.
-
-[Support the film →](/support/)
