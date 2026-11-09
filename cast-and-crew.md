@@ -60,6 +60,8 @@ share-description: "Meet the cast and the Cuban and American filmmakers behind E
   border-radius: 6px;
   display: block;
   filter: grayscale(100%);
+  border: 6px solid #ffffff;
+  box-shadow: 0 4px 14px rgba(10, 40, 40, 0.18);
 }
 .crew-content {
   flex: 1;
