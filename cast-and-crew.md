@@ -137,8 +137,6 @@ Robert W. Potter is a Florida-born writer and producer as well as the founder of
 
 <div class="statement-columns" markdown="1">
 
-*El Pinero* is Meilín and I's second film together on the island; the first was [*Last Thread*](https://www.youtube.com/watch?v=8HGDw1lh20c), a short film made last year that let us explore the world of this story and confirm it was one worth telling.
-
 The remarkable journey of *El Pinero* grew out of two personal struggles in my life: a lack of direction, and the absence of a meaningful connection with the people around me. So when the chance came to travel to Cuba and work alongside a filmmaker from a different world, though one just ninety miles away, I didn't hesitate to take it.
 
 Traveling to the Isla de la Juventud with Meilín for the first time was a revelation. I saw the traces of American architecture that still remain there and discovered a largely forgotten history that once tied Cuba and the United States together. 
