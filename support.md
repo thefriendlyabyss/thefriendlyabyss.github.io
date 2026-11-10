@@ -6,7 +6,7 @@ subtitle: Help us tell a story that history almost forgot.
 # The page rounds the amount raised DOWN to the nearest $100 before showing it,
 # so you can enter the exact total. The percentage, "still to go" amount and
 # progress bar all update from these.
-raised: 3051
+raised: 3156
 goal: 17000
 ---
 {% comment %} Dollar amounts with thousands commas, e.g. 17000 -> 17,000 {% endcomment %}
