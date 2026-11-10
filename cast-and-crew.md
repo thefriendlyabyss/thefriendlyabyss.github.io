@@ -149,8 +149,6 @@ And so the story we developed follows Cole, a man with whom I share certain simi
 
 *El Pinero* is, at its heart, a reflection of my own journey: an American who arrives in an unfamiliar place and discovers a truth about identity, purpose, community, or some mix of all three. It is a search for meaning that many people undertake, no matter where they come from, and one I'm convinced will resonate with audiences all over the world.
 
-Meilín and I both believe deeply in this project. It deserves to be made.
-
 </div>
 </div>
 
