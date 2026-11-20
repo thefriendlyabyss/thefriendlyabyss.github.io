@@ -254,7 +254,7 @@ footer {
     top: 50% !important;
   }
   /* Shrink logline text */
-  .hero-content p:first-child {
+  .hero-content .hero-logline {
     font-size: 0.9em !important;
   }
   /* Tighten paragraph spacing */

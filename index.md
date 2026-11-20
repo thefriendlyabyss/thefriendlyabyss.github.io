@@ -417,7 +417,8 @@ body-class: homepage
     <div class="hero-caption" id="heroCaption"></div>
   </div>
   <div class="hero-content">
-    <p style="color: #ffffff; font-size: 1.4em; font-style: italic; 
+    <div id="heroVideoContainer"></div>
+    <p class="hero-logline" style="color: #ffffff; font-size: 1.4em; font-style: italic; 
       margin-bottom: 15px;">
       To fulfill his father's last wish, a young American man travels to
       Isla de la Juventud, Cuba. But as he journeys deeper into the island,
@@ -427,7 +428,6 @@ body-class: homepage
     <p style="color: #e0f0d0; font-size: 0.95em; margin-bottom: 25px;">
       <em>El Pinero</em> — a short film by Robert Potter and Meilín Quilez Durañona
     </p>
-    <div id="heroVideoContainer"></div>
     <div>
       <a href="/support/" class="home-btn home-btn-hero">Support The Film</a>
     </div>
