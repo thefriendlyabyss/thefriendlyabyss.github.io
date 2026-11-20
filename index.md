@@ -386,7 +386,7 @@ body-class: homepage
     width="1920" height="1080"
     loading="lazy" fetchpriority="low"
     class="hero-slide hero-slide-dim"
-    data-caption="One of the island&#39;s American cemeteries.">
+    data-caption="One of the island&#39;s cemeteries.">
     <img src="/assets/img/presidio-modelo.webp" alt=""
     width="1920" height="1080"
     loading="lazy" fetchpriority="low"
@@ -411,7 +411,7 @@ body-class: homepage
     width="1920" height="1080"
     loading="lazy" fetchpriority="low"
     class="hero-slide hero-slide-dim"
-    data-caption="One of the island&#39;s American cemeteries.">
+    data-caption="One of the island&#39;s cemeteries.">
     <img src="/assets/img/sierra-farm.webp" alt=""
     width="1920" height="1080"
     loading="lazy" fetchpriority="low"
