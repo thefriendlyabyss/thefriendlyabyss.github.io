@@ -86,8 +86,6 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
   </div>
 </div>
 
-{% include sponsor-list.html %}
-
 ---
 ### Sponsor the Film
 
