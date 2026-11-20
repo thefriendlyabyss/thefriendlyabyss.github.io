@@ -89,11 +89,11 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
 {% include sponsor-list.html %}
 
 ---
-### Fiscal Sponsorship
-
-*El Pinero* is a fiscally sponsored project of From the Heart Productions, a 501(c)(3) nonprofit organization. Because several tiers above include tangible benefits, the deductible portion of a sponsorship gift may be limited to the amount exceeding the fair market value of those benefits. We're happy to walk through the specifics with you directly.
-
----
 ### Sponsor the Film
 
 {% include budget-tracker.html %}
+
+---
+### Fiscal Sponsorship
+
+*El Pinero* is a fiscally sponsored project of From the Heart Productions, a 501(c)(3) nonprofit organization. Because several tiers above include tangible benefits, the deductible portion of a sponsorship gift may be limited to the amount exceeding the fair market value of those benefits. We're happy to walk through the specifics with you directly.
