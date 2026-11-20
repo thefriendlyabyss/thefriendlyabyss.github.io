@@ -4,22 +4,6 @@ title: Become a Sponsor
 subtitle: Put your business, or your name, behind a story worth telling.
 ---
 <style>
-.donate-button {
-  display: inline-block;
-  background-color: #1a7070;
-  color: #ffffff;
-  padding: 14px 32px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1em;
-  transition: background-color 0.2s ease;
-}
-.donate-button:hover {
-  background-color: #0d4a52;
-  color: #ffffff;
-  text-decoration: none;
-}
 .tier-grid {
   display: flex;
   flex-wrap: wrap;
@@ -103,15 +87,11 @@ The film is made by a bilingual, cross-cultural team with direct ties to the sto
 </div>
 
 ---
-### Fiscal Sponsorship
+### Sponsor the Film
 
-*El Pinero* is a fiscally sponsored project of From the Heart Productions, a 501(c)(3) nonprofit organization. Because several tiers above include tangible benefits, the deductible portion of a sponsorship gift may be limited to the amount exceeding the fair market value of those benefits. We're happy to walk through the specifics with you directly.
+{% include budget-tracker.html button_label="Become a Sponsor" %}
 
 ---
-### Get Involved
+### Fiscal Sponsorship
 
-To discuss sponsorship or ask a question, reach out directly at **elpinerofilm@gmail.com**
-
-Thank you for considering *El Pinero*. Your support helps bring a rare and deeply human story to the screen.
-
-**NOTE:** *These tiers are a starting point, not a ceiling. If you'd like to support the film in a way that doesn't quite match what's listed above: a different budget, a different kind of partnership, an in-kind contribution, email us all the same and we'll customize as needed.*
+*El Pinero* is a fiscally sponsored project of From the Heart Productions, a 501(c)(3) nonprofit organization. Because several tiers above include tangible benefits, the deductible portion of a sponsorship gift may be limited to the amount exceeding the fair market value of those benefits.

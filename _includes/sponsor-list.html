@@ -1,0 +1,76 @@
+<style>
+.sponsor-list {
+  text-align: center;
+  margin: 2.5rem auto 2rem;
+  max-width: 560px;
+}
+.sponsor-list-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.85em;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #1a7070;
+  margin: 0 0 0.25rem;
+}
+.sponsor-list-thanks {
+  font-size: 0.95em;
+  color: #6b6a65;
+  margin: 0 0 1.25rem;
+}
+.sponsor-names {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+.sponsor-names li {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  letter-spacing: 0.03em;
+  color: #0d4a52;
+  line-height: 1.4;
+}
+.sponsor-open-slot {
+  display: block;
+  border: 1px dashed #b9d6c4;
+  border-radius: 10px;
+  background-color: #f7fbf5;
+  padding: 12px 16px;
+  color: #1a7070;
+  font-size: 0.95em;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+.sponsor-open-slot:hover {
+  background-color: #e0f0d0;
+  border-color: #1a7070;
+  color: #0d4a52;
+  text-decoration: none;
+}
+/* Dark version, for dark sections (e.g. the homepage) */
+.sponsor-list-dark .sponsor-list-heading { color: #e0f0d0; opacity: 0.75; }
+.sponsor-list-dark .sponsor-list-thanks { color: rgba(224, 240, 208, 0.8); }
+.sponsor-list-dark .sponsor-names li { color: #e0f0d0; }
+.sponsor-list-dark .sponsor-open-slot {
+  border-color: rgba(224, 240, 208, 0.4);
+  background-color: rgba(224, 240, 208, 0.06);
+  color: #e0f0d0;
+}
+.sponsor-list-dark .sponsor-open-slot:hover {
+  border-color: #e0f0d0;
+  background-color: rgba(224, 240, 208, 0.14);
+  color: #ffffff;
+}
+@media (max-width: 480px) {
+  .sponsor-names li { font-size: 1.35em; }
+}
+</style>
+<section class="sponsor-list{% if include.dark %} sponsor-list-dark{% endif %}" aria-labelledby="sponsor-list-heading">
+  <p class="sponsor-list-heading" id="sponsor-list-heading">Community Sponsors</p>
+  <p class="sponsor-list-thanks">Thank you to the people and businesses standing behind this film.</p>
+  <ul class="sponsor-names">
+    {% for s in site.data.sponsors.community %}<li>{{ s.name }}</li>{% endfor %}
+  </ul>
+  <a class="sponsor-open-slot" href="/sponsor/">Your name here: become a sponsor at $500 or more →</a>
+</section>
