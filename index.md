@@ -218,6 +218,11 @@ body-class: homepage
     line-height: 1.7;
   }
 
+  /* Sponsors */
+  .home-section-sponsors .sponsor-list {
+    margin: 0 auto;
+  }
+
   /* Latest update */
   .home-update {
     display: flex;
@@ -457,6 +462,12 @@ body-class: homepage
     <div class="home-cta">
       <a href="{{ '/blog/' | relative_url }}" class="home-btn">Read All Updates</a>
     </div>
+  </div>
+</section>
+
+<section class="home-section home-section-dark home-section-sponsors">
+  <div class="home-section-inner">
+    {% include sponsor-list.html dark=true %}
   </div>
 </section>
 

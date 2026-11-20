@@ -48,11 +48,25 @@
   color: #0d4a52;
   text-decoration: none;
 }
+/* Dark version, for dark sections (e.g. the homepage) */
+.sponsor-list-dark .sponsor-list-heading { color: #e0f0d0; opacity: 0.75; }
+.sponsor-list-dark .sponsor-list-thanks { color: rgba(224, 240, 208, 0.8); }
+.sponsor-list-dark .sponsor-names li { color: #e0f0d0; }
+.sponsor-list-dark .sponsor-open-slot {
+  border-color: rgba(224, 240, 208, 0.4);
+  background-color: rgba(224, 240, 208, 0.06);
+  color: #e0f0d0;
+}
+.sponsor-list-dark .sponsor-open-slot:hover {
+  border-color: #e0f0d0;
+  background-color: rgba(224, 240, 208, 0.14);
+  color: #ffffff;
+}
 @media (max-width: 480px) {
   .sponsor-names li { font-size: 1.35em; }
 }
 </style>
-<section class="sponsor-list" aria-labelledby="sponsor-list-heading">
+<section class="sponsor-list{% if include.dark %} sponsor-list-dark{% endif %}" aria-labelledby="sponsor-list-heading">
   <p class="sponsor-list-heading" id="sponsor-list-heading">Community Sponsors</p>
   <p class="sponsor-list-thanks">Thank you to the people and businesses standing behind this film.</p>
   <ul class="sponsor-names">
