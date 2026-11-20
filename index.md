@@ -64,6 +64,10 @@ body-class: homepage
     width: 80%;
     z-index: 3;
   }
+  /* Soft dark halo so the logline stays readable over bright or busy photos */
+  .hero-content p {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.85), 0 0 14px rgba(0, 0, 0, 0.6);
+  }
   .hero-video-wrap {
     /* An explicit width keeps the video from collapsing to 0x0 when a
        mobile rule turns its container into a centered flex column
