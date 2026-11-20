@@ -149,4 +149,5 @@ Every contribution helps, at any amount. A couple of tiers come with something b
   <div class="budget-ticks"><span>$0</span><span>{{ pct }}% funded</span><span>${{ fmt[1] }}</span></div>
   <a href="https://www.paypal.com/donate/?hosted_button_id=Q5CKGFCV9H94G" target="_blank" rel="noopener" class="donate-button">Donate — Tax-Deductible</a>
 </div>
+{% include sponsor-list.html %}
 *El Pinero* is a fiscally sponsored project of From the Heart Productions, a 501(c)(3) nonprofit organization. Donations are tax-deductible to the extent allowed by law.
