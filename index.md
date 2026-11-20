@@ -28,6 +28,10 @@ body-class: homepage
   .homepage-hero .hero-slide.active {
     opacity: 1;
   }
+  /* Busy photos: darken a little more so the logline stays readable */
+  .homepage-hero .hero-slide-dim {
+    filter: brightness(0.75);
+  }
   .hero-overlay {
     position: absolute;
     inset: 0;
@@ -59,6 +63,10 @@ body-class: homepage
     padding: 20px;
     width: 80%;
     z-index: 3;
+  }
+  /* Soft dark halo so the logline stays readable over bright or busy photos */
+  .hero-content p {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.85), 0 0 14px rgba(0, 0, 0, 0.6);
   }
   .hero-video-wrap {
     /* An explicit width keeps the video from collapsing to 0x0 when a
@@ -374,21 +382,47 @@ body-class: homepage
     fetchpriority="high"
     class="hero-slide active"
     data-caption="Isla de la Juventud, Cuba.">
+    <img src="/assets/img/american-cemetery-cross.webp" alt=""
+    width="1920" height="1080"
+    loading="lazy" fetchpriority="low"
+    class="hero-slide hero-slide-dim"
+    data-caption="One of the island&#39;s American cemeteries.">
     <img src="/assets/img/presidio-modelo.webp" alt=""
     width="1920" height="1080"
     loading="lazy" fetchpriority="low"
     class="hero-slide"
     data-caption="The Presidio Modelo, begun 1926.">
+    <img src="/assets/img/wetlands.webp" alt=""
+    width="1920" height="1080"
+    loading="lazy" fetchpriority="low"
+    class="hero-slide"
+    data-caption="Isla de la Juventud, Cuba.">
+    <img src="/assets/img/museo-municipal.webp" alt=""
+    width="1920" height="1080"
+    loading="lazy" fetchpriority="low"
+    class="hero-slide"
+    data-caption="Museo Municipal, Nueva Gerona.">
     <img src="/assets/img/pine-forest.webp" alt=""
     width="1920" height="1080"
     loading="lazy" fetchpriority="low"
     class="hero-slide"
     data-caption="The pine forests that cover the Isla de la Juventud.">
+    <img src="/assets/img/american-cemetery-rows.webp" alt=""
+    width="1920" height="1080"
+    loading="lazy" fetchpriority="low"
+    class="hero-slide hero-slide-dim"
+    data-caption="One of the island&#39;s American cemeteries.">
+    <img src="/assets/img/sierra-farm.webp" alt=""
+    width="1920" height="1080"
+    loading="lazy" fetchpriority="low"
+    class="hero-slide"
+    data-caption="Isla de la Juventud, Cuba.">
     <div class="hero-overlay"></div>
     <div class="hero-caption" id="heroCaption"></div>
   </div>
   <div class="hero-content">
-    <p style="color: #ffffff; font-size: 1.4em; font-style: italic; 
+    <div id="heroVideoContainer"></div>
+    <p class="hero-logline" style="color: #ffffff; font-size: 1.4em; font-style: italic; 
       margin-bottom: 15px;">
       To fulfill his father's last wish, a young American man travels to
       Isla de la Juventud, Cuba. But as he journeys deeper into the island,
@@ -398,7 +432,6 @@ body-class: homepage
     <p style="color: #e0f0d0; font-size: 0.95em; margin-bottom: 25px;">
       <em>El Pinero</em> — a short film by Robert Potter and Meilín Quilez Durañona
     </p>
-    <div id="heroVideoContainer"></div>
     <div>
       <a href="/support/" class="home-btn home-btn-hero">Support The Film</a>
     </div>

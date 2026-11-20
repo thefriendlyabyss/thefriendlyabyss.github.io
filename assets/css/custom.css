@@ -254,7 +254,7 @@ footer {
     top: 50% !important;
   }
   /* Shrink logline text */
-  .hero-content p:first-child {
+  .hero-content .hero-logline {
     font-size: 0.9em !important;
   }
   /* Tighten paragraph spacing */
@@ -271,6 +271,7 @@ footer {
   /* Remove inline margin, fix button width */
   .hero-content div a {
     margin: 0;
-    width: 200px;
+    min-width: 200px;
+    white-space: nowrap;
   }
 }
