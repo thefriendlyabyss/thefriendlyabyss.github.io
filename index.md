@@ -28,6 +28,10 @@ body-class: homepage
   .homepage-hero .hero-slide.active {
     opacity: 1;
   }
+  /* Busy photos: darken a little more so the logline stays readable */
+  .homepage-hero .hero-slide-dim {
+    filter: brightness(0.75);
+  }
   .hero-overlay {
     position: absolute;
     inset: 0;
@@ -377,7 +381,7 @@ body-class: homepage
     <img src="/assets/img/american-cemetery-cross.webp" alt=""
     width="1920" height="1080"
     loading="lazy" fetchpriority="low"
-    class="hero-slide"
+    class="hero-slide hero-slide-dim"
     data-caption="One of the island&#39;s American cemeteries.">
     <img src="/assets/img/presidio-modelo.webp" alt=""
     width="1920" height="1080"
@@ -402,7 +406,7 @@ body-class: homepage
     <img src="/assets/img/american-cemetery-rows.webp" alt=""
     width="1920" height="1080"
     loading="lazy" fetchpriority="low"
-    class="hero-slide"
+    class="hero-slide hero-slide-dim"
     data-caption="One of the island&#39;s American cemeteries.">
     <img src="/assets/img/sierra-farm.webp" alt=""
     width="1920" height="1080"
