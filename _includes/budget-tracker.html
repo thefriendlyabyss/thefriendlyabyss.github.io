@@ -1,0 +1,98 @@
+{% comment %}
+  Budget tracker + donate button, used on the Support and Sponsor pages.
+  The numbers come from the front matter of support.md (raised / goal),
+  so update them there and both pages change.
+{% endcomment %}
+{% assign budget_page = site.pages | where: "name", "support.md" | first %}
+{% assign raised = budget_page.raised %}
+{% assign goal = budget_page.goal %}
+{% comment %} Dollar amounts with thousands commas, e.g. 17000 -> 17,000 {% endcomment %}
+{% assign raised_shown = raised | divided_by: 100 | times: 100 %}
+{% assign to_go = goal | minus: raised_shown | at_least: 0 %}
+{% assign pct = raised_shown | times: 100.0 | divided_by: goal | round | at_most: 100 %}
+{% assign amounts = "" | split: "" | push: raised_shown | push: goal | push: to_go %}
+{% assign fmt = "" | split: "" %}
+{% for n in amounts %}
+  {% assign thousands = n | divided_by: 1000 %}
+  {% assign rest = n | modulo: 1000 | prepend: "00" | slice: -3, 3 %}
+  {% if thousands > 0 %}{% assign f = thousands | append: "," | append: rest %}{% else %}{% assign f = n | append: "" %}{% endif %}
+  {% assign fmt = fmt | push: f %}
+{% endfor %}
+<style>
+.donate-button {
+  display: inline-block;
+  background-color: #1a7070;
+  color: #ffffff;
+  padding: 14px 32px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: background-color 0.2s ease;
+}
+.donate-button:hover {
+  background-color: #0d4a52;
+  color: #ffffff;
+  text-decoration: none;
+}
+.budget-tracker {
+  background-color: #0a2828;
+  color: #e0f0d0;
+  border-radius: 12px;
+  padding: 28px 24px;
+  text-align: center;
+  margin: 2rem 0;
+}
+.budget-raised {
+  font-size: 2.4em;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.budget-sub {
+  opacity: 0.85;
+  margin: 6px 0 16px;
+}
+.budget-bar {
+  height: 14px;
+  max-width: 520px;
+  margin: 0 auto;
+  background-color: rgba(224, 240, 208, 0.18);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.budget-fill {
+  height: 100%;
+  background-color: #e0f0d0;
+  border-radius: 999px;
+}
+.budget-ticks {
+  display: flex;
+  justify-content: space-between;
+  max-width: 520px;
+  margin: 8px auto 22px;
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+.budget-tracker .donate-button {
+  background-color: #e0f0d0;
+  color: #0a2828;
+}
+.budget-tracker .donate-button:hover {
+  background-color: #1a7070;
+  color: #e0f0d0;
+}
+@media (max-width: 480px) {
+  .budget-raised {
+    font-size: 1.9em;
+  }
+}
+</style>
+<div class="budget-tracker">
+  <div class="budget-raised">${{ fmt[0] }} raised</div>
+  <div class="budget-sub">of our ${{ fmt[1] }} production budget, with ${{ fmt[2] }} still to go</div>
+  <div class="budget-bar" role="progressbar" aria-label="Production budget raised" aria-valuemin="0" aria-valuemax="{{ goal }}" aria-valuenow="{{ raised_shown }}" aria-valuetext="${{ fmt[0] }} of ${{ fmt[1] }} raised">
+    <div class="budget-fill" style="width: {{ pct }}%;"></div>
+  </div>
+  <div class="budget-ticks"><span>$0</span><span>{{ pct }}% funded</span><span>${{ fmt[1] }}</span></div>
+  <a href="https://www.paypal.com/donate/?hosted_button_id=Q5CKGFCV9H94G" target="_blank" rel="noopener" class="donate-button">Donate — Tax-Deductible</a>
+</div>
