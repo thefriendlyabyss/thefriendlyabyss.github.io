@@ -374,16 +374,41 @@ body-class: homepage
     fetchpriority="high"
     class="hero-slide active"
     data-caption="Isla de la Juventud, Cuba.">
+    <img src="/assets/img/american-cemetery-cross.webp" alt=""
+    width="1920" height="1080"
+    loading="lazy" fetchpriority="low"
+    class="hero-slide"
+    data-caption="One of the island&#39;s American cemeteries.">
     <img src="/assets/img/presidio-modelo.webp" alt=""
     width="1920" height="1080"
     loading="lazy" fetchpriority="low"
     class="hero-slide"
     data-caption="The Presidio Modelo, begun 1926.">
+    <img src="/assets/img/wetlands.webp" alt=""
+    width="1920" height="1080"
+    loading="lazy" fetchpriority="low"
+    class="hero-slide"
+    data-caption="Isla de la Juventud, Cuba.">
+    <img src="/assets/img/museo-municipal.webp" alt=""
+    width="1920" height="1080"
+    loading="lazy" fetchpriority="low"
+    class="hero-slide"
+    data-caption="Museo Municipal, Nueva Gerona.">
     <img src="/assets/img/pine-forest.webp" alt=""
     width="1920" height="1080"
     loading="lazy" fetchpriority="low"
     class="hero-slide"
     data-caption="The pine forests that cover the Isla de la Juventud.">
+    <img src="/assets/img/american-cemetery-rows.webp" alt=""
+    width="1920" height="1080"
+    loading="lazy" fetchpriority="low"
+    class="hero-slide"
+    data-caption="One of the island&#39;s American cemeteries.">
+    <img src="/assets/img/sierra-farm.webp" alt=""
+    width="1920" height="1080"
+    loading="lazy" fetchpriority="low"
+    class="hero-slide"
+    data-caption="Isla de la Juventud, Cuba.">
     <div class="hero-overlay"></div>
     <div class="hero-caption" id="heroCaption"></div>
   </div>
