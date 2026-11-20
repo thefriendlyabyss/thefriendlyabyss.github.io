@@ -94,5 +94,5 @@
     <div class="budget-fill" style="width: {{ pct }}%;"></div>
   </div>
   <div class="budget-ticks"><span>$0</span><span>{{ pct }}% funded</span><span>${{ fmt[1] }}</span></div>
-  <a href="https://www.paypal.com/donate/?hosted_button_id=Q5CKGFCV9H94G" target="_blank" rel="noopener" class="donate-button">Donate — Tax-Deductible</a>
+  <a href="https://www.paypal.com/donate/?hosted_button_id=Q5CKGFCV9H94G" target="_blank" rel="noopener" class="donate-button">{{ include.button_label | default: "Donate — Tax-Deductible" }}</a>
 </div>
