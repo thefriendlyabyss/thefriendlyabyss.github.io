@@ -222,6 +222,11 @@ body-class: homepage
   .home-section-sponsors .sponsor-list {
     margin: 0 auto;
   }
+  /* A lighter teal than the footer (#0a2828) so the two read as separate bands */
+  .home-section-dark.home-section-sponsors {
+    background-color: #114853;
+    border-bottom: 1px solid rgba(224, 240, 208, 0.25);
+  }
 
   /* Latest update */
   .home-update {
